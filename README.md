@@ -34,6 +34,7 @@ Developer/
 │   ├── js/
 │   ├── images/
 │   ├── manifest.webmanifest
+│   ├── google9d30a352a0802899.html
 │   ├── 404.html
 │   ├── LP_MASTER.md
 │   └── IMPLEMENTATION.md
@@ -53,6 +54,8 @@ SEOはGitHub Pages全体で一元管理するため、`robots.txt` と `sitemap.
 - 画像は `trader-timer/images/` に配置します。アプリ画面は実スクリーンショットをWebP変換して使用しています。
 - Google Play版は審査中のため、CTAはdisabledボタンとして表示しています。公開後は `trader-timer/index.html` 内のGoogle PlayボタンをURL付きの `<a>` に差し替えます。
 - App Store URLは `https://apps.apple.com/jp/app/trader-timer/id6782052104` です。
+- Trader Timerの日本語版は `/trader-timer/` をデフォルト言語として運用します。将来の英語版は `/trader-timer/en/`、簡体字版は `/trader-timer/zh-Hans/` に追加し、CSS・JavaScript・imagesは `trader-timer/` 配下の共通資産を利用します。
+- Search Console認証ファイル `trader-timer/google9d30a352a0802899.html` は削除しません。
 
 # GitHub Pages公開方法
 
