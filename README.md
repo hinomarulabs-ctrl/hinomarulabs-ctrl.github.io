@@ -5,6 +5,10 @@
 ```text
 Developer/
 ├── apps/
+│   ├── daynav/
+│   └── trader_timer/
+├── design/
+│   └── trading-timer-site/
 ├── websites/
 │   └── trading-timer-site/
 ├── shared/
@@ -18,7 +22,7 @@ Developer/
 ```
 
 このLPはGitHub Pagesで公開します。
-`LP_MASTER.md` をLP設計書として運用します。
+LP設計書は `/Users/yokokurahiroyuki/Developer/design/trading-timer-site/LP_MASTER.md` で運用します。
 
 # GitHub Pages公開方法
 
