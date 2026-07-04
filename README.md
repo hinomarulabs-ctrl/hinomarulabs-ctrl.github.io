@@ -17,6 +17,9 @@ Developer/
 /Users/yokokurahiroyuki/Developer/websites/trading-timer-site
 ```
 
+このLPはGitHub Pagesで公開します。
+`LP_MASTER.md` をLP設計書として運用します。
+
 # GitHub Pages公開方法
 
 1. GitHubで `hinomarulabs-ctrl.github.io` リポジトリを作成します。
