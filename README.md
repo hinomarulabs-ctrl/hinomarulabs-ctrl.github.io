@@ -34,8 +34,6 @@ Developer/
 │   ├── js/
 │   ├── images/
 │   ├── manifest.webmanifest
-│   ├── robots.txt
-│   ├── sitemap.xml
 │   ├── 404.html
 │   ├── LP_MASTER.md
 │   └── IMPLEMENTATION.md
@@ -47,6 +45,7 @@ Developer/
 ```
 
 将来的に `/daynav/`、`/market-rhythm/` などを追加できます。
+SEOはGitHub Pages全体で一元管理するため、`robots.txt` と `sitemap.xml` はルート直下のみを正とします。アプリごとのサブディレクトリには配置しません。
 
 # Trader Timer LP実装メモ
 

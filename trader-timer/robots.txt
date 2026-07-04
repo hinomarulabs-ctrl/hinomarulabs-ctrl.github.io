@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://hinomarulabs-ctrl.github.io/trader-timer/sitemap.xml
