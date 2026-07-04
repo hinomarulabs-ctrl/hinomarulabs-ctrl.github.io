@@ -24,6 +24,13 @@ Developer/
 このLPはGitHub Pagesで公開します。
 LP設計書は `/Users/yokokurahiroyuki/Developer/design/trading-timer-site/LP_MASTER.md` で運用します。
 
+# Trader Timer LP実装メモ
+
+- LP本体は `index.html`、共通スタイルは `css/style.css`、最小限の動作は `js/main.js` に配置します。
+- 画像は `images/` に配置します。アプリ画面は `/Users/yokokurahiroyuki/Developer/apps/trader_timer/screenshots/` の実スクリーンショットをWebP変換して使用しています。
+- Google Play版は審査中のため、CTAはdisabledボタンとして表示しています。公開後は `index.html` 内のGoogle PlayボタンをURL付きの `<a>` に差し替えます。
+- App Store URLは `https://apps.apple.com/jp/app/trader-timer/id6782052104` です。
+
 # GitHub Pages公開方法
 
 1. GitHubで `hinomarulabs-ctrl.github.io` リポジトリを作成します。
