@@ -1,3 +1,22 @@
+# 開発ディレクトリ構成
+
+今後の開発ルートは `/Users/yokokurahiroyuki/Developer` とします。
+
+```text
+Developer/
+├── apps/
+├── websites/
+│   └── trading-timer-site/
+├── shared/
+└── archive/
+```
+
+このGitHub Pages用サイトは以下に配置します。
+
+```text
+/Users/yokokurahiroyuki/Developer/websites/trading-timer-site
+```
+
 # GitHub Pages公開方法
 
 1. GitHubで `hinomarulabs-ctrl.github.io` リポジトリを作成します。
