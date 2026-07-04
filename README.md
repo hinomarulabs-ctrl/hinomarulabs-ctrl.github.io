@@ -7,6 +7,8 @@
 5. `Build and deployment` の `Source` を `Deploy from a branch` にします。
 6. `Branch` を `main`、フォルダを `/ (root)` に設定して保存します。
 7. `https://hinomarulabs-ctrl.github.io/` にアクセスして公開を確認します。
+8. サポートURLは `https://hinomarulabs-ctrl.github.io/support.html` です。
+9. プライバシーポリシーURLは `https://hinomarulabs-ctrl.github.io/privacy.html` です。
 
 # app-ads.txt確認方法
 
@@ -25,6 +27,7 @@ google.com, pub-4474393505873527, DIRECT, f08c47fec0942fa0
 4. `Custom domain` に `hinomaru-labs.com` を入力して保存します。
 5. `Enforce HTTPS` を有効にします。
 6. `https://hinomaru-labs.com/app-ads.txt` で同じ内容が表示されることを確認します。
+7. `https://hinomaru-labs.com/support.html` と `https://hinomaru-labs.com/privacy.html` で同じ内容が表示されることを確認します。
 
 # App Store Connect のマーケティングURLへ設定する手順
 
