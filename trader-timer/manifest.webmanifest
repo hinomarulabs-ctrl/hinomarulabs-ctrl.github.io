@@ -2,7 +2,7 @@
   "name": "Trader Timer",
   "short_name": "Trader Timer",
   "description": "株・CFD・FX・仮想通貨のローソク足確定と経過時間を音で通知するトレーダー専用タイマー。",
-  "start_url": "/",
+  "start_url": "/trader-timer/",
   "display": "standalone",
   "background_color": "#111315",
   "theme_color": "#111315",
