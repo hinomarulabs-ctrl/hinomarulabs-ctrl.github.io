@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trader Timer | Voice Alerts for Candle Closes</title>
+  <meta name="description" content="Trader Timer is a free trading timer for stocks, forex, CFDs, and crypto. Track 1-minute, 5-minute, 15-minute, and custom candle closes with clear voice alerts so you can stay focused on the chart.">
+  <meta name="theme-color" content="#050806">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://hinomarulabs-ctrl.github.io/trader-timer/en/">
+  <link rel="alternate" hreflang="en" href="https://hinomarulabs-ctrl.github.io/trader-timer/en/">
+  <link rel="alternate" hreflang="ja" href="https://hinomarulabs-ctrl.github.io/trader-timer/">
+  <link rel="alternate" hreflang="x-default" href="https://hinomarulabs-ctrl.github.io/trader-timer/en/">
+  <link rel="icon" href="../favicon.ico" sizes="any">
+  <link rel="icon" href="../favicon-32x32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="../favicon-16x16.png" type="image/png" sizes="16x16">
+  <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+  <link rel="manifest" href="../site.webmanifest">
+  <link rel="preload" as="image" href="images/hero-phone-front.webp" type="image/webp">
+  <link rel="preload" as="image" href="../images/trader-timer-app-icon.webp" type="image/webp">
+  <link rel="stylesheet" href="css/style.css">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Trader Timer">
+  <meta property="og:title" content="Trader Timer | Voice Alerts for Candle Closes">
+  <meta property="og:description" content="A focused trading timer for candle closes, elapsed-time alerts, and custom market routines across stocks, forex, CFDs, and crypto.">
+  <meta property="og:url" content="https://hinomarulabs-ctrl.github.io/trader-timer/en/">
+  <meta property="og:image" content="https://hinomarulabs-ctrl.github.io/trader-timer/en/images/market-chart-og.webp">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Trader Timer | Voice Alerts for Candle Closes">
+  <meta name="twitter:description" content="Hear the candle close. Keep your eyes on the chart.">
+  <meta name="twitter:image" content="https://hinomarulabs-ctrl.github.io/trader-timer/en/images/market-chart-og.webp">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Trader Timer",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "iOS, Android",
+      "url": "https://hinomarulabs-ctrl.github.io/trader-timer/en/",
+      "description": "Trader Timer is a free trading timer for stocks, forex, CFDs, and crypto. It helps traders follow candle closes, elapsed time, and custom intervals with voice alerts.",
+      "image": "https://hinomarulabs-ctrl.github.io/trader-timer/en/images/market-chart-og.webp",
+      "featureList": [
+        "Voice alerts for candle closes",
+        "Multiple timers for 1-minute, 5-minute, 15-minute, 30-minute, and 1-hour charts",
+        "Custom trading timers",
+        "Background notifications",
+        "Market profiles for stocks, forex, CFDs, and crypto"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "downloadUrl": [
+        "https://apps.apple.com/jp/app/trader-timer/id6782052104"
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "Hinomaru Labs"
+      }
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "What is Trader Timer?", "acceptedAnswer": {"@type": "Answer", "text": "Trader Timer is a trading timer app that uses voice alerts and notifications to help you track candle closes and elapsed time while you watch your charts."}},
+        {"@type": "Question", "name": "Can I use it for stocks, forex, CFDs, and crypto?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. You can create market profiles and switch timers for stocks, forex, CFDs, crypto, or any chart routine you follow."}},
+        {"@type": "Question", "name": "Does it support 1-minute, 5-minute, and 15-minute charts?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Trader Timer supports common intervals such as 1 minute, 5 minutes, 15 minutes, 30 minutes, and 1 hour, plus custom timers."}},
+        {"@type": "Question", "name": "Does it work with TradingView?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Trader Timer is designed to run alongside charting tools such as TradingView, so you can keep your eyes on the chart and hear timing cues."}},
+        {"@type": "Question", "name": "Are background notifications supported?", "acceptedAnswer": {"@type": "Answer", "text": "Background notifications are supported, though behavior can depend on your device and operating-system notification settings."}}
+      ]
+    }
+  </script>
+</head>
+<body>
+  <header class="header" data-header>
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="Trader Timer home">
+        <span class="brand__mark" aria-hidden="true"><img src="../images/trader-timer-app-icon.webp" width="48" height="48" alt=""></span>
+        <span>Trader Timer</span>
+      </a>
+      <nav class="header__nav" aria-label="Main navigation" data-nav>
+        <a href="#features">Features</a>
+        <a href="#screens">Screens</a>
+        <a href="#faq">FAQ</a>
+        <a class="header__download" href="#download">Download</a>
+      </nav>
+      <button class="header__menu" type="button" aria-label="Open menu" aria-expanded="false" data-menu data-menu-open-label="Open menu" data-menu-close-label="Close menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero hero--en section" aria-labelledby="hero-title">
+      <div class="container hero__inner hero__inner--en">
+        <div class="hero__content reveal is-visible">
+          <p class="eyebrow">Built for active traders</p>
+          <h1 id="hero-title"><span class="hero__line">Hear the candle close.</span><span class="hero__line">Keep your eyes</span><span class="hero__line">on the chart.</span></h1>
+          <p class="hero__lead">Trader Timer gives you voice alerts for candle closes, elapsed-time checks, and custom intervals across stocks, forex, CFDs, and crypto. Set your market routine once, then trade without staring at the clock.</p>
+          <div class="store-actions store-actions--text" role="group" aria-label="App download">
+            <a class="store-button" href="https://apps.apple.com/jp/app/trader-timer/id6782052104" aria-label="Download Trader Timer on the App Store">
+              <span><small>Download on the</small><strong>App Store</strong></span>
+            </a>
+            <span class="store-button store-button--disabled" aria-label="Google Play version is coming soon">
+              <span><small>Get it on</small><strong>Google Play</strong></span>
+            </span>
+          </div>
+          <p class="availability">Free <span aria-hidden="true">|</span> iPhone and Android</p>
+        </div>
+        <div class="hero__visual hero__visual--en reveal is-visible">
+          <img class="hero__device hero__device--front" src="images/hero-phone-front.webp" width="860" height="1370" alt="Trader Timer phone screen with English labels for NYSE, Add Alert, Clock, and Settings." loading="eager" fetchpriority="high" decoding="async">
+        </div>
+      </div>
+    </section>
+
+    <section class="feature section" id="features" aria-labelledby="feature-1-title">
+      <div class="container feature__inner">
+        <div class="feature__visual reveal">
+          <div class="phone-mock" aria-label="Trader Timer Clock screen mockup">
+            <div class="phone-mock__status">16:42</div>
+            <div class="phone-mock__top"><span>NYSE</span><b>+</b></div>
+            <div class="phone-mock__time">16:42:08</div>
+            <div class="timer-grid">
+              <div class="timer-ring timer-ring--green"><strong>1 Minute</strong><span>00:51</span></div>
+              <div class="timer-ring timer-ring--green"><strong>5 Minutes</strong><span>02:51</span></div>
+              <div class="timer-ring timer-ring--orange"><strong>15 Minutes</strong><span>02:51</span></div>
+            </div>
+            <button class="mock-add" type="button">+ Add Alert</button>
+            <div class="mock-tabs"><span>Clock</span><span>Settings</span></div>
+          </div>
+        </div>
+        <div class="feature__content reveal">
+          <p class="feature__number">01</p>
+          <h2 id="feature-1-title">Follow multiple candle closes at once.</h2>
+          <p>Keep 1-minute, 5-minute, 15-minute, 30-minute, and 1-hour timing visible in one clean clock view. It is built for traders who compare multiple timeframes before acting.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature feature--reverse section" aria-labelledby="feature-2-title">
+      <div class="container feature__inner">
+        <div class="feature__content reveal">
+          <p class="feature__number">02</p>
+          <h2 id="feature-2-title">Create alerts that match your setup.</h2>
+          <p>Add custom intervals from short scalping checks to longer session reminders. Your timing routine stays consistent whether you are watching NYSE, NASDAQ, FX, CFDs, or crypto.</p>
+        </div>
+        <div class="feature__visual reveal">
+          <div class="phone-mock phone-mock--list" aria-label="Add Alert screen mockup">
+            <div class="phone-mock__status">16:42</div>
+            <h3>Add Alert</h3>
+            <div class="setting-row"><span>Name</span><strong>1 Minute</strong></div>
+            <div class="setting-row"><span>Interval</span><strong>00:01:00</strong></div>
+            <div class="setting-row"><span>Voice Alert</span><strong>On</strong></div>
+            <div class="setting-row"><span>Notification</span><strong>On</strong></div>
+            <button class="mock-save" type="button">Save Alert</button>
+            <div class="mock-tabs"><span>Clock</span><span>Settings</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature section" aria-labelledby="feature-3-title">
+      <div class="container feature__inner">
+        <div class="feature__visual reveal">
+          <div class="phone-mock phone-mock--list" aria-label="Settings screen mockup">
+            <div class="phone-mock__status">16:42</div>
+            <h3>Settings</h3>
+            <div class="setting-row"><span>Market Profile</span><strong>NYSE</strong></div>
+            <div class="setting-row"><span>Session</span><strong>NASDAQ</strong></div>
+            <div class="setting-row"><span>Default Alert</span><strong>5 Minutes</strong></div>
+            <div class="setting-row"><span>Theme</span><strong>Dark</strong></div>
+            <div class="mock-tabs"><span>Clock</span><span>Settings</span></div>
+          </div>
+        </div>
+        <div class="feature__content reveal">
+          <p class="feature__number">03</p>
+          <h2 id="feature-3-title">Switch market profiles quickly.</h2>
+          <p>Save profiles for stocks, forex, CFDs, and crypto. Move from one chart routine to another without rebuilding your timer set from scratch.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature feature--reverse section" aria-labelledby="feature-4-title">
+      <div class="container feature__inner">
+        <div class="feature__content reveal">
+          <p class="feature__number">04</p>
+          <h2 id="feature-4-title">Use voice cues instead of clock-watching.</h2>
+          <p>Voice alerts and background notifications help you catch candle closes while your attention stays on price action, order flow, and your trading plan.</p>
+        </div>
+        <div class="feature__visual reveal">
+          <div class="phone-mock phone-mock--list" aria-label="Voice Alert settings mockup">
+            <div class="phone-mock__status">16:42</div>
+            <h3>5 Minutes</h3>
+            <div class="setting-row"><span>Sound</span><strong>Bell</strong></div>
+            <div class="setting-row"><span>Voice</span><strong>Enabled</strong></div>
+            <div class="setting-row"><span>Alert Timing</span><strong>Candle Close</strong></div>
+            <div class="setting-row"><span>Background</span><strong>Notify</strong></div>
+            <button class="mock-save" type="button">Update</button>
+            <div class="mock-tabs"><span>Clock</span><span>Settings</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="recommend section" aria-labelledby="recommend-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <h2 id="recommend-title">Made for timing-sensitive traders</h2>
+        </div>
+        <div class="trader-grid">
+          <article class="trader-card reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 17 6-6 4 4 8-8"/><path d="M14 7h7v7"/></svg><h3>Day Traders</h3><p>Track the next candle close while scanning entries, exits, and market structure.</p></article>
+          <article class="trader-card reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m13 2-9 13h7l-1 7 9-13h-7Z"/></svg><h3>Scalpers</h3><p>Use fast voice cues for short intervals when every minute matters.</p></article>
+          <article class="trader-card reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10"/><path d="M9 20V4"/><path d="M14 20v-7"/><path d="M19 20V7"/></svg><h3>Swing Traders</h3><p>Set calmer reminders for 15-minute, 30-minute, and hourly candles.</p></article>
+          <article class="trader-card reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 0 20"/><path d="M12 2a15.3 15.3 0 0 0 0 20"/></svg><h3>FX and CFDs</h3><p>Keep repeatable timing across active sessions and fast-moving instruments.</p></article>
+          <article class="trader-card reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9 8h4.5a2.5 2.5 0 0 1 0 5H9V8Z"/><path d="M9 13h5a2.5 2.5 0 0 1 0 5H9v-5Z"/><path d="M11 6v2"/><path d="M14 6v2"/><path d="M11 18v2"/><path d="M14 18v2"/></svg><h3>Crypto</h3><p>Stay aware of key intervals in markets that never close.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="screens section" id="screens" aria-labelledby="screens-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <h2 id="screens-title">English UI preview</h2>
+          <p>Clock, Settings, Add Alert, NYSE, NASDAQ, 1 Minute, 5 Minutes, and 15 Minutes are shown in English for the global landing page.</p>
+        </div>
+        <div class="screens__grid screens__grid--mock">
+          <figure class="screen-card reveal"><div class="phone-mock phone-mock--small"><div class="phone-mock__top"><span>NYSE</span><b>+</b></div><div class="phone-mock__time">16:42:08</div><div class="timer-grid"><div class="timer-ring timer-ring--green"><strong>1 Minute</strong><span>00:51</span></div><div class="timer-ring timer-ring--green"><strong>5 Minutes</strong><span>02:51</span></div><div class="timer-ring timer-ring--orange"><strong>15 Minutes</strong><span>02:51</span></div></div><button class="mock-add" type="button">+ Add Alert</button><div class="mock-tabs"><span>Clock</span><span>Settings</span></div></div><figcaption>Clock</figcaption></figure>
+          <figure class="screen-card reveal"><div class="phone-mock phone-mock--small phone-mock--list"><h3>Add Alert</h3><div class="setting-row"><span>Name</span><strong>1 Minute</strong></div><div class="setting-row"><span>Interval</span><strong>00:01:00</strong></div><div class="setting-row"><span>Voice Alert</span><strong>On</strong></div><button class="mock-save" type="button">Save Alert</button><div class="mock-tabs"><span>Clock</span><span>Settings</span></div></div><figcaption>Add Alert</figcaption></figure>
+          <figure class="screen-card reveal"><div class="phone-mock phone-mock--small phone-mock--list"><h3>Settings</h3><div class="setting-row"><span>Market</span><strong>NYSE</strong></div><div class="setting-row"><span>Exchange</span><strong>NASDAQ</strong></div><div class="setting-row"><span>Default</span><strong>5 Minutes</strong></div><div class="mock-tabs"><span>Clock</span><span>Settings</span></div></div><figcaption>Settings</figcaption></figure>
+          <figure class="screen-card reveal"><div class="phone-mock phone-mock--small phone-mock--list"><h3>Voice Alert</h3><div class="setting-row"><span>1 Minute</span><strong>On</strong></div><div class="setting-row"><span>5 Minutes</span><strong>On</strong></div><div class="setting-row"><span>15 Minutes</span><strong>On</strong></div><button class="mock-save" type="button">Update</button><div class="mock-tabs"><span>Clock</span><span>Settings</span></div></div><figcaption>Voice Alerts</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="article-section section" id="candle-close" aria-labelledby="candle-close-title">
+      <div class="container article-section__inner reveal">
+        <p class="eyebrow">Guide</p>
+        <h2 id="candle-close-title">Why candle-close timing matters</h2>
+        <div class="article-body">
+          <p>A candle is not final until its interval closes. Before that moment, price can reverse, wicks can disappear, and a setup that looked clean can change completely. Waiting for the candle close helps many traders make decisions from confirmed data instead of reacting to noise.</p>
+          <p>Trader Timer is designed for that exact moment. It gives you audio timing cues for the intervals you care about, so you can stay focused on the chart, the plan, and the trade rather than manually checking the clock.</p>
+          <p>Use it beside TradingView or any charting platform. Whether you trade stocks, forex, CFDs, or crypto, the goal is simple: know when the next decision point arrives.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq section" id="faq" aria-labelledby="faq-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <h2 id="faq-title">FAQ</h2>
+        </div>
+        <div class="faq__grid reveal" data-faq>
+          <details open><summary>What is Trader Timer?</summary><p>Trader Timer is a trading timer app that helps you track candle closes and elapsed time with voice alerts and notifications.</p></details>
+          <details><summary>Can I use it for stocks, forex, CFDs, and crypto?</summary><p>Yes. You can create profiles and timers for different markets, chart intervals, and trading styles.</p></details>
+          <details><summary>Does it support 1-minute, 5-minute, and 15-minute charts?</summary><p>Yes. Common intervals are supported, and you can create custom timers for your own routine.</p></details>
+          <details><summary>Can it run alongside TradingView?</summary><p>Yes. Trader Timer is built to complement charting tools, so your chart can stay front and center.</p></details>
+          <details><summary>Does it support background notifications?</summary><p>Yes, though delivery can depend on your device settings and operating-system notification rules.</p></details>
+          <details><summary>Is Trader Timer free?</summary><p>Trader Timer is currently available as a free app.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="download-cta section" id="download" aria-labelledby="download-title">
+      <div class="container download-cta__inner reveal">
+        <div>
+          <p class="eyebrow">Download</p>
+          <h2 id="download-title">Trade the chart. <span>Hear the timing.</span></h2>
+          <p>Let Trader Timer handle candle-close alerts while you focus on the next decision.</p>
+        </div>
+        <div>
+          <div class="store-actions store-actions--end store-actions--text">
+            <a class="store-button" href="https://apps.apple.com/jp/app/trader-timer/id6782052104" aria-label="Download Trader Timer on the App Store">
+              <span><small>Download on the</small><strong>App Store</strong></span>
+            </a>
+            <span class="store-button store-button--disabled" aria-label="Google Play version is coming soon">
+              <span><small>Get it on</small><strong>Google Play</strong></span>
+            </span>
+          </div>
+          <p class="availability availability--end">Free <span aria-hidden="true">|</span> iPhone and Android</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="../js/main.js" defer></script>
+</body>
+</html>

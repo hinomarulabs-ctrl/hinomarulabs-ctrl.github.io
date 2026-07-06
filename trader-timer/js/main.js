@@ -11,10 +11,13 @@ setHeaderState();
 window.addEventListener("scroll", setHeaderState, { passive: true });
 
 if (menuButton && nav && header) {
+  const menuOpenLabel = menuButton.dataset.menuOpenLabel || "メニューを開く";
+  const menuCloseLabel = menuButton.dataset.menuCloseLabel || "メニューを閉じる";
+
   menuButton.addEventListener("click", () => {
     const isOpen = menuButton.getAttribute("aria-expanded") === "true";
     menuButton.setAttribute("aria-expanded", String(!isOpen));
-    menuButton.setAttribute("aria-label", isOpen ? "メニューを開く" : "メニューを閉じる");
+    menuButton.setAttribute("aria-label", isOpen ? menuOpenLabel : menuCloseLabel);
     nav.classList.toggle("is-open", !isOpen);
     header.classList.toggle("is-open", !isOpen);
     document.body.classList.toggle("nav-open", !isOpen);
@@ -23,7 +26,7 @@ if (menuButton && nav && header) {
   nav.addEventListener("click", (event) => {
     if (!(event.target instanceof HTMLAnchorElement)) return;
     menuButton.setAttribute("aria-expanded", "false");
-    menuButton.setAttribute("aria-label", "メニューを開く");
+    menuButton.setAttribute("aria-label", menuOpenLabel);
     nav.classList.remove("is-open");
     header.classList.remove("is-open");
     document.body.classList.remove("nav-open");
