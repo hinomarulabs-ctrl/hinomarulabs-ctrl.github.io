@@ -16,7 +16,7 @@
   <link rel="icon" href="../favicon-16x16.png" type="image/png" sizes="16x16">
   <link rel="apple-touch-icon" href="../apple-touch-icon.png">
   <link rel="manifest" href="../site.webmanifest">
-  <link rel="preload" as="image" href="images/hero-phone-front.webp" type="image/webp">
+  <link rel="preload" as="image" href="images/hero-phone-premium.png" type="image/png">
   <link rel="preload" as="image" href="../images/trader-timer-app-icon.webp" type="image/webp">
   <link rel="stylesheet" href="css/style.css">
   <meta property="og:type" content="website">
@@ -97,11 +97,17 @@
 
   <main id="top">
     <section class="hero hero--en section" aria-labelledby="hero-title">
+      <div class="hero__background" aria-hidden="true"></div>
       <div class="container hero__inner hero__inner--en">
         <div class="hero__content reveal is-visible">
-          <p class="eyebrow">Built for active traders</p>
-          <h1 id="hero-title"><span class="hero__line">Hear the candle close.</span><span class="hero__line">Keep your eyes</span><span class="hero__line">on the chart.</span></h1>
-          <p class="hero__lead">Trader Timer gives you voice alerts for candle closes, elapsed-time checks, and custom intervals across stocks, forex, CFDs, and crypto. Set your market routine once, then trade without staring at the clock.</p>
+          <p class="eyebrow">Precision timing for active traders</p>
+          <h1 id="hero-title"><span class="hero__line">Hear every candle close.</span><span class="hero__line">Stay locked on the chart.</span></h1>
+          <p class="hero__lead">Trader Timer turns 1-minute, 5-minute, 15-minute, and custom intervals into clear voice cues, so your trading routine stays on time without pulling your eyes away from price action.</p>
+          <div class="hero__proof" aria-label="Key benefits">
+            <span>NYSE ready</span>
+            <span>Voice alerts</span>
+            <span>Custom intervals</span>
+          </div>
           <div class="store-actions store-actions--text" role="group" aria-label="App download">
             <a class="store-button" href="https://apps.apple.com/jp/app/trader-timer/id6782052104" aria-label="Download Trader Timer on the App Store">
               <span><small>Download on the</small><strong>App Store</strong></span>
@@ -113,7 +119,9 @@
           <p class="availability">Free <span aria-hidden="true">|</span> iPhone and Android</p>
         </div>
         <div class="hero__visual hero__visual--en reveal is-visible">
-          <img class="hero__device hero__device--front" src="images/hero-phone-front.webp" width="860" height="1370" alt="Trader Timer phone screen with English labels for NYSE, Add Alert, Clock, and Settings." loading="eager" fetchpriority="high" decoding="async">
+          <div class="hero-phone-stage">
+            <img class="hero__device hero__device--premium" src="images/hero-phone-premium.png" width="853" height="1844" alt="Trader Timer clock screen showing NYSE, Add Alert, Clock, Settings, and 1 Minute, 5 Minute, and 15 Minute timers." loading="eager" fetchpriority="high" decoding="async">
+          </div>
         </div>
       </div>
     </section>
@@ -121,23 +129,14 @@
     <section class="feature section" id="features" aria-labelledby="feature-1-title">
       <div class="container feature__inner">
         <div class="feature__visual reveal">
-          <div class="phone-mock" aria-label="Trader Timer Clock screen mockup">
-            <div class="phone-mock__status">16:42</div>
-            <div class="phone-mock__top"><span>NYSE</span><b>+</b></div>
-            <div class="phone-mock__time">16:42:08</div>
-            <div class="timer-grid">
-              <div class="timer-ring timer-ring--green"><strong>1 Minute</strong><span>00:51</span></div>
-              <div class="timer-ring timer-ring--green"><strong>5 Minutes</strong><span>02:51</span></div>
-              <div class="timer-ring timer-ring--orange"><strong>15 Minutes</strong><span>02:51</span></div>
-            </div>
-            <button class="mock-add" type="button">+ Add Alert</button>
-            <div class="mock-tabs"><span>Clock</span><span>Settings</span></div>
-          </div>
+          <figure class="device-shot device-shot--large">
+            <img src="images/app-clock.jpg" width="430" height="932" alt="Trader Timer Clock screen in English with NYSE and 1 Minute, 5 Minute, and 15 Minute timers." loading="lazy" decoding="async">
+          </figure>
         </div>
         <div class="feature__content reveal">
           <p class="feature__number">01</p>
-          <h2 id="feature-1-title">Follow multiple candle closes at once.</h2>
-          <p>Keep 1-minute, 5-minute, 15-minute, 30-minute, and 1-hour timing visible in one clean clock view. It is built for traders who compare multiple timeframes before acting.</p>
+          <h2 id="feature-1-title">A clock-first view built for live markets.</h2>
+          <p>Keep your active market, current time, and the next candle close in one focused screen. The interface is dark, quiet, and optimized for repeated checks during trading sessions.</p>
         </div>
       </div>
     </section>
@@ -146,20 +145,13 @@
       <div class="container feature__inner">
         <div class="feature__content reveal">
           <p class="feature__number">02</p>
-          <h2 id="feature-2-title">Create alerts that match your setup.</h2>
-          <p>Add custom intervals from short scalping checks to longer session reminders. Your timing routine stays consistent whether you are watching NYSE, NASDAQ, FX, CFDs, or crypto.</p>
+          <h2 id="feature-2-title">Create alerts around your exact routine.</h2>
+          <p>Add alerts for the intervals you actually trade. Use one minute for fast execution, five minutes for confirmation, or a custom interval for your own session rhythm.</p>
         </div>
         <div class="feature__visual reveal">
-          <div class="phone-mock phone-mock--list" aria-label="Add Alert screen mockup">
-            <div class="phone-mock__status">16:42</div>
-            <h3>Add Alert</h3>
-            <div class="setting-row"><span>Name</span><strong>1 Minute</strong></div>
-            <div class="setting-row"><span>Interval</span><strong>00:01:00</strong></div>
-            <div class="setting-row"><span>Voice Alert</span><strong>On</strong></div>
-            <div class="setting-row"><span>Notification</span><strong>On</strong></div>
-            <button class="mock-save" type="button">Save Alert</button>
-            <div class="mock-tabs"><span>Clock</span><span>Settings</span></div>
-          </div>
+          <figure class="device-shot">
+            <img src="images/app-add-alert.jpg" width="430" height="932" alt="Trader Timer Add Alert screen in English with interval, sound, and voice guidance controls." loading="lazy" decoding="async">
+          </figure>
         </div>
       </div>
     </section>
@@ -167,20 +159,14 @@
     <section class="feature section" aria-labelledby="feature-3-title">
       <div class="container feature__inner">
         <div class="feature__visual reveal">
-          <div class="phone-mock phone-mock--list" aria-label="Settings screen mockup">
-            <div class="phone-mock__status">16:42</div>
-            <h3>Settings</h3>
-            <div class="setting-row"><span>Market Profile</span><strong>NYSE</strong></div>
-            <div class="setting-row"><span>Session</span><strong>NASDAQ</strong></div>
-            <div class="setting-row"><span>Default Alert</span><strong>5 Minutes</strong></div>
-            <div class="setting-row"><span>Theme</span><strong>Dark</strong></div>
-            <div class="mock-tabs"><span>Clock</span><span>Settings</span></div>
-          </div>
+          <figure class="device-shot">
+            <img src="images/app-settings.jpg" width="430" height="932" alt="Trader Timer Settings screen in English with language, keep screen on, and time display controls." loading="lazy" decoding="async">
+          </figure>
         </div>
         <div class="feature__content reveal">
           <p class="feature__number">03</p>
-          <h2 id="feature-3-title">Switch market profiles quickly.</h2>
-          <p>Save profiles for stocks, forex, CFDs, and crypto. Move from one chart routine to another without rebuilding your timer set from scratch.</p>
+          <h2 id="feature-3-title">Tune the app for the way you trade.</h2>
+          <p>Set the language, keep the display awake, and lock the clock into 24-hour time. Trader Timer stays visible and predictable when you need fast timing confidence.</p>
         </div>
       </div>
     </section>
@@ -189,20 +175,13 @@
       <div class="container feature__inner">
         <div class="feature__content reveal">
           <p class="feature__number">04</p>
-          <h2 id="feature-4-title">Use voice cues instead of clock-watching.</h2>
-          <p>Voice alerts and background notifications help you catch candle closes while your attention stays on price action, order flow, and your trading plan.</p>
+          <h2 id="feature-4-title">Let voice guidance handle the moment.</h2>
+          <p>Voice Guidance and Sound Test controls make timing cues easy to verify before a session. Hear the alert, stay with the chart, and keep your decision point clean.</p>
         </div>
         <div class="feature__visual reveal">
-          <div class="phone-mock phone-mock--list" aria-label="Voice Alert settings mockup">
-            <div class="phone-mock__status">16:42</div>
-            <h3>5 Minutes</h3>
-            <div class="setting-row"><span>Sound</span><strong>Bell</strong></div>
-            <div class="setting-row"><span>Voice</span><strong>Enabled</strong></div>
-            <div class="setting-row"><span>Alert Timing</span><strong>Candle Close</strong></div>
-            <div class="setting-row"><span>Background</span><strong>Notify</strong></div>
-            <button class="mock-save" type="button">Update</button>
-            <div class="mock-tabs"><span>Clock</span><span>Settings</span></div>
-          </div>
+          <figure class="device-shot">
+            <img src="images/app-voice-alert.jpg" width="430" height="932" alt="Trader Timer Edit Alert screen in English with Voice Guidance enabled for a 5 Minute alert." loading="lazy" decoding="async">
+          </figure>
         </div>
       </div>
     </section>
@@ -210,7 +189,8 @@
     <section class="recommend section" aria-labelledby="recommend-title">
       <div class="container">
         <div class="section-heading reveal">
-          <h2 id="recommend-title">Made for timing-sensitive traders</h2>
+          <p class="eyebrow">Use cases</p>
+          <h2 id="recommend-title">Built for traders who respect time.</h2>
         </div>
         <div class="trader-grid">
           <article class="trader-card reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 17 6-6 4 4 8-8"/><path d="M14 7h7v7"/></svg><h3>Day Traders</h3><p>Track the next candle close while scanning entries, exits, and market structure.</p></article>
@@ -225,14 +205,15 @@
     <section class="screens section" id="screens" aria-labelledby="screens-title">
       <div class="container">
         <div class="section-heading reveal">
-          <h2 id="screens-title">English UI preview</h2>
-          <p>Clock, Settings, Add Alert, NYSE, NASDAQ, 1 Minute, 5 Minutes, and 15 Minutes are shown in English for the global landing page.</p>
+          <p class="eyebrow">Screens</p>
+          <h2 id="screens-title">Real English app screens.</h2>
+          <p>Captured from Trader Timer running in English: Clock, Add Alert, Settings, and Voice Guidance.</p>
         </div>
-        <div class="screens__grid screens__grid--mock">
-          <figure class="screen-card reveal"><div class="phone-mock phone-mock--small"><div class="phone-mock__top"><span>NYSE</span><b>+</b></div><div class="phone-mock__time">16:42:08</div><div class="timer-grid"><div class="timer-ring timer-ring--green"><strong>1 Minute</strong><span>00:51</span></div><div class="timer-ring timer-ring--green"><strong>5 Minutes</strong><span>02:51</span></div><div class="timer-ring timer-ring--orange"><strong>15 Minutes</strong><span>02:51</span></div></div><button class="mock-add" type="button">+ Add Alert</button><div class="mock-tabs"><span>Clock</span><span>Settings</span></div></div><figcaption>Clock</figcaption></figure>
-          <figure class="screen-card reveal"><div class="phone-mock phone-mock--small phone-mock--list"><h3>Add Alert</h3><div class="setting-row"><span>Name</span><strong>1 Minute</strong></div><div class="setting-row"><span>Interval</span><strong>00:01:00</strong></div><div class="setting-row"><span>Voice Alert</span><strong>On</strong></div><button class="mock-save" type="button">Save Alert</button><div class="mock-tabs"><span>Clock</span><span>Settings</span></div></div><figcaption>Add Alert</figcaption></figure>
-          <figure class="screen-card reveal"><div class="phone-mock phone-mock--small phone-mock--list"><h3>Settings</h3><div class="setting-row"><span>Market</span><strong>NYSE</strong></div><div class="setting-row"><span>Exchange</span><strong>NASDAQ</strong></div><div class="setting-row"><span>Default</span><strong>5 Minutes</strong></div><div class="mock-tabs"><span>Clock</span><span>Settings</span></div></div><figcaption>Settings</figcaption></figure>
-          <figure class="screen-card reveal"><div class="phone-mock phone-mock--small phone-mock--list"><h3>Voice Alert</h3><div class="setting-row"><span>1 Minute</span><strong>On</strong></div><div class="setting-row"><span>5 Minutes</span><strong>On</strong></div><div class="setting-row"><span>15 Minutes</span><strong>On</strong></div><button class="mock-save" type="button">Update</button><div class="mock-tabs"><span>Clock</span><span>Settings</span></div></div><figcaption>Voice Alerts</figcaption></figure>
+        <div class="screens__grid screens__grid--real">
+          <figure class="screen-card reveal"><img src="images/app-clock.jpg" width="430" height="932" alt="Clock screen with NYSE and active timers." loading="lazy" decoding="async"><figcaption>Clock</figcaption></figure>
+          <figure class="screen-card reveal"><img src="images/app-add-alert.jpg" width="430" height="932" alt="Add Alert screen with interval and voice guidance settings." loading="lazy" decoding="async"><figcaption>Add Alert</figcaption></figure>
+          <figure class="screen-card reveal"><img src="images/app-settings.jpg" width="430" height="932" alt="Settings screen with language and time display options." loading="lazy" decoding="async"><figcaption>Settings</figcaption></figure>
+          <figure class="screen-card reveal"><img src="images/app-voice-alert.jpg" width="430" height="932" alt="Edit Alert screen with Voice Guidance enabled." loading="lazy" decoding="async"><figcaption>Voice Alert</figcaption></figure>
         </div>
       </div>
     </section>
