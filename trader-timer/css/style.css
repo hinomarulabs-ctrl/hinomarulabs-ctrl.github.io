@@ -248,6 +248,12 @@ svg {
   align-items: center;
 }
 
+.hero__content {
+  position: relative;
+  z-index: 2;
+  min-width: 0;
+}
+
 .eyebrow {
   margin: 0 0 var(--space-2);
   color: var(--color-primary-hover);
@@ -260,9 +266,11 @@ svg {
 .hero h1,
 .download-cta h2 {
   margin: 0;
-  font-size: clamp(3.25rem, 4.7vw, 4.35rem);
+  font-size: clamp(2.8rem, 4.05vw, 3.8rem);
   font-weight: 800;
   line-height: 1.08;
+  word-break: keep-all;
+  overflow-wrap: normal;
 }
 
 .hero h1 .hero__line {
@@ -275,6 +283,11 @@ svg {
 .download-cta h2 span {
   display: inline-block;
   color: var(--color-primary-hover);
+}
+
+.hero h1 span {
+  font-size: .92em;
+  white-space: nowrap;
 }
 
 .hero__lead {
@@ -295,6 +308,46 @@ svg {
 .store-actions--end {
   justify-content: flex-end;
   margin-top: 0;
+}
+
+.store-badge-link {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  width: 190px;
+  max-width: 100%;
+  min-height: 56px;
+  transition: transform 250ms ease, opacity 250ms ease, filter 250ms ease;
+}
+
+.store-badge-link:hover {
+  transform: translateY(-2px);
+}
+
+.store-badge-link img {
+  width: 100%;
+  height: auto;
+}
+
+.store-badge-link--disabled {
+  cursor: not-allowed;
+  filter: grayscale(.25);
+  opacity: .68;
+}
+
+.store-badge-link--disabled:hover {
+  transform: none;
+}
+
+.store-badge-link--disabled span {
+  position: absolute;
+  inset: auto 12px 7px auto;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: rgba(17, 19, 21, .88);
+  color: var(--color-secondary);
+  font-size: 11px;
+  font-weight: 800;
 }
 
 .store-button {
@@ -378,10 +431,10 @@ svg {
 }
 
 .hero__device {
-  width: min(136%, 820px);
+  width: min(152%, 940px);
   max-width: none;
   height: auto;
-  margin-right: clamp(-104px, -6vw, -36px);
+  margin-right: clamp(-150px, -8vw, -56px);
   object-fit: contain;
   -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 12%, #000 94%, transparent 100%);
   mask-image: linear-gradient(90deg, transparent 0, #000 12%, #000 94%, transparent 100%);
@@ -503,6 +556,13 @@ svg {
   text-align: center;
 }
 
+.section-heading p {
+  max-width: 680px;
+  margin: var(--space-2) auto 0;
+  color: var(--color-secondary);
+  font-size: 17px;
+}
+
 .trader-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -546,6 +606,76 @@ svg {
   margin: 0;
   color: var(--color-secondary);
   font-size: 15px;
+}
+
+.screens {
+  border-top: 1px solid var(--color-divider);
+  padding-top: var(--space-6);
+}
+
+.screens__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-3);
+}
+
+.screen-card {
+  margin: 0;
+  padding: var(--space-2);
+  border: 1px solid rgba(255, 255, 255, .08);
+  border-radius: var(--radius-card);
+  background: linear-gradient(180deg, rgba(32, 36, 42, .7), rgba(18, 21, 25, .94));
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .06);
+}
+
+.screen-card img {
+  width: 100%;
+  aspect-ratio: 740 / 1201;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 16px;
+  background: #101214;
+}
+
+.screen-card figcaption {
+  margin-top: var(--space-2);
+  color: var(--color-secondary);
+  font-size: 14px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.article-section {
+  border-top: 1px solid var(--color-divider);
+  padding-block: var(--space-7);
+}
+
+.article-section__inner {
+  max-width: 980px;
+  padding: clamp(var(--space-4), 5vw, var(--space-6));
+  border: 1px solid rgba(255, 255, 255, .08);
+  border-radius: 28px;
+  background:
+    radial-gradient(circle at 86% 8%, rgba(37, 99, 235, .18), transparent 26rem),
+    linear-gradient(180deg, rgba(24, 27, 31, .72), rgba(17, 19, 21, .28));
+}
+
+.article-section h2 {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 2.7rem);
+  line-height: 1.25;
+}
+
+.article-body {
+  display: grid;
+  gap: var(--space-3);
+  margin-top: var(--space-4);
+  color: var(--color-secondary);
+  font-size: 17px;
+}
+
+.article-body p {
+  margin: 0;
 }
 
 .faq {
@@ -720,12 +850,16 @@ svg {
   }
 
   .hero__device {
-    width: min(118%, 720px);
+    width: min(132%, 820px);
     margin-right: 0;
   }
 
   .trader-grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .screens__grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .store-actions--end {
@@ -744,7 +878,7 @@ svg {
   }
 
   .hero h1 {
-    font-size: clamp(2.8rem, 5vw, 3.7rem);
+    font-size: clamp(2.42rem, 4.25vw, 3.05rem);
   }
 
   .hero__lead {
@@ -753,8 +887,8 @@ svg {
   }
 
   .hero__device {
-    width: min(136%, 690px);
-    margin-right: clamp(-84px, -6vw, -28px);
+    width: min(150%, 780px);
+    margin-right: clamp(-124px, -8vw, -40px);
   }
 }
 
@@ -853,7 +987,7 @@ svg {
 
   .hero h1,
   .download-cta h2 {
-    font-size: clamp(2.35rem, 10vw, 3rem);
+    font-size: clamp(1.72rem, 7vw, 2rem);
   }
 
   .store-actions,
@@ -861,6 +995,10 @@ svg {
     display: grid;
     width: 100%;
     max-width: 342px;
+  }
+
+  .store-badge-link {
+    width: 190px;
   }
 
   .store-button {
@@ -878,7 +1016,7 @@ svg {
   }
 
   .hero__device {
-    width: min(138%, 460px);
+    width: min(146%, 500px);
     margin: var(--space-2) -36px 0;
     -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 8%, #000 96%, transparent 100%);
     mask-image: linear-gradient(90deg, transparent 0, #000 8%, #000 96%, transparent 100%);
@@ -927,8 +1065,22 @@ svg {
   }
 
   .trader-grid,
+  .screens__grid,
   .faq__grid {
     grid-template-columns: 1fr;
+  }
+
+  .screen-card {
+    max-width: 320px;
+  }
+
+  .article-section__inner {
+    border-radius: var(--radius-card);
+    padding: var(--space-3);
+  }
+
+  .article-body {
+    font-size: 16px;
   }
 
   .trader-card {

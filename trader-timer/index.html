@@ -3,28 +3,30 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>株・CFDのローソク足通知アプリ | Trader Timer</title>
-  <meta name="description" content="Trader Timerは株・CFD・FX・仮想通貨のローソク足確定と経過時間を音で通知するトレーダー向けタイマーです。複数時間足を同時管理し、チャート分析に集中できます。">
+  <title>Trader Timer｜ローソク足確定を音声で知らせるトレード用タイマーアプリ</title>
+  <meta name="description" content="Trader Timerは株・FX・CFD・仮想通貨トレーダー向けの無料タイマーアプリです。1分足・3分足・5分足・15分足・30分足・1時間足など複数時間足のローソク足確定を音声通知・アラートで知らせ、チャート分析に集中できます。">
   <meta name="theme-color" content="#111315">
   <meta name="robots" content="index,follow">
   <link rel="canonical" href="https://hinomarulabs-ctrl.github.io/trader-timer/">
-  <link rel="icon" href="images/favicon.png" type="image/png">
-  <link rel="apple-touch-icon" href="images/icon-192.png">
-  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="favicon-32x32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="favicon-16x16.png" type="image/png" sizes="16x16">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
   <link rel="preload" as="image" href="images/hero-device.webp" type="image/webp">
   <link rel="preload" as="image" href="images/trader-timer-app-icon.webp" type="image/webp">
   <link rel="stylesheet" href="css/style.css">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Trader Timer">
-  <meta property="og:title" content="株・CFDのローソク足通知アプリ | Trader Timer">
-  <meta property="og:description" content="株・CFD・FX・仮想通貨のローソク足確定と経過時間を音で通知。チャートだけに集中するためのトレーダー専用タイマー。">
+  <meta property="og:title" content="Trader Timer｜ローソク足確定を音声で知らせるトレード用タイマーアプリ">
+  <meta property="og:description" content="株・FX・CFD・仮想通貨のローソク足確定を音声通知。1分足から1時間足まで複数タイマーで管理し、チャート分析に集中できます。">
   <meta property="og:url" content="https://hinomarulabs-ctrl.github.io/trader-timer/">
   <meta property="og:image" content="https://hinomarulabs-ctrl.github.io/trader-timer/images/trader-timer-og-image.webp">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="株・CFDのローソク足通知アプリ | Trader Timer">
-  <meta name="twitter:description" content="ローソク足確定と経過時間を音で通知。チャートだけに集中するためのトレーダー専用タイマー。">
+  <meta name="twitter:title" content="Trader Timer｜ローソク足確定を音声で知らせるトレード用タイマーアプリ">
+  <meta name="twitter:description" content="株・FX・CFD・仮想通貨のローソク足確定を音声通知。複数時間足を管理し、チャート分析に集中できます。">
   <meta name="twitter:image" content="https://hinomarulabs-ctrl.github.io/trader-timer/images/trader-timer-og-image.webp">
   <script type="application/ld+json">
     {
@@ -34,13 +36,29 @@
       "applicationCategory": "FinanceApplication",
       "operatingSystem": "iOS, Android",
       "url": "https://hinomarulabs-ctrl.github.io/trader-timer/",
-      "description": "Trader Timerは株・CFD・FX・仮想通貨のローソク足確定と経過時間を音で通知するトレーダー向けタイマーです。",
+      "description": "Trader Timerは株・FX・CFD・仮想通貨のローソク足確定を音声通知・アラートで知らせる無料のトレード用タイマーアプリです。1分足・3分足・5分足・15分足・30分足・1時間足など複数時間足に対応しています。",
+      "image": "https://hinomarulabs-ctrl.github.io/trader-timer/images/trader-timer-og-image.webp",
+      "screenshot": [
+        "https://hinomarulabs-ctrl.github.io/trader-timer/images/trader-timer-home.webp",
+        "https://hinomarulabs-ctrl.github.io/trader-timer/images/trader-timer-timer-settings.webp",
+        "https://hinomarulabs-ctrl.github.io/trader-timer/images/trader-timer-profile.webp",
+        "https://hinomarulabs-ctrl.github.io/trader-timer/images/trader-timer-notification-settings.webp"
+      ],
+      "featureList": [
+        "ローソク足確定の音声通知",
+        "1分足・3分足・5分足・15分足・30分足・1時間足など複数時間足の管理",
+        "バックグラウンド通知",
+        "複数タイマーとカスタムタイマー",
+        "株・FX・CFD・仮想通貨向けプロファイル切り替え"
+      ],
       "offers": {
         "@type": "Offer",
         "price": "0",
         "priceCurrency": "JPY"
       },
-      "downloadUrl": "https://apps.apple.com/jp/app/trader-timer/id6782052104",
+      "downloadUrl": [
+        "https://apps.apple.com/jp/app/trader-timer/id6782052104"
+      ],
       "publisher": {
         "@type": "Organization",
         "name": "Hinomaru Labs"
@@ -52,11 +70,15 @@
       "@context": "https://schema.org",
       "@type": "FAQPage",
       "mainEntity": [
-        {"@type": "Question", "name": "無料で使えますか？", "acceptedAnswer": {"@type": "Answer", "text": "無料で利用できます。"}},
-        {"@type": "Question", "name": "株のローソク足通知に対応していますか？", "acceptedAnswer": {"@type": "Answer", "text": "対応しています。株・CFD・FX・仮想通貨など、複数時間足のローソク足確定と経過時間を通知できます。"}},
-        {"@type": "Question", "name": "CFDでも利用できますか？", "acceptedAnswer": {"@type": "Answer", "text": "対応しています。CFD、FX、仮想通貨など用途ごとにタイマー設定を保存できます。"}},
-        {"@type": "Question", "name": "ローソク足の確定を音で通知できますか？", "acceptedAnswer": {"@type": "Answer", "text": "通知できます。音と音声でローソク足確定や経過時間を知らせます。"}},
-        {"@type": "Question", "name": "iPhone・Android対応ですか？", "acceptedAnswer": {"@type": "Answer", "text": "iPhoneに対応しています。Android版はGoogle Playで審査中です。"}}
+        {"@type": "Question", "name": "ローソク足確定を音で知らせるアプリはありますか？", "acceptedAnswer": {"@type": "Answer", "text": "Trader Timerはローソク足確定や経過時間を音声通知・アラートで知らせるトレード用タイマーアプリです。チャートを見ながら、確定のタイミングを耳で把握できます。"}},
+        {"@type": "Question", "name": "株のデイトレードでも使えますか？", "acceptedAnswer": {"@type": "Answer", "text": "利用できます。株のデイトレードで、1分足・3分足・5分足・15分足など複数時間足の確認を補助します。"}},
+        {"@type": "Question", "name": "FXでも利用できますか？", "acceptedAnswer": {"@type": "Answer", "text": "利用できます。FXのスキャルピングやデイトレードで、短い時間足のローソク足確定を音で確認したい場面に向いています。"}},
+        {"@type": "Question", "name": "CFDでも利用できますか？", "acceptedAnswer": {"@type": "Answer", "text": "利用できます。CFD向けのプロファイルを作成し、指数や商品など見る市場に合わせてタイマーを切り替えられます。"}},
+        {"@type": "Question", "name": "仮想通貨でも利用できますか？", "acceptedAnswer": {"@type": "Answer", "text": "利用できます。24時間動く仮想通貨でも、1分足・5分足・15分足・1時間足などの節目を把握しやすくなります。"}},
+        {"@type": "Question", "name": "TradingViewと一緒に利用できますか？", "acceptedAnswer": {"@type": "Answer", "text": "併用できます。TradingViewなどのチャート画面を見ながら、Trader Timerでローソク足確定のタイミングを音声案内として受け取れます。"}},
+        {"@type": "Question", "name": "バックグラウンドでも通知されますか？", "acceptedAnswer": {"@type": "Answer", "text": "バックグラウンド通知に対応しています。端末やOSの通知設定により挙動が変わる場合があるため、初回は通知許可を確認してください。"}},
+        {"@type": "Question", "name": "1分足以外も設定できますか？", "acceptedAnswer": {"@type": "Answer", "text": "設定できます。1分足・3分足・5分足・15分足・30分足・1時間足のほか、トレードスタイルに合わせたカスタムタイマーも作成できます。"}},
+        {"@type": "Question", "name": "音声通知は利用できますか？", "acceptedAnswer": {"@type": "Answer", "text": "利用できます。通知音だけでなく音声案内を使えるため、画面を見続けなくてもローソク足通知やローソク足アラートを受け取れます。"}}
       ]
     }
   </script>
@@ -84,17 +106,16 @@
       <div class="container hero__inner">
         <div class="hero__content reveal is-visible">
           <p class="eyebrow">Trader Timer</p>
-          <h1 id="hero-title"><span class="hero__line">チャートだけに、</span><span>集中</span>しよう。</h1>
-          <p class="hero__lead">株・CFD・FX・仮想通貨のローソク足確定と経過時間を音で通知する、チャートに集中するためのトレーダー専用タイマー。</p>
+          <h1 id="hero-title">ローソク足確定を<br class="mobile-break">音声で知らせる<br><span>トレード専用タイマー</span></h1>
+          <p class="hero__lead">株・FX・CFD・仮想通貨のローソク足確定と経過時間を音声でお知らせ。1分足・3分足・5分足・15分足・30分足・1時間足に加え、1秒から自由に設定できるカスタムタイマーでチャート分析に集中できます。</p>
           <div class="store-actions" role="group" aria-label="アプリダウンロード">
-            <a class="store-button store-button--apple" href="https://apps.apple.com/jp/app/trader-timer/id6782052104">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.8 13.1c0-2.6 2.1-3.8 2.2-3.9-1.2-1.8-3.1-2-3.8-2-1.6-.2-3.1.9-3.9.9s-2-.9-3.3-.9c-1.7 0-3.3 1-4.2 2.5-1.8 3.2-.5 7.9 1.3 10.5.9 1.3 1.9 2.7 3.2 2.6 1.3-.1 1.8-.8 3.3-.8 1.6 0 2 .8 3.4.8 1.4 0 2.3-1.3 3.1-2.5 1-1.5 1.4-2.9 1.4-3-.1-.1-2.7-1.1-2.7-4.2Z"/><path d="M14.2 5.5c.7-.8 1.1-1.9 1-3-.9 0-2 .6-2.7 1.4-.6.7-1.1 1.9-1 2.9 1 .1 2-.5 2.7-1.3Z"/></svg>
-              <span><strong>App Store</strong><small>からダウンロード</small></span>
+            <a class="store-badge-link" href="https://apps.apple.com/jp/app/trader-timer/id6782052104" aria-label="App StoreでTrader Timerをダウンロード">
+              <img src="images/badges/app-store-badge.svg" width="250" height="83" alt="App Storeからダウンロード">
             </a>
-            <button class="store-button store-button--disabled" type="button" disabled>
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 2 12.6 10L3 22Z"/><path d="m15.6 12 3.7-2.9c1-.8 1-1.4 0-2L17 5.8 12 12l5 6.2 2.3-1.3c1-.6 1-1.2 0-2Z"/></svg>
-              <span><strong>Google Play</strong><small>審査中</small></span>
-            </button>
+            <span class="store-badge-link store-badge-link--disabled" aria-label="Google Play版は審査中">
+              <img src="images/badges/google-play-badge.png" width="646" height="250" alt="Google Playで手に入れよう">
+              <span>審査中</span>
+            </span>
           </div>
           <p class="availability">無料 <span aria-hidden="true">|</span> iPhone・Android対応</p>
         </div>
@@ -111,8 +132,8 @@
         </div>
         <div class="feature__content reveal">
           <p class="feature__number">01</p>
-          <h2 id="feature-1-title">複数時間足を、<br class="mobile-break">同時に管理。</h2>
-          <p>株・CFDなど、<br class="mobile-break">複数のローソク足を利用する<br class="mobile-break">トレーダー向けに、<br class="mobile-break">複数時間足を同時に管理できます。</p>
+          <h2 id="feature-1-title">1分足から1時間足まで、<br class="mobile-break">同時に管理。</h2>
+          <p>1分足・3分足・5分足・15分足・30分足・1時間足など、複数のローソク足を使うトレーダー向けに、必要な時間足をまとめて確認できます。</p>
         </div>
       </div>
     </section>
@@ -121,8 +142,8 @@
       <div class="container feature__inner">
         <div class="feature__content reveal">
           <p class="feature__number">02</p>
-          <h2 id="feature-2-title">1秒から、<br class="mobile-break">何時間先まで。</h2>
-          <p>1秒から数時間まで、<br class="mobile-break">株・CFD・FXなど、<br class="mobile-break">トレードスタイルに合わせて<br class="mobile-break">自由にタイマーを設定できます。</p>
+          <h2 id="feature-2-title">カスタムタイマーで、<br class="mobile-break">見る足に合わせる。</h2>
+          <p>1秒から数時間まで、株・CFD・FXなどのトレードスタイルに合わせて自由にタイマーを設定できます。</p>
         </div>
         <div class="feature__visual reveal">
           <div class="phone-frame"><img src="images/trader-timer-timer-settings.webp" width="740" height="1604" alt="FX向けアラート一覧画面。1分、5分、15分、60分、4時間のタイマーを管理しています。" loading="lazy" decoding="async"></div>
@@ -133,12 +154,12 @@
     <section class="feature section" aria-labelledby="feature-3-title">
       <div class="container feature__inner">
         <div class="feature__visual reveal">
-          <div class="phone-frame"><img src="images/trader-timer-profile.webp" width="740" height="1604" alt="日本株、CFD、FX、仮想通貨の用途別タイマー設定を切り替える画面。" loading="lazy" decoding="async"></div>
+          <div class="phone-frame"><img src="images/trader-timer-profile.webp" width="740" height="1604" alt="株、CFD、FX、仮想通貨の用途別タイマー設定を切り替える画面。" loading="lazy" decoding="async"></div>
         </div>
         <div class="feature__content reveal">
           <p class="feature__number">03</p>
-          <h2 id="feature-3-title">用途に合わせて、すぐ切り替え。</h2>
-          <p>日本株、CFD、FX、仮想通貨など、<br class="mobile-break">用途ごとの設定を保存できます。<br class="mobile-break">ワンタップで、今見るチャートに合わせられます。</p>
+          <h2 id="feature-3-title">株、FX、CFD、仮想通貨をすぐ切り替え。</h2>
+          <p>株、CFD、FX、仮想通貨など、用途ごとの設定を保存できます。ワンタップで、今見るチャートに合わせられます。</p>
         </div>
       </div>
     </section>
@@ -147,8 +168,8 @@
       <div class="container feature__inner">
         <div class="feature__content reveal">
           <p class="feature__number">04</p>
-          <h2 id="feature-4-title">時間は、耳でわかる。</h2>
-          <p>ローソク足確定と経過時間を<br class="mobile-break">音と音声で通知。<br class="mobile-break">チャートを見ることに集中できます。</p>
+          <h2 id="feature-4-title">ローソク足通知は、耳でわかる。</h2>
+          <p>ローソク足確定、ローソク足アラート、経過時間を音声通知・音声案内でお知らせ。バックグラウンド通知にも対応し、チャートを見ることに集中できます。</p>
         </div>
         <div class="feature__visual reveal">
           <div class="phone-frame"><img src="images/trader-timer-notification-settings.webp" width="740" height="1604" alt="5分アラートの編集画面。通知音と音声案内を設定できます。" loading="lazy" decoding="async"></div>
@@ -162,11 +183,39 @@
           <h2 id="recommend-title">こんなトレーダーにおすすめ</h2>
         </div>
         <div class="trader-grid">
-          <article class="trader-card reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 17 6-6 4 4 8-8"/><path d="M14 7h7v7"/></svg><h3>デイトレーダー</h3><p>複数の時間足を同時に管理して、チャンスを逃しません。</p></article>
-          <article class="trader-card reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m13 2-9 13h7l-1 7 9-13h-7Z"/></svg><h3>スキャルピング</h3><p>数秒単位のトレードでも、音で確定と経過をサポートします。</p></article>
-          <article class="trader-card reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10"/><path d="M9 20V4"/><path d="M14 20v-7"/><path d="M19 20V7"/></svg><h3>スイングトレード</h3><p>長い時間足の確定を把握して、落ち着いたトレードを。</p></article>
-          <article class="trader-card reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 0 20"/><path d="M12 2a15.3 15.3 0 0 0 0 20"/></svg><h3>FX・CFD</h3><p>グローバル市場の値動きに合わせて、柔軟にタイマーを設定。</p></article>
-          <article class="trader-card reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9 8h4.5a2.5 2.5 0 0 1 0 5H9V8Z"/><path d="M9 13h5a2.5 2.5 0 0 1 0 5H9v-5Z"/><path d="M11 6v2"/><path d="M14 6v2"/><path d="M11 18v2"/><path d="M14 18v2"/></svg><h3>仮想通貨</h3><p>24時間動き続ける市場で、常に正確なタイミングをお知らせ。</p></article>
+          <article class="trader-card reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 17 6-6 4 4 8-8"/><path d="M14 7h7v7"/></svg><h3>デイトレーダー</h3><p>複数タイマーで時間足を同時に管理して、ローソク足確定の節目を逃しません。</p></article>
+          <article class="trader-card reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m13 2-9 13h7l-1 7 9-13h-7Z"/></svg><h3>スキャルピング</h3><p>短い時間足でも、音声案内で確定と経過をすばやく把握できます。</p></article>
+          <article class="trader-card reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10"/><path d="M9 20V4"/><path d="M14 20v-7"/><path d="M19 20V7"/></svg><h3>スイングトレード</h3><p>15分足・30分足・1時間足など、長い時間足の確定を落ち着いて待てます。</p></article>
+          <article class="trader-card reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 0 20"/><path d="M12 2a15.3 15.3 0 0 0 0 20"/></svg><h3>FX・CFD</h3><p>FXやCFDの値動きに合わせて、必要なローソク足アラートを柔軟に設定。</p></article>
+          <article class="trader-card reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9 8h4.5a2.5 2.5 0 0 1 0 5H9V8Z"/><path d="M9 13h5a2.5 2.5 0 0 1 0 5H9v-5Z"/><path d="M11 6v2"/><path d="M14 6v2"/><path d="M11 18v2"/><path d="M14 18v2"/></svg><h3>仮想通貨</h3><p>24時間動き続ける市場でも、5分足や1時間足の節目を見失いにくくします。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="screens section" aria-labelledby="screens-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <h2 id="screens-title">アプリ画面</h2>
+          <p>時計画面、タイマー設定、プロファイル、通知設定をまとめて確認できます。</p>
+        </div>
+        <div class="screens__grid">
+          <figure class="screen-card reveal"><img src="images/trader-timer-home.webp" width="740" height="1201" alt="Trader Timer メイン画面。複数時間足のローソク足タイマーアプリとして残り時間を表示。" loading="lazy" decoding="async"><figcaption>時計画面</figcaption></figure>
+          <figure class="screen-card reveal"><img src="images/trader-timer-timer-settings.webp" width="740" height="1604" alt="Trader Timer タイマー設定。1分足・5分足・15分足などの複数タイマーを管理。" loading="lazy" decoding="async"><figcaption>タイマー設定</figcaption></figure>
+          <figure class="screen-card reveal"><img src="images/trader-timer-profile.webp" width="740" height="1604" alt="Trader Timer プロファイル。株、FX、CFD、仮想通貨向けの設定を切り替え。" loading="lazy" decoding="async"><figcaption>プロファイル</figcaption></figure>
+          <figure class="screen-card reveal"><img src="images/trader-timer-notification-settings.webp" width="740" height="1604" alt="Trader Timer 通知設定。ローソク足確定の音声通知と音声案内を設定。" loading="lazy" decoding="async"><figcaption>通知設定</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="article-section section" id="candle-close" aria-labelledby="candle-close-title">
+      <div class="container article-section__inner reveal">
+        <p class="eyebrow">Guide</p>
+        <h2 id="candle-close-title">ローソク足確定とは？</h2>
+        <div class="article-body">
+          <p>ローソク足確定とは、決められた時間の中で動いていた価格が締め切られ、始値・高値・安値・終値がひとつのローソク足として固定されることです。たとえば1分足なら1分ごと、5分足なら5分ごと、15分足なら15分ごと、1時間足なら1時間ごとに足が確定します。確定前のローソク足は途中経過なので、上に伸びていたヒゲが消えたり、陽線が陰線に変わったりすることがあります。</p>
+          <p>多くのトレーダーがローソク足確定を待つのは、判断の基準を安定させるためです。確定前の値動きだけでエントリーすると、一時的な急騰や急落に反応してしまい、いわゆるダマシに巻き込まれる可能性があります。特に株、FX、CFD、仮想通貨のデイトレードやスキャルピングでは、数秒の判断差が結果に影響するため、足が確定したかどうかを明確に意識することが重要です。</p>
+          <p>時間足の使い方もトレードスタイルによって変わります。1分足や3分足は短期の勢いや細かなエントリー確認に向いています。5分足は短期売買の基準として使いやすく、15分足や30分足は相場の流れを少し広く見るときに役立ちます。1時間足は大きな方向感や重要な節目を確認する際に使われます。複数時間足を見比べることで、短期の動きが上位足の流れに沿っているかを確認しやすくなります。</p>
+          <p>一方で、複数のチャートを見ながら時間を管理し続けるのは負担になります。Trader Timerは、ローソク足確定、ローソク足通知、ローソク足アラートを音声通知や音声案内で知らせるため、画面を常に時計へ切り替える必要がありません。バックグラウンド通知、複数タイマー、カスタムタイマーを活用すれば、TradingViewなどのチャートを見ながら、確定のタイミングだけを耳で把握できます。大切なのは、予測そのものではなく、判断する瞬間を整えることです。</p>
         </div>
       </div>
     </section>
@@ -177,11 +226,15 @@
           <h2 id="faq-title">よくある質問</h2>
         </div>
         <div class="faq__grid reveal" data-faq>
-          <details open><summary>無料で使えますか？</summary><p>無料で利用できます。</p></details>
-          <details><summary>株のローソク足通知に対応していますか？</summary><p>対応しています。株・CFD・FX・仮想通貨など、複数時間足のローソク足確定と経過時間を通知できます。</p></details>
-          <details><summary>CFDでも利用できますか？</summary><p>対応しています。用途ごとに設定を保存できるため、CFDやFXなどの市場ごとに切り替えられます。</p></details>
-          <details><summary>ローソク足の確定を音で通知できますか？</summary><p>通知できます。音と音声でローソク足確定や経過時間を知らせます。</p></details>
-          <details><summary>iPhone・Androidの両方で使えますか？</summary><p>iPhoneに対応しています。Android版はGoogle Playで審査中です。</p></details>
+          <details open><summary>ローソク足確定を音で知らせるアプリはありますか？</summary><p>Trader Timerはローソク足確定や経過時間を音声通知・アラートで知らせるトレード用タイマーアプリです。チャートを見ながら、確定のタイミングを耳で把握できます。</p></details>
+          <details><summary>株のデイトレードでも使えますか？</summary><p>利用できます。株のデイトレードで、1分足・3分足・5分足・15分足など複数時間足の確認を補助します。</p></details>
+          <details><summary>FXでも利用できますか？</summary><p>利用できます。FXのスキャルピングやデイトレードで、短い時間足のローソク足確定を音で確認したい場面に向いています。</p></details>
+          <details><summary>CFDでも利用できますか？</summary><p>利用できます。CFD向けのプロファイルを作成し、指数や商品など見る市場に合わせてタイマーを切り替えられます。</p></details>
+          <details><summary>仮想通貨でも利用できますか？</summary><p>利用できます。24時間動く仮想通貨でも、1分足・5分足・15分足・1時間足などの節目を把握しやすくなります。</p></details>
+          <details><summary>TradingViewと一緒に利用できますか？</summary><p>併用できます。TradingViewなどのチャート画面を見ながら、Trader Timerでローソク足確定のタイミングを音声案内として受け取れます。</p></details>
+          <details><summary>バックグラウンドでも通知されますか？</summary><p>バックグラウンド通知に対応しています。端末やOSの通知設定により挙動が変わる場合があるため、初回は通知許可を確認してください。</p></details>
+          <details><summary>1分足以外も設定できますか？</summary><p>設定できます。1分足・3分足・5分足・15分足・30分足・1時間足のほか、トレードスタイルに合わせたカスタムタイマーも作成できます。</p></details>
+          <details><summary>音声通知は利用できますか？</summary><p>利用できます。通知音だけでなく音声案内を使えるため、画面を見続けなくてもローソク足通知やローソク足アラートを受け取れます。</p></details>
         </div>
       </div>
     </section>
@@ -195,14 +248,13 @@
         </div>
         <div>
           <div class="store-actions store-actions--end">
-            <a class="store-button store-button--apple" href="https://apps.apple.com/jp/app/trader-timer/id6782052104">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.8 13.1c0-2.6 2.1-3.8 2.2-3.9-1.2-1.8-3.1-2-3.8-2-1.6-.2-3.1.9-3.9.9s-2-.9-3.3-.9c-1.7 0-3.3 1-4.2 2.5-1.8 3.2-.5 7.9 1.3 10.5.9 1.3 1.9 2.7 3.2 2.6 1.3-.1 1.8-.8 3.3-.8 1.6 0 2 .8 3.4.8 1.4 0 2.3-1.3 3.1-2.5 1-1.5 1.4-2.9 1.4-3-.1-.1-2.7-1.1-2.7-4.2Z"/><path d="M14.2 5.5c.7-.8 1.1-1.9 1-3-.9 0-2 .6-2.7 1.4-.6.7-1.1 1.9-1 2.9 1 .1 2-.5 2.7-1.3Z"/></svg>
-              <span><strong>App Store</strong><small>からダウンロード</small></span>
+            <a class="store-badge-link" href="https://apps.apple.com/jp/app/trader-timer/id6782052104" aria-label="App StoreでTrader Timerをダウンロード">
+              <img src="images/badges/app-store-badge.svg" width="250" height="83" alt="App Storeからダウンロード" loading="lazy" decoding="async">
             </a>
-            <button class="store-button store-button--disabled" type="button" disabled>
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 2 12.6 10L3 22Z"/><path d="m15.6 12 3.7-2.9c1-.8 1-1.4 0-2L17 5.8 12 12l5 6.2 2.3-1.3c1-.6 1-1.2 0-2Z"/></svg>
-              <span><strong>Google Play</strong><small>審査中</small></span>
-            </button>
+            <span class="store-badge-link store-badge-link--disabled" aria-label="Google Play版は審査中">
+              <img src="images/badges/google-play-badge.png" width="646" height="250" alt="Google Playで手に入れよう" loading="lazy" decoding="async">
+              <span>審査中</span>
+            </span>
           </div>
           <p class="availability availability--end">無料 <span aria-hidden="true">|</span> iPhone・Android対応</p>
         </div>
