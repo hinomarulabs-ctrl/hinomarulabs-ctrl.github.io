@@ -50,7 +50,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--brand); outline
 }
 .skip-link:focus { top: 1rem; }
 
-.shell { width: min(100% - 2rem, 52rem); margin-inline: auto; }
+.shell { width: min(calc(100% - 2rem), 52rem); margin-inline: auto; }
 
 .site-header {
   border-bottom: 1px solid var(--line);
@@ -94,7 +94,7 @@ li { padding-left: 0.2rem; }
 .site-footer p { margin: 0; }
 
 @media (max-width: 560px) {
-  .shell { width: min(100% - 1.25rem, 52rem); }
+  .shell { width: min(calc(100% - 1.25rem), 52rem); }
   .header-inner { min-height: 4rem; }
   .breadcrumb { margin-top: 1.5rem; }
   .document { border-radius: 1rem; padding: 1.25rem; }
