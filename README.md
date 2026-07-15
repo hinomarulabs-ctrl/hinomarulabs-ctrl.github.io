@@ -38,6 +38,10 @@ Developer/
 │   ├── 404.html
 │   ├── LP_MASTER.md
 │   └── IMPLEMENTATION.md
+├── kelmio/
+│   ├── terms.html
+│   ├── css/terms.css
+│   └── kelmio-app-icon.png
 ├── privacy.html
 ├── support.html
 ├── app-ads.txt
@@ -68,6 +72,7 @@ SEOはGitHub Pages全体で一元管理するため、`robots.txt` と `sitemap.
 7. `https://hinomarulabs-ctrl.github.io/` と `https://hinomarulabs-ctrl.github.io/trader-timer/` にアクセスして公開を確認します。
 8. サポートURLは `https://hinomarulabs-ctrl.github.io/support.html` です。
 9. プライバシーポリシーURLは `https://hinomarulabs-ctrl.github.io/privacy.html` です。
+10. Kelmio利用規約URLは `https://hinomarulabs-ctrl.github.io/kelmio/terms.html` です。
 
 # app-ads.txt確認方法
 
