@@ -43,7 +43,11 @@ Developer/
 │   ├── css/terms.css
 │   └── kelmio-app-icon.png
 ├── privacy.html
-├── terms.html
+├── recallbloom/
+│   ├── index.html
+│   ├── privacy.html
+│   ├── terms.html
+│   └── recall_bloom-app-icon.png
 ├── support.html
 ├── app-ads.txt
 ├── robots.txt
@@ -74,7 +78,9 @@ SEOはGitHub Pages全体で一元管理するため、`robots.txt` と `sitemap.
 8. サポートURLは `https://hinomarulabs-ctrl.github.io/support.html` です。
 9. プライバシーポリシーURLは `https://hinomarulabs-ctrl.github.io/privacy.html` です。
 10. Kelmio利用規約URLは `https://hinomarulabs-ctrl.github.io/kelmio/terms.html` です。
-11. RecallBloom利用規約URLは `https://hinomarulabs-ctrl.github.io/terms.html` です。
+11. RecallBloom公開URLは `https://hinomarulabs-ctrl.github.io/recallbloom/` です。
+12. RecallBloomプライバシーポリシーURLは `https://hinomarulabs-ctrl.github.io/recallbloom/privacy.html` です。
+13. RecallBloom利用規約URLは `https://hinomarulabs-ctrl.github.io/recallbloom/terms.html` です。
 
 # app-ads.txt確認方法
 
