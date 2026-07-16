@@ -3,76 +3,240 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hinomaru Labs | Official Website</title>
-  <meta name="description" content="Hinomaru Labs official website. Coming soon.">
+  <title>Hinomaru Labs | 日常を、少し便利に。</title>
+  <meta name="description" content="Hinomaru Labsは、毎日の暮らしにある小さな課題を、シンプルで使いやすいアプリで解決するブランドです。">
+  <meta name="keywords" content="Hinomaru Labs,アプリ開発,DayNav,RecallBloom,Kelmio,Trader Timer">
+  <meta name="author" content="Hinomaru Labs">
   <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#ffffff">
   <link rel="canonical" href="https://hinomarulabs-ctrl.github.io/">
-  <link rel="icon" href="/trader-timer/images/favicon.png" type="image/png">
-  <style>
-    :root {
-      color-scheme: dark;
-      --bg: #111315;
-      --text: #f5f7fb;
-      --muted: #9aa3af;
-      --accent: #2f7bff;
-    }
+  <link rel="icon" href="/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180">
 
-    * {
-      box-sizing: border-box;
-    }
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:site_name" content="Hinomaru Labs">
+  <meta property="og:title" content="Hinomaru Labs | 日常を、少し便利に。">
+  <meta property="og:description" content="小さな改善を一つずつ積み重ね、毎日の暮らしを少し便利に。">
+  <meta property="og:url" content="https://hinomarulabs-ctrl.github.io/">
+  <meta property="og:image" content="https://hinomarulabs-ctrl.github.io/assets/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="675">
+  <meta property="og:image:alt" content="Hinomaru Labs — 日常を、少し便利に。">
 
-    body {
-      display: grid;
-      min-height: 100vh;
-      margin: 0;
-      place-items: center;
-      background: radial-gradient(circle at 50% 20%, rgba(47, 123, 255, .18), transparent 32%), var(--bg);
-      color: var(--text);
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      text-align: center;
-    }
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Hinomaru Labs | 日常を、少し便利に。">
+  <meta name="twitter:description" content="小さな改善を一つずつ積み重ね、毎日の暮らしを少し便利に。">
+  <meta name="twitter:image" content="https://hinomarulabs-ctrl.github.io/assets/og.png">
 
-    main {
-      width: min(100% - 48px, 680px);
+  <link rel="stylesheet" href="/assets/css/site.css?v=20260716">
+  <script defer src="/assets/js/site.js?v=20260716"></script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Hinomaru Labs",
+      "url": "https://hinomarulabs-ctrl.github.io/",
+      "slogan": "日常を、少し便利に。"
     }
-
-    p {
-      margin: 0;
-      color: var(--muted);
-      font-size: clamp(1rem, 2vw, 1.15rem);
-      line-height: 1.8;
-    }
-
-    h1 {
-      margin: 0 0 12px;
-      font-size: clamp(2.7rem, 8vw, 5rem);
-      letter-spacing: 0;
-      line-height: 1;
-    }
-
-    a {
-      display: inline-flex;
-      margin-top: 28px;
-      border: 1px solid rgba(255, 255, 255, .18);
-      border-radius: 999px;
-      padding: 12px 18px;
-      color: var(--text);
-      text-decoration: none;
-      transition: border-color 180ms ease, transform 180ms ease;
-    }
-
-    a:hover {
-      border-color: rgba(47, 123, 255, .72);
-      transform: translateY(-1px);
-    }
-  </style>
+  </script>
 </head>
-<body>
-  <main>
-    <h1>Hinomaru Labs</h1>
-    <p>Official Website</p>
-    <p>Coming Soon</p>
-    <a href="/trader-timer/">Trader Timer</a>
+<body id="top">
+  <a class="skip-link" href="#main-content">本文へ移動</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Hinomaru Labs ホーム">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>Hinomaru Labs</span>
+      </a>
+      <nav class="desktop-nav" aria-label="メインナビゲーション">
+        <a href="#apps">Apps</a>
+        <a href="#about">About</a>
+        <a href="#philosophy">Philosophy</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="button button-small header-cta" href="#apps">すべてのアプリを見る</a>
+      <details class="mobile-menu">
+        <summary aria-label="メニューを開く">
+          <span></span>
+          <span></span>
+        </summary>
+        <nav aria-label="モバイルナビゲーション">
+          <a href="#apps">Apps</a>
+          <a href="#about">About</a>
+          <a href="#philosophy">Philosophy</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </details>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Hinomaru Labs</p>
+          <h1 id="hero-title">日常を、<br>少し便利に。</h1>
+          <p class="hero-lead">
+            <span class="hero-lead-block">毎日の暮らしにある小さな課題を、<br>シンプルで使いやすいアプリで解決します。</span>
+            <span class="hero-lead-block">派手さよりも、自然に使い続けたくなること。<br>そんな心地よさを、丁寧につくっています。</span>
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="#apps">すべてのアプリを見る <span aria-hidden="true">→</span></a>
+            <a class="button button-secondary" href="#about">私たちの想い</a>
+          </div>
+        </div>
+
+        <div class="phone-stage" aria-label="Hinomaru Labs のアプリ一覧イメージ">
+          <div class="plant-blur" aria-hidden="true"><i></i><i></i><i></i></div>
+          <div class="phone-shadow" aria-hidden="true"></div>
+          <div class="phone" aria-hidden="true">
+            <div class="phone-island"></div>
+            <div class="phone-screen">
+              <div class="phone-status"><span>8:01</span><span>● ◒</span></div>
+              <p class="phone-title">My Apps</p>
+              <div class="phone-apps">
+                <div class="phone-app">
+                  <img src="/assets/icons/daynav.webp" alt="" width="256" height="256">
+                  <div><strong>DayNav</strong><small>予定もタスクも、迷わず整う。</small></div>
+                  <span>›</span>
+                </div>
+                <div class="phone-app">
+                  <img src="/assets/icons/recall-bloom.webp" alt="" width="256" height="256">
+                  <div><strong>RecallBloom</strong><small>大切な記憶を育てる。</small></div>
+                  <span>›</span>
+                </div>
+                <div class="phone-app">
+                  <img src="/assets/icons/kelmio.webp" alt="" width="256" height="256">
+                  <div><strong>Kelmio</strong><small>食品の期限と在庫を。</small></div>
+                  <span>›</span>
+                </div>
+                <div class="phone-app">
+                  <img src="/assets/icons/trader-timer.webp" alt="" width="256" height="256">
+                  <div><strong>Trader Timer</strong><small>トレードに集中するための。</small></div>
+                  <span>›</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section apps-section" id="apps" aria-labelledby="apps-title">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">Our Apps</p>
+            <h2 id="apps-title">暮らしに、静かな便利を。</h2>
+            <p>小さな手間をひとつずつ減らす、4つのアプリをつくっています。</p>
+          </div>
+          <span class="section-count">04 Apps</span>
+        </div>
+        <div class="apps-grid">
+          <article class="app-card" data-reveal="up" data-reveal-delay="0">
+            <img class="app-icon" src="/assets/icons/daynav.webp" alt="DayNav アプリアイコン" width="256" height="256" loading="lazy" decoding="async">
+            <div class="app-card-copy"><h3>DayNav</h3><p>予定もタスクも、迷わず整う。
+シンプルなスケジュール管理アプリ</p></div>
+            <span class="card-status">準備中</span>
+          </article>
+
+          <a class="app-card is-linked" href="/recallbloom/" target="_blank" rel="noreferrer" data-reveal="up" data-reveal-delay="1">
+            <img class="app-icon" src="/assets/icons/recall-bloom.webp" alt="RecallBloom アプリアイコン" width="256" height="256" loading="lazy" decoding="async">
+            <div class="app-card-copy"><h3>RecallBloom</h3><p>大切な記憶を育てる。
+毎日のための脳トレアプリ</p></div>
+            <span class="card-arrow" aria-hidden="true">→</span>
+          </a>
+
+          <article class="app-card" data-reveal="up" data-reveal-delay="2">
+            <img class="app-icon" src="/assets/icons/kelmio.webp" alt="Kelmio アプリアイコン" width="256" height="256" loading="lazy" decoding="async">
+            <div class="app-card-copy"><h3>Kelmio</h3><p>食品の期限と在庫を、
+もっと簡単に、すっきり管理</p></div>
+            <span class="card-status">準備中</span>
+          </article>
+
+          <a class="app-card is-linked" href="/trader-timer/" target="_blank" rel="noreferrer" data-reveal="up" data-reveal-delay="3">
+            <img class="app-icon" src="/assets/icons/trader-timer.webp" alt="Trader Timer アプリアイコン" width="256" height="256" loading="lazy" decoding="async">
+            <div class="app-card-copy"><h3>Trader Timer</h3><p>トレードに集中するための
+高精度インターバルタイマー</p></div>
+            <span class="card-arrow" aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section" id="about" aria-labelledby="about-title" data-reveal="fade">
+      <div class="about-image-wrap">
+        <img class="about-image" src="/assets/images/about-workspace.webp" alt="明るいデスクの上に置かれたスマートフォンとノート" width="1040" height="580" loading="lazy" decoding="async">
+      </div>
+      <div class="about-copy">
+        <div class="about-copy-inner">
+          <p class="section-kicker">About Hinomaru Labs</p>
+          <h2 id="about-title">私たちが、つくる理由。</h2>
+          <p class="about-lead">私たちは、世界を大きく変えるためにアプリをつくっているわけではありません。</p>
+          <p class="about-story">予定が少し整理しやすくなる。大切なことを忘れにくくなる。毎日の集中や管理が、ほんの少し軽くなる。</p>
+          <p class="about-story">そんな小さな改善を一つずつ積み重ね、日常を心地よくしていく。必要なものだけを、分かりやすく、丁寧に。それが Hinomaru Labs のものづくりです。</p>
+          <a class="text-link" href="#philosophy">大切にしていること <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section philosophy-section" id="philosophy" aria-labelledby="philosophy-title" data-reveal="fade">
+      <div class="container">
+        <div class="section-heading philosophy-heading">
+          <div>
+            <p class="section-kicker">Our Philosophy</p>
+            <h2 id="philosophy-title">毎日に馴染む、4つの約束。</h2>
+          </div>
+        </div>
+        <div class="principles-grid">
+          <article class="principle-card">
+            <span class="principle-icon" aria-hidden="true">○</span><h3>Simple</h3><p>必要なものを、
+必要なだけ。</p>
+          </article>
+          <article class="principle-card">
+            <span class="principle-icon" aria-hidden="true">✓</span><h3>Useful</h3><p>毎日役立つことを、
+最優先にする。</p>
+          </article>
+          <article class="principle-card">
+            <span class="principle-icon" aria-hidden="true">◇</span><h3>Quality</h3><p>長く安心して使える
+品質を追求する。</p>
+          </article>
+          <article class="principle-card">
+            <span class="principle-icon" aria-hidden="true">⌁</span><h3>Privacy</h3><p>安心して利用できる
+設計を大切にする。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title" data-reveal="fade">
+      <div class="container contact-inner">
+        <div>
+          <p class="section-kicker">Contact</p>
+          <h2 id="contact-title">ご質問やご意見を、お聞かせください。</h2>
+          <p>アプリについてのお問い合わせは、Support ページで受け付けています。</p>
+        </div>
+        <a class="button contact-button" href="/support.html" target="_blank" rel="noreferrer">Supportへ <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
   </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a class="brand" href="#top" aria-label="Hinomaru Labs ホーム">
+          <span class="brand-mark" aria-hidden="true"></span><span>Hinomaru Labs</span>
+        </a>
+        <p class="footer-tagline">日常を、少し便利に。</p>
+      </div>
+      <nav class="footer-nav" aria-label="フッターナビゲーション">
+        <a href="#apps">Apps</a>
+        <a href="/support.html" target="_blank" rel="noreferrer">Contact <span aria-hidden="true">↗</span></a>
+      </nav>
+      <p class="copyright">© 2026 Hinomaru Labs</p>
+    </div>
+  </footer>
 </body>
 </html>
