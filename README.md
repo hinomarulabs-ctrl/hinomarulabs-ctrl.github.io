@@ -1,6 +1,6 @@
 # 開発ディレクトリ構成
 
-今後の開発ルートは `/Users/yokokurahiroyuki/Developer` とします。
+今後の開発ルートは `/Volumes/DeveloperSSD/Developer` とします。`/Users/yokokurahiroyuki/Developer` は互換性維持用のシンボリックリンクです。
 
 ```text
 Developer/
@@ -18,7 +18,7 @@ Developer/
 このGitHub Pages用サイトは以下に配置します。
 
 ```text
-/Users/yokokurahiroyuki/Developer/websites/trading-timer-site
+/Volumes/DeveloperSSD/Developer/websites/trading-timer-site
 ```
 
 このサイトはGitHub Pagesで公開します。ルートはHinomaru Labsのコーポレートサイト用に確保し、各アプリLPはサブディレクトリで管理します。
