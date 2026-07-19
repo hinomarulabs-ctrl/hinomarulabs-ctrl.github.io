@@ -44,6 +44,7 @@ a:focus-visible { outline: 3px solid var(--brand); outline-offset: 4px; }
 .brand-mark { display: grid; place-items: center; width: 2.5rem; height: 2.5rem; border-radius: .75rem; background: var(--brand-soft); color: var(--brand); font-weight: 800; }
 .product-label, .breadcrumb, .updated, .site-footer { color: var(--muted); }
 .product-label, .breadcrumb, .updated, .site-footer { font-size: .9rem; }
+.header-actions { display: flex; align-items: center; gap: .8rem; }
 .breadcrumb { display: flex; flex-wrap: wrap; gap: .5rem; margin: 2.5rem 0 1.25rem; }
 .breadcrumb a { color: var(--muted); }
 .document { background: var(--surface); border: 1px solid var(--line); border-radius: 1.5rem; box-shadow: var(--shadow); padding: clamp(1.5rem, 5vw, 4rem); }
@@ -56,6 +57,11 @@ p { margin: 0 0 1rem; }
 hr { border: 0; border-top: 1px solid var(--line); margin: 2.5rem 0; }
 ul { padding-left: 1.35rem; margin: 0 0 1rem; }
 li { padding-left: .2rem; }
+.legal-note { padding: 1rem 1.1rem; border: 1px solid var(--line); border-radius: .9rem; background: var(--brand-soft); }
+.legal-note strong { display: block; margin-bottom: .25rem; }
+.legal-details { display: grid; grid-template-columns: minmax(9rem, 14rem) minmax(0, 1fr); margin: 0; border-top: 1px solid var(--line); }
+.legal-details dt, .legal-details dd { margin: 0; padding: 1rem 0; border-bottom: 1px solid var(--line); }
+.legal-details dt { padding-right: 1.25rem; font-weight: 750; }
 .contact-link { display: inline-flex; padding: .65rem 1rem; border-radius: 999px; background: var(--brand); color: #fff; font-weight: 700; text-decoration: none; }
 .site-footer { padding: 2rem 0 3rem; }
 .site-footer .shell { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
@@ -63,6 +69,11 @@ li { padding-left: .2rem; }
 @media (max-width: 560px) {
   .shell { width: min(calc(100% - 1.25rem), 52rem); }
   .header-inner { min-height: 4rem; }
+  .header-actions { gap: .55rem; }
+  .product-label { display: none; }
   .breadcrumb { margin-top: 1.5rem; }
   .document { border-radius: 1rem; padding: 1.25rem; }
+  .legal-details { grid-template-columns: 1fr; }
+  .legal-details dt { padding-bottom: .25rem; border-bottom: 0; }
+  .legal-details dd { padding-top: 0; }
 }
