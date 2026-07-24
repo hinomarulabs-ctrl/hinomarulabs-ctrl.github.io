@@ -131,9 +131,6 @@
 }
 
 .support-email {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px 14px;
   margin: 28px 0 0;
   color: #777873;
   font-size: 12px;
@@ -142,6 +139,7 @@
 }
 
 .support-email a {
+  display: block;
   color: inherit;
   text-decoration: underline;
   text-underline-offset: 3px;
