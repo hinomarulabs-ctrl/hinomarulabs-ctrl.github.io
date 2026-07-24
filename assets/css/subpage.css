@@ -130,6 +130,23 @@
   padding: 52px;
 }
 
+.support-email {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  margin: 28px 0 0;
+  color: #777873;
+  font-size: 12px;
+  font-style: normal;
+  line-height: 1.7;
+}
+
+.support-email a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .guide-list {
   display: grid;
   margin: 34px 0 0;
