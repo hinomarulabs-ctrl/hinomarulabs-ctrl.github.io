@@ -493,7 +493,7 @@ summary {
 
 .apps-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 18px;
 }
 
@@ -793,6 +793,10 @@ summary {
 
 .reveal-ready .app-card[data-reveal-delay="3"] {
   transition-delay: 210ms, 210ms, 0ms, 0ms;
+}
+
+.reveal-ready .app-card[data-reveal-delay="4"] {
+  transition-delay: 280ms, 280ms, 0ms, 0ms;
 }
 
 .reveal-ready .app-card[data-reveal].is-visible.is-linked:hover {
