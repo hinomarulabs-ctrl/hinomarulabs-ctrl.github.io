@@ -19,6 +19,30 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://hinomarulabs-ctrl.github.io/rilmio/</loc>
+    <lastmod>2026-07-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hinomarulabs-ctrl.github.io/rilmio/en/</loc>
+    <lastmod>2026-07-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hinomarulabs-ctrl.github.io/rilmio/zh-cn/</loc>
+    <lastmod>2026-07-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hinomarulabs-ctrl.github.io/rilmio/zh-tw/</loc>
+    <lastmod>2026-07-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://hinomarulabs-ctrl.github.io/privacy.html</loc>
     <lastmod>2026-07-19</lastmod>
     <changefreq>monthly</changefreq>
@@ -57,6 +81,12 @@
   <url>
     <loc>https://hinomarulabs-ctrl.github.io/rilmio/terms.html</loc>
     <lastmod>2026-07-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://hinomarulabs-ctrl.github.io/rilmio/terms-ja.html</loc>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
