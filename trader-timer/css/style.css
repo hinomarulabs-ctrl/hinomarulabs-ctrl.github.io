@@ -164,6 +164,37 @@ svg {
   color: var(--color-text);
 }
 
+.language-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  padding: 3px;
+  border: 1px solid rgba(255, 255, 255, .1);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, .045);
+}
+
+.header__nav .language-switcher a {
+  min-height: 32px;
+  padding-inline: 9px;
+  border-radius: 999px;
+  color: var(--color-muted);
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: .02em;
+}
+
+.header__nav .language-switcher a:hover {
+  color: var(--color-text);
+}
+
+.header__nav .language-switcher a[aria-current="page"] {
+  color: var(--color-text);
+  background: rgba(255, 255, 255, .14);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+}
+
 .header__nav .header__download {
   padding-inline: var(--space-3);
   border-radius: 999px;
@@ -438,6 +469,24 @@ svg {
   object-fit: contain;
   -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 12%, #000 94%, transparent 100%);
   mask-image: linear-gradient(90deg, transparent 0, #000 12%, #000 94%, transparent 100%);
+}
+
+.zh-page .hero__visual--zh {
+  justify-content: flex-end;
+}
+
+.phone-frame--hero-capture {
+  width: min(100%, 376px);
+  padding: 8px;
+  border-radius: 46px;
+  box-shadow: 0 34px 96px rgba(0, 0, 0, .48), 0 0 84px rgba(37, 99, 235, .22);
+  transform: rotate(4deg);
+}
+
+.hero__capture {
+  display: block;
+  width: 100%;
+  border-radius: 38px;
 }
 
 .phone-frame {
@@ -854,6 +903,10 @@ svg {
     margin-right: 0;
   }
 
+  .phone-frame--hero-capture {
+    width: min(100%, 340px);
+  }
+
   .trader-grid {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -889,6 +942,16 @@ svg {
   .hero__device {
     width: min(150%, 780px);
     margin-right: clamp(-124px, -8vw, -40px);
+  }
+
+  .zh-page .hero__visual--zh {
+    justify-content: center;
+  }
+
+  .phone-frame--hero-capture {
+    width: min(100%, 292px);
+    margin-top: var(--space-2);
+    transform: rotate(3deg);
   }
 }
 
@@ -964,6 +1027,11 @@ svg {
     pointer-events: none;
     transform: translateY(-8px);
     transition: opacity 250ms ease, transform 250ms ease;
+  }
+
+  .language-switcher {
+    justify-content: center;
+    margin-block: var(--space-1);
   }
 
   .header__nav.is-open {
