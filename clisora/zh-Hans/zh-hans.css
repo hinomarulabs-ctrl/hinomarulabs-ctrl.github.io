@@ -1,0 +1,11 @@
+html[lang="zh-Hans"] body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Noto Sans SC","Microsoft YaHei",sans-serif;overflow-wrap:break-word}
+html[lang="zh-Hans"] .language-options{min-width:168px}
+html[lang="zh-Hans"] .hero-copy h1{line-height:1.22;letter-spacing:-1px}
+html[lang="zh-Hans"] .hero-lead{line-height:1.8}
+html[lang="zh-Hans"] h2,html[lang="zh-Hans"] .feature-copy h3{line-height:1.4;letter-spacing:-.5px}
+html[lang="zh-Hans"] .media-caption strong{line-height:1.45}
+html[lang="zh-Hans"] .hero-copy h1 em{display:block;font-size:.68em;line-height:1.5;margin-top:.25em}
+html[lang="zh-Hans"] .feature-media{height:auto;padding-bottom:32px}
+html[lang="zh-Hans"] .feature-screen{max-width:100%}
+@media(max-width:380px){html[lang="zh-Hans"] .nav-cta{font-size:12px;padding-inline:6px;gap:3px}html[lang="zh-Hans"] .nav-wrap{gap:6px}}
+@media(max-width:760px){html[lang="zh-Hans"] .hero-copy h1{line-height:1.22;letter-spacing:-.8px}html[lang="zh-Hans"] .hero-lead{line-height:1.75}html[lang="zh-Hans"] h2,html[lang="zh-Hans"] .feature-copy h3{line-height:1.45}}
