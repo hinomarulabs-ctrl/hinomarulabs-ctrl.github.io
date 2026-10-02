@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" role="img" aria-label="NotifyPost app icon">
-  <rect width="108" height="108" fill="#F8F5F0"/>
-  <path fill="#672A78" d="M25 23h58c4 0 7 3 7 7v48c0 4-3 7-7 7H25c-4 0-7-3-7-7V30c0-4 3-7 7-7Z"/>
-  <path fill="#F8F5F0" d="M31 32h46v39H31z"/>
-  <path fill="#672A78" d="M31 55h13c3 8 8 12 15 12s12-4 15-12h3v8H31z"/>
-  <path fill="#F8F5F0" d="M44 55h11c1 3 2 4 4 4s3-1 4-4h11c-3 11-8 16-15 16s-12-5-15-16Z"/>
-  <path fill="#672A78" d="M39 39h30v4H39zm0 8h20v4H39z"/>
-  <circle cx="77" cy="27" r="8" fill="#D7BCE0"/>
-</svg>
