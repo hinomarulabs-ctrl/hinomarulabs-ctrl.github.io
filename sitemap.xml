@@ -2,9 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://hinomaru-labs.com/</loc>
-    <lastmod>2026-09-20</lastmod>
+    <lastmod>2026-10-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://hinomaru-labs.com/notifypost/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hinomaru-labs.com/notifypost/terms.html</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://hinomaru-labs.com/trader-timer/</loc>
@@ -74,7 +86,7 @@
   </url>
   <url>
     <loc>https://hinomaru-labs.com/privacy.html</loc>
-    <lastmod>2026-09-03</lastmod>
+    <lastmod>2026-10-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
