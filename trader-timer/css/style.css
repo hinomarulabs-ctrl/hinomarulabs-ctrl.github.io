@@ -360,6 +360,17 @@ svg {
   height: auto;
 }
 
+.store-actions .store-badge-link--play {
+  width: max-content;
+  height: 64px;
+  min-height: 0;
+}
+
+.store-actions .store-badge-link--play img {
+  width: auto;
+  height: 100%;
+}
+
 .store-badge-link--disabled {
   cursor: not-allowed;
   filter: grayscale(.25);
