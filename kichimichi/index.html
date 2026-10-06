@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f7f4ea" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://hinomaru-labs.com/kichimichi/" />
+    <link rel="alternate" hreflang="ja" href="https://hinomaru-labs.com/kichimichi/" />
+    <link rel="alternate" hreflang="en" href="https://hinomaru-labs.com/kichimichi/en/" />
+    <link rel="alternate" hreflang="zh-CN" href="https://hinomaru-labs.com/kichimichi/zh-cn/" />
+    <link rel="alternate" hreflang="zh-TW" href="https://hinomaru-labs.com/kichimichi/zh-tw/" />
+    <link rel="alternate" hreflang="x-default" href="https://hinomaru-labs.com/kichimichi/" />
+    <meta name="description" content="吉みちは無料で利用できる散歩アプリ。今日の吉方位を参考に、保存したマイルートから散歩コースを選び、歩数・距離・時間やメモを記録できます。" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta property="og:site_name" content="吉みち" />
+    <meta property="og:url" content="https://hinomaru-labs.com/kichimichi/" />
+    <meta property="og:title" content="吉みち｜今日の散歩コースを決める散歩アプリ" />
+    <meta property="og:description" content="今日の吉方位を参考に、保存した散歩コースから歩く道をひとつ決める。" />
+    <meta property="og:image" content="https://hinomaru-labs.com/kichimichi/assets/og.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="吉みち｜今日の散歩コースを決める散歩アプリ" />
+    <meta name="twitter:description" content="今日の吉方位を参考に、保存した散歩コースから歩く道をひとつ決める。" />
+    <meta name="twitter:image" content="https://hinomaru-labs.com/kichimichi/assets/og.png" />
+    <title>吉みち｜今日の散歩コースを決める散歩アプリ</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "name": "吉みち",
+            "alternateName": "KICHIMICHI",
+            "url": "https://hinomaru-labs.com/kichimichi/",
+            "inLanguage": "ja",
+            "description": "今日の吉方位を参考に、保存したマイルートから散歩コースを選び、散歩の記録を残せるアプリ。"
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "吉みち",
+            "alternateName": "KICHIMICHI",
+            "applicationCategory": "LifestyleApplication",
+            "operatingSystem": "Android, iOS",
+            "url": "https://hinomaru-labs.com/kichimichi/",
+            "downloadUrl": "https://play.google.com/store/apps/details?id=com.hinomarulabs.kichimichi",
+            "inLanguage": "ja",
+            "description": "今日の吉方位を参考に、保存したマイルートから歩くコースを選び、徒歩経路へ進んで散歩の記録を残せるアプリです。",
+            "featureList": [
+              "今日の吉方位を散歩の参考情報として表示",
+              "散歩コースをマイルートとして端末内に保存",
+              "徒歩経路を外部地図で開いて出発",
+              "歩数・距離・時間・気分・メモを記録"
+            ]
+          },
+          {
+            "@type": "FAQPage",
+            "inLanguage": "ja",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "吉方位とは何ですか？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "吉みちでは、九星気学に基づく方位を、散歩の行き先を考えるときの参考情報として表示します。開運や健康効果を保証するものではありません。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "吉方位を使わずに散歩できますか？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "はい。吉方位を参考にせず、保存したマイルートから好きな散歩コースを選んで出発できます。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "位置情報は常に取得されますか？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "いいえ。吉みちは常時GPSで位置を追跡する設計ではありません。現在地を使う場面では、iPhoneの許可設定とアプリ内の説明に従います。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "散歩コースは自動で作成されますか？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "吉みちは道路に沿った周回コースを自動生成するアプリではありません。あらかじめ保存したマイルートから、今日歩くコースを選びます。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "iPadでも使えますか？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "初期版はiPhone向けです。iPadではiPhone版をそのまま利用する構成を予定しています。"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">本文へ移動</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="吉みち トップへ">
+          <span class="brand-mark" aria-hidden="true"><img src="./assets/kichimichi-app-icon.jpg" alt="" width="32" height="32" /></span>
+          <span class="brand-name">吉みち</span>
+          <span class="brand-sub">KICHIMICHI</span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span class="sr-only">メニューを開く</span>
+          <span></span><span></span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="メインナビゲーション">
+          <a href="#features">特徴</a>
+          <a href="#how-it-works">使い方</a>
+          <a href="#safety">安心して使う</a>
+          <a href="#faq">よくある質問</a>
+          <a class="language-link" href="./en/">English</a>
+          <a class="language-link" href="./zh-cn/">简体中文</a>
+          <a class="language-link" href="./zh-tw/">繁體中文</a>
+          <a class="nav-cta" href="https://play.google.com/store/apps/details?id=com.hinomarulabs.kichimichi" target="_blank" rel="noopener noreferrer">Google Play</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-wash" aria-hidden="true"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="hero-kicker">散歩を始めるためのアプリ</p>
+            <h1 id="hero-title">いつもの散歩を、<em>今日の一歩へ。</em></h1>
+            <p class="hero-lead">吉みちは、今日の吉方位を参考に、保存した散歩コースから歩く道をひとつ決めるアプリです。</p>
+            <div class="hero-actions">
+              <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.hinomarulabs.kichimichi" target="_blank" rel="noopener noreferrer"><img src="./assets/google-play-badge-ja.png" alt="Google Playで手に入れよう" width="646" height="250" /></a>
+              <a class="button button-secondary" href="#how-it-works">使い方を見る</a>
+            </div>
+            <p class="hero-note">無料で利用できます。方位を使わず、保存したマイルートから直接出発することもできます。</p>
+          </div>
+          <div class="hero-product" aria-label="吉みちのホーム画面">
+            <div class="sun-dot" aria-hidden="true"></div>
+            <div class="route-loop route-loop-one" aria-hidden="true"></div>
+            <div class="route-loop route-loop-two" aria-hidden="true"></div>
+            <div class="device device-hero">
+              <div class="device-screen">
+                <img src="./assets/home-screen-ja.jpg" alt="吉みちのホーム画面。今日の吉方位と、保存した散歩コースが表示されている" width="331" height="720" fetchpriority="high" />
+              </div>
+            </div>
+            <div class="hero-caption"><span class="caption-line"></span>今日歩く道を、ひとつ選ぶ</div>
+          </div>
+        </div>
+        <a class="scroll-cue" href="#definition" aria-label="吉みちとはへ移動"><span>Scroll</span><span class="scroll-line"></span></a>
+      </section>
+
+      <section class="section definition" id="definition" aria-labelledby="definition-title">
+        <div class="container definition-grid">
+          <div>
+            <p class="section-label">01 / ABOUT</p>
+            <h2 id="definition-title">散歩のきっかけを、<br />毎日に置いておく。</h2>
+          </div>
+          <div class="definition-copy">
+            <p class="definition-lead">吉みちは、今日の吉方位を参考に、保存したマイルートから歩くコースを選び、徒歩経路へ進んで散歩の記録を残せるアプリです。</p>
+            <p>行き先が決まらない日も、歩くことを習慣にしたい日も。すでに知っている道を「今日はここ」と選べるから、準備に時間をかけずに出発できます。</p>
+            <a class="text-link" href="#features">吉みちの特徴を見る <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section features" id="features" aria-labelledby="features-title">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="section-label">02 / FEATURES</p>
+              <h2 id="features-title">歩き出すまでを、<br />静かに整える。</h2>
+            </div>
+            <p>吉方位を参考にする日も、いつものコースを選ぶ日も。散歩を始めるために必要なことを、ひとつの流れにまとめています。</p>
+          </div>
+          <!-- Section artwork is intentionally eager-loaded so the full LP remains visually complete during long-page capture. -->
+          <figure class="section-art section-art-features">
+            <img src="./assets/features-illustration-v1.jpg" alt="緑の丘を抜ける散歩道と、方位磁針、地図、ノートを描いた水彩イラスト" width="1536" height="1024" />
+          </figure>
+          <div class="feature-grid">
+            <article class="feature-card feature-card-dark">
+              <span class="feature-number">01</span>
+              <figure class="feature-art">
+                <img src="./assets/feature-direction-v1.png" alt="方位磁針と散歩道を描いた水彩イラスト" width="1254" height="1254" />
+              </figure>
+              <h3>今日の吉方位を<br />参考にする</h3>
+              <p>九星気学に基づく今日の吉方位を表示。行き先を考えるときの、ひとつの目印になります。</p>
+            </article>
+            <article class="feature-card">
+              <span class="feature-number">02</span>
+              <figure class="feature-art">
+                <img src="./assets/feature-route-v1.png" alt="保存した散歩道を描いた水彩イラスト" width="1254" height="1254" />
+              </figure>
+              <h3>いつもの道を<br />マイルートに保存</h3>
+              <p>出発地、目的地、経由地、気分のタグを保存。近所の好きな散歩コースを、いつでも呼び出せます。</p>
+            </article>
+            <article class="feature-card">
+              <span class="feature-number">03</span>
+              <figure class="feature-art">
+                <img src="./assets/feature-departure-v1.png" alt="地図から散歩道へ向かう様子を描いた水彩イラスト" width="1254" height="1254" />
+              </figure>
+              <h3>徒歩経路を開いて<br />そのまま出発</h3>
+              <p>選んだコースの徒歩経路を、外部の地図アプリまたはブラウザで開きます。Google Mapsを優先します。</p>
+            </article>
+            <article class="feature-card feature-card-accent">
+              <span class="feature-number">04</span>
+              <figure class="feature-art">
+                <img src="./assets/feature-log-v1.png" alt="歩いた時間をノートに記録する水彩イラスト" width="1254" height="1254" />
+              </figure>
+              <h3>歩いた時間を<br />記録に残す</h3>
+              <p>歩数・距離・時間、気分やメモを記録。過去の散歩をカレンダーや一覧から振り返れます。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section how-it-works" id="how-it-works" aria-labelledby="how-title">
+        <div class="container">
+          <div class="section-heading section-heading-centered">
+            <p class="section-label">03 / HOW IT WORKS</p>
+            <h2 id="how-title">使い方は、3つだけ。</h2>
+            <p>最初に設定して、道を保存する。あとはその日の気分で、歩くコースを決めます。</p>
+          </div>
+          <figure class="section-art section-art-how">
+            <img src="./assets/how-it-works-illustration-v1.jpg" alt="地図を広げて散歩の準備をする場面から、保存した道を歩き始めるまでを描いた水彩イラスト" width="1823" height="863" />
+          </figure>
+          <ol class="steps">
+            <li class="step">
+              <div class="step-visual">
+                <figure class="step-art">
+                  <img src="./assets/step-base-v1.png" alt="家を起点に散歩の準備をする水彩イラスト" width="1254" height="1254" />
+                </figure>
+                <span class="step-number">01</span>
+              </div>
+              <h3>基準地と<br />生年月日を設定</h3>
+              <p>今日の吉方位を表示するための情報を、端末内に設定します。</p>
+            </li>
+            <li class="step">
+              <div class="step-visual">
+                <figure class="step-art">
+                  <img src="./assets/step-save-v1.png" alt="お気に入りの散歩道を保存する水彩イラスト" width="1254" height="1254" />
+                </figure>
+                <span class="step-number">02</span>
+              </div>
+              <h3>いつもの散歩道を<br />保存</h3>
+              <p>名前をつけて、好きな散歩コースをマイルートに残します。</p>
+            </li>
+            <li class="step">
+              <div class="step-visual">
+                <figure class="step-art">
+                  <img src="./assets/step-walk-v1.png" alt="靴を履いて散歩道へ歩き出す水彩イラスト" width="1254" height="1254" />
+                </figure>
+                <span class="step-number">03</span>
+              </div>
+              <h3>今日のコースを選び<br />歩き出す</h3>
+              <p>徒歩経路を開き、歩いたあとに記録を残します。</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section showcase" aria-labelledby="showcase-title">
+        <div class="container">
+          <div class="section-heading section-heading-showcase">
+            <div>
+              <p class="section-label">04 / IN THE APP</p>
+              <h2 id="showcase-title">画面の中にも、<br />歩く余白を。</h2>
+            </div>
+            <p>情報を詰め込みすぎず、今日やることが見える画面に。吉みちの5つの画面を、散歩の流れに沿って紹介します。</p>
+          </div>
+
+          <div class="showcase-row">
+            <div class="showcase-visual">
+              <div class="device device-showcase device-float-left">
+                <div class="device-screen"><img src="./assets/home-screen-ja.jpg" alt="今日の吉方位とおすすめコースを表示する吉みちのホーム画面" width="331" height="720" /></div>
+              </div>
+              <span class="visual-stamp">TODAY</span>
+            </div>
+            <div class="showcase-copy">
+              <span class="showcase-index">A / HOME</span>
+              <h3>今日の吉方位から、<br />歩くコースを決める。</h3>
+              <p>ホーム画面では、今日の吉方位と保存したマイルートを一緒に確認できます。条件に合うコースがある日も、方位を気にせず選ぶ日も、出発する道は自分で決められます。</p>
+              <dl class="spec-list">
+                <div><dt>表示</dt><dd>今日の吉方位 / おすすめコース</dd></div>
+                <div><dt>選択</dt><dd>10分・20分・30分 / 気分</dd></div>
+              </dl>
+            </div>
+          </div>
+
+          <div class="showcase-row showcase-row-reverse">
+            <div class="showcase-visual showcase-visual-paper">
+              <div class="device device-showcase device-float-right">
+                <div class="device-screen"><img src="./assets/my-routes-screen-ja.jpg" alt="保存したマイルートの一覧を表示する吉みちの画面" width="331" height="720" /></div>
+              </div>
+              <span class="visual-stamp visual-stamp-green">MY ROUTES</span>
+            </div>
+            <div class="showcase-copy">
+              <span class="showcase-index">B / MY ROUTES</span>
+              <h3>知っている道を、<br />何度でも使えるように。</h3>
+              <p>近所の公園まで、川沿いのベンチまで。名前をつけて保存したコースは、次の散歩の候補になります。新しい道を探す前に、まずは自分のマイルートから。</p>
+              <dl class="spec-list">
+                <div><dt>保存</dt><dd>出発地 / 目的地 / 任意の経由地</dd></div>
+                <div><dt>整理</dt><dd>気分タグ / 編集 / 削除</dd></div>
+              </dl>
+            </div>
+          </div>
+
+          <div class="record-band">
+            <div class="record-copy">
+              <span class="showcase-index">C / WALK LOG</span>
+              <h3>歩いたあとの時間も、<br />自分の記録になる。</h3>
+              <p>散歩中の歩数・距離・経過時間を確認し、気分やメモを残せます。あとからカレンダーや一覧で見返せるので、歩いた日が静かに積み重なります。</p>
+              <a class="text-link text-link-light" href="#safety">保存と位置情報について <span aria-hidden="true">→</span></a>
+            </div>
+            <div class="record-devices">
+              <div class="device device-record device-record-back">
+                <div class="device-screen"><img src="./assets/walk-history-screen-ja.jpg" alt="過去の散歩記録を一覧で表示する吉みちの画面" width="331" height="720" /></div>
+              </div>
+              <div class="device device-record device-record-front">
+                <div class="device-screen"><img src="./assets/active-walk-screen-ja.jpg" alt="散歩中の歩数、距離、経過時間を表示する吉みちの画面" width="331" height="720" /></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section safety" id="safety" aria-labelledby="safety-title">
+        <div class="container safety-grid">
+          <div>
+            <p class="section-label">05 / SAFETY & PRIVACY</p>
+            <h2 id="safety-title">使い方も、<br />距離感も、<br /><em>自分で選ぶ。</em></h2>
+          </div>
+          <div class="safety-content">
+            <p class="safety-lead">吉みちは、散歩のきっかけをつくるためのアプリです。方位や計測値を、何かを保証するものとして扱いません。</p>
+            <ul class="safety-list">
+              <li><span>01</span><div><strong>吉方位は参考情報</strong><p>九星気学に基づく方位を表示しますが、開運や健康効果を保証するものではありません。</p></div></li>
+              <li><span>02</span><div><strong>常時GPSではありません</strong><p>常時位置を追跡する設計ではありません。現在地を使う場面では、iPhoneの許可設定に従います。</p></div></li>
+              <li><span>03</span><div><strong>データは端末内に保存</strong><p>ログインやクラウド同期を前提にせず、保存したコースや散歩記録を端末内で扱います。</p></div></li>
+              <li><span>04</span><div><strong>歩くときは現実を優先</strong><p>交通状況、天候、道路の安全、体調を確認し、無理のない範囲で利用してください。</p></div></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section faq" id="faq" aria-labelledby="faq-title">
+        <div class="container faq-grid">
+          <div class="faq-intro">
+            <p class="section-label">06 / FAQ</p>
+            <h2 id="faq-title">よくある質問</h2>
+            <p>吉方位、位置情報、保存コースについて。使い始める前に知っておきたいことをまとめました。</p>
+          </div>
+          <div class="faq-list">
+            <details>
+              <summary>吉方位とは何ですか？<span aria-hidden="true">＋</span></summary>
+              <p>吉みちでは、九星気学に基づく方位を、散歩の行き先を考えるときの参考情報として表示します。開運や健康効果を保証するものではありません。</p>
+            </details>
+            <details>
+              <summary>吉方位を使わずに散歩できますか？<span aria-hidden="true">＋</span></summary>
+              <p>はい。吉方位を参考にせず、保存したマイルートから好きな散歩コースを選んで出発できます。</p>
+            </details>
+            <details>
+              <summary>位置情報は常に取得されますか？<span aria-hidden="true">＋</span></summary>
+              <p>いいえ。吉みちは常時GPSで位置を追跡する設計ではありません。現在地を使う場面では、iPhoneの許可設定とアプリ内の説明に従います。</p>
+            </details>
+            <details>
+              <summary>散歩コースは自動で作成されますか？<span aria-hidden="true">＋</span></summary>
+              <p>吉みちは道路に沿った周回コースを自動生成するアプリではありません。あらかじめ保存したマイルートから、今日歩くコースを選びます。</p>
+            </details>
+            <details>
+              <summary>iPadでも使えますか？<span aria-hidden="true">＋</span></summary>
+              <p>初期版はiPhone向けです。iPadではiPhone版をそのまま利用する構成を予定しています。</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="download" id="download" aria-labelledby="download-title">
+        <div class="download-wash" aria-hidden="true"></div>
+        <div class="container download-inner">
+          <div class="download-mark" aria-hidden="true"><img src="./assets/kichimichi-app-icon.jpg" alt="" width="64" height="64" /></div>
+          <p class="section-label">07 / START YOUR WALK</p>
+          <h2 id="download-title">今日は、どの道を歩く？</h2>
+          <p class="download-note">
+            <strong>無料で利用できます。</strong>
+            <span>Google Playで公開中です。</span>
+          </p>
+          <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.hinomarulabs.kichimichi" target="_blank" rel="noopener noreferrer"><img src="./assets/google-play-badge-ja.png" alt="Google Playで手に入れよう" width="646" height="250" /></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <a class="brand brand-footer" href="#top"><span class="brand-mark" aria-hidden="true"><img src="./assets/kichimichi-app-icon.jpg" alt="" width="32" height="32" /></span><span class="brand-name">吉みち</span></a>
+          <p>今日の散歩を、ひとつ決めよう。</p>
+        </div>
+        <div class="footer-links">
+          <a href="https://hinomaru-labs.com/privacy.html" rel="noopener noreferrer">プライバシーポリシー</a>
+          <a href="https://hinomaru-labs.com/kichimichi/terms.html" rel="noopener noreferrer">利用規約</a>
+        </div>
+        <p class="footer-copy">© <span id="current-year">2026</span> KICHIMICHI</p>
+      </div>
+    </footer>
+    <script src="./script.js" defer></script>
+  </body>
+</html>

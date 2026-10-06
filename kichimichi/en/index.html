@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f7f4ea" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://hinomaru-labs.com/kichimichi/en/" />
+    <link rel="alternate" hreflang="ja" href="https://hinomaru-labs.com/kichimichi/" />
+    <link rel="alternate" hreflang="en" href="https://hinomaru-labs.com/kichimichi/en/" />
+    <link rel="alternate" hreflang="zh-CN" href="https://hinomaru-labs.com/kichimichi/zh-cn/" />
+    <link rel="alternate" hreflang="zh-TW" href="https://hinomaru-labs.com/kichimichi/zh-tw/" />
+    <link rel="alternate" hreflang="x-default" href="https://hinomaru-labs.com/kichimichi/" />
+    <meta name="description" content="KICHIMICHI is a free walking app that helps you choose a walk from saved routes with today's lucky direction as a reference. Open walking directions and record steps, distance, time, mood, and notes." />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="KICHIMICHI" />
+    <meta property="og:url" content="https://hinomaru-labs.com/kichimichi/en/" />
+    <meta property="og:title" content="KICHIMICHI | Choose today's walk" />
+    <meta property="og:description" content="Use today's lucky direction as a reference, choose one walk from your saved routes, and take the next step." />
+    <meta property="og:image" content="https://hinomaru-labs.com/kichimichi/assets/og.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="KICHIMICHI | Choose today's walk" />
+    <meta name="twitter:description" content="Use today's lucky direction as a reference, choose one walk from your saved routes, and take the next step." />
+    <meta name="twitter:image" content="https://hinomaru-labs.com/kichimichi/assets/og.png" />
+    <title>KICHIMICHI | Choose today's walk</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "name": "KICHIMICHI",
+            "alternateName": "KICHIMICHI",
+            "url": "https://hinomaru-labs.com/kichimichi/en/",
+            "inLanguage": "en",
+            "description": "A free walking app for choosing a route from saved walks with today's lucky direction as a reference and keeping a record of each walk."
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "KICHIMICHI",
+            "alternateName": "KICHIMICHI",
+            "applicationCategory": "LifestyleApplication",
+            "operatingSystem": "Android, iOS",
+            "url": "https://hinomaru-labs.com/kichimichi/en/",
+            "downloadUrl": "https://play.google.com/store/apps/details?id=com.hinomarulabs.kichimichi",
+            "inLanguage": "en",
+            "description": "KICHIMICHI is a free walking app that helps you choose a route from saved walks, open walking directions, and keep a record of your walk.",
+            "featureList": [
+              "Show today's lucky direction as a walking reference",
+              "Save walking routes locally as My Routes",
+              "Open walking directions in an external map",
+              "Record steps, distance, time, mood, and notes"
+            ]
+          },
+          {
+            "@type": "FAQPage",
+            "inLanguage": "en",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What is a lucky direction?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "KICHIMICHI shows directions based on Nine Star Ki as reference information when you are thinking about where to walk. It does not guarantee good fortune or health benefits."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can I walk without using a lucky direction?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. You can ignore the lucky direction and choose any walk from your saved My Routes."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does KICHIMICHI always access my location?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. KICHIMICHI is not designed to track your location with GPS at all times. When your current location is used, follow your iPhone permission settings and the in-app explanation."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does KICHIMICHI automatically create walking routes?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. KICHIMICHI does not automatically generate road-following loop routes. You choose today's walk from routes you saved in advance."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does KICHIMICHI work on iPad?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The initial version is designed for iPhone. On iPad, we plan to use the iPhone version as-is."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="KICHIMICHI home">
+          <span class="brand-mark" aria-hidden="true"><img src="../assets/kichimichi-app-icon.jpg" alt="" width="32" height="32" /></span>
+          <span class="brand-name">KICHIMICHI</span>
+          <span class="brand-sub">WALKING APP</span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span class="sr-only">Open menu</span>
+          <span></span><span></span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+          <a href="#features">Features</a>
+          <a href="#how-it-works">How it works</a>
+          <a href="#safety">Use with confidence</a>
+          <a href="#faq">FAQ</a>
+          <a class="language-link" href="../">Japanese</a>
+          <a class="language-link" href="../zh-cn/">简体中文</a>
+          <a class="language-link" href="../zh-tw/">繁體中文</a>
+          <a class="nav-cta" href="https://play.google.com/store/apps/details?id=com.hinomarulabs.kichimichi" target="_blank" rel="noopener noreferrer">Google Play</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-wash" aria-hidden="true"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="hero-kicker">A WALKING APP TO HELP YOU TAKE THE FIRST STEP</p>
+            <h1 id="hero-title">Your usual walk, <em>today's next step.</em></h1>
+            <p class="hero-lead">KICHIMICHI helps you choose one walk from your saved routes, using today's lucky direction as a reference.</p>
+            <div class="hero-actions">
+              <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.hinomarulabs.kichimichi" target="_blank" rel="noopener noreferrer"><img src="../assets/google-play-badge-en.png" alt="Get it on Google Play" width="646" height="250" /></a>
+              <a class="button button-secondary" href="#how-it-works">See how it works</a>
+            </div>
+            <p class="hero-note">Free to use. You can also skip the direction and start directly from any saved My Route.</p>
+          </div>
+          <div class="hero-product" aria-label="KICHIMICHI home screen">
+            <div class="sun-dot" aria-hidden="true"></div>
+            <div class="route-loop route-loop-one" aria-hidden="true"></div>
+            <div class="route-loop route-loop-two" aria-hidden="true"></div>
+            <div class="device device-hero">
+              <div class="device-screen">
+                <img src="../assets/home-screen-en.jpg" alt="KICHIMICHI home screen showing today's lucky direction and a saved walking route" width="331" height="720" fetchpriority="high" />
+              </div>
+            </div>
+            <div class="hero-caption"><span class="caption-line"></span>Choose one walk for today</div>
+          </div>
+        </div>
+        <a class="scroll-cue" href="#definition" aria-label="Learn about KICHIMICHI"><span>Scroll</span><span class="scroll-line"></span></a>
+      </section>
+
+      <section class="section definition" id="definition" aria-labelledby="definition-title">
+        <div class="container definition-grid">
+          <div>
+            <p class="section-label">01 / ABOUT</p>
+            <h2 id="definition-title">A reason to step outside,<br />built into every day.</h2>
+          </div>
+          <div class="definition-copy">
+            <p class="definition-lead">KICHIMICHI is a free walking app that helps you choose a route from saved My Routes, open walking directions, and keep a record of your walk—with today's lucky direction as a reference.</p>
+            <p>For days when you cannot decide where to go, or when you want to make walking a habit. Choose “this one today” from paths you already know, without spending time planning.</p>
+            <a class="text-link" href="#features">Explore the features <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section features" id="features" aria-labelledby="features-title">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+            <p class="section-label">02 / FEATURES</p>
+            <h2 id="features-title">Make the first step<br />feel effortless.</h2>
+            </div>
+            <p>Whether you use today's lucky direction as a reference or choose a familiar route, KICHIMICHI brings the steps for starting a walk into one quiet flow.</p>
+          </div>
+          <!-- Section artwork is intentionally eager-loaded so the full LP remains visually complete during long-page capture. -->
+          <figure class="section-art section-art-features">
+            <img src="../assets/features-illustration-v1.jpg" alt="Watercolor illustration of a walking path through green hills with a compass, map, and notebook" width="1536" height="1024" />
+          </figure>
+          <div class="feature-grid">
+            <article class="feature-card feature-card-dark">
+              <span class="feature-number">01</span>
+              <figure class="feature-art">
+                <img src="../assets/feature-direction-v1.png" alt="Watercolor illustration of a compass and walking path" width="1254" height="1254" />
+              </figure>
+              <h3>Use today's lucky direction<br />as a reference</h3>
+              <p>KICHIMICHI shows today's direction based on Nine Star Ki. A gentle reference when you are deciding where to go.</p>
+            </article>
+            <article class="feature-card">
+              <span class="feature-number">02</span>
+              <figure class="feature-art">
+                <img src="../assets/feature-route-v1.png" alt="Watercolor illustration of a saved walking route" width="1254" height="1254" />
+              </figure>
+              <h3>Keep familiar walks<br />in My Routes</h3>
+              <p>Save starting points, destinations, waypoints, and mood tags. Call up your favorite neighborhood walks whenever you want.</p>
+            </article>
+            <article class="feature-card">
+              <span class="feature-number">03</span>
+              <figure class="feature-art">
+                <img src="../assets/feature-departure-v1.png" alt="Watercolor illustration of leaving a map and heading out on a walk" width="1254" height="1254" />
+              </figure>
+              <h3>Open walking directions<br />and head out</h3>
+              <p>Open walking directions for your chosen route in an external map app or browser. Google Maps is preferred.</p>
+            </article>
+            <article class="feature-card feature-card-accent">
+              <span class="feature-number">04</span>
+              <figure class="feature-art">
+                <img src="../assets/feature-log-v1.png" alt="Watercolor illustration of recording a walk in a notebook" width="1254" height="1254" />
+              </figure>
+              <h3>Keep a record<br />of time spent walking</h3>
+              <p>Record steps, distance, time, mood, and notes. Look back on past walks in a calendar or list.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section how-it-works" id="how-it-works" aria-labelledby="how-title">
+        <div class="container">
+          <div class="section-heading section-heading-centered">
+            <p class="section-label">03 / HOW IT WORKS</p>
+            <h2 id="how-title">Three steps<br />and you're out.</h2>
+            <p>Set up once, save your paths, then choose a walk for the day.</p>
+          </div>
+          <figure class="section-art section-art-how">
+            <img src="../assets/how-it-works-illustration-v1.jpg" alt="Watercolor illustration of preparing for a walk with a map, then setting out on a saved path" width="1823" height="863" />
+          </figure>
+          <ol class="steps">
+            <li class="step">
+              <div class="step-visual">
+                <figure class="step-art">
+                  <img src="../assets/step-base-v1.png" alt="Watercolor illustration of preparing for a walk from home" width="1254" height="1254" />
+                </figure>
+                <span class="step-number">01</span>
+              </div>
+              <h3>Set your home base<br />and date of birth</h3>
+              <p>Set the information used to show today's direction on your device.</p>
+            </li>
+            <li class="step">
+              <div class="step-visual">
+                <figure class="step-art">
+                  <img src="../assets/step-save-v1.png" alt="Watercolor illustration of saving a favorite walking path" width="1254" height="1254" />
+                </figure>
+                <span class="step-number">02</span>
+              </div>
+              <h3>Save a familiar<br />walking route</h3>
+              <p>Name your favorite walking route and keep it in My Routes.</p>
+            </li>
+            <li class="step">
+              <div class="step-visual">
+                <figure class="step-art">
+                  <img src="../assets/step-walk-v1.png" alt="Watercolor illustration of putting on shoes and heading out for a walk" width="1254" height="1254" />
+                </figure>
+                <span class="step-number">03</span>
+              </div>
+              <h3>Choose today's route<br />and start walking</h3>
+              <p>Open walking directions, then leave a record after your walk.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section showcase" aria-labelledby="showcase-title">
+        <div class="container">
+          <div class="section-heading section-heading-showcase">
+            <div>
+              <p class="section-label">04 / IN THE APP</p>
+              <h2 id="showcase-title">Room to breathe,<br />even on screen.</h2>
+            </div>
+            <p>A calm interface that keeps today's next step in view. Explore KICHIMICHI's five screens along the flow of a walk.</p>
+          </div>
+
+          <div class="showcase-row">
+            <div class="showcase-visual">
+              <div class="device device-showcase device-float-left">
+                <div class="device-screen"><img src="../assets/home-screen-en.jpg" alt="KICHIMICHI home screen showing today's lucky direction and a suggested route" width="331" height="720" /></div>
+              </div>
+              <span class="visual-stamp">TODAY</span>
+            </div>
+            <div class="showcase-copy">
+              <span class="showcase-index">A / HOME</span>
+              <h3>Start with today's direction,<br />choose your walk.</h3>
+              <p>On the home screen, see today's lucky direction and your saved My Routes together. Choose a suggested route when one fits, or ignore the direction and decide for yourself.</p>
+              <dl class="spec-list">
+                <div><dt>Shows</dt><dd>Today's lucky direction / Suggested route</dd></div>
+                <div><dt>Choose</dt><dd>10, 20, or 30 min / Mood</dd></div>
+              </dl>
+            </div>
+          </div>
+
+          <div class="showcase-row showcase-row-reverse">
+            <div class="showcase-visual showcase-visual-paper">
+              <div class="device device-showcase device-float-right">
+                <div class="device-screen"><img src="../assets/my-routes-screen-en.jpg" alt="KICHIMICHI screen showing a list of saved My Routes" width="331" height="720" /></div>
+              </div>
+              <span class="visual-stamp visual-stamp-green">MY ROUTES</span>
+            </div>
+            <div class="showcase-copy">
+              <span class="showcase-index">B / MY ROUTES</span>
+              <h3>Keep the paths you know,<br />ready for another day.</h3>
+              <p>To the neighborhood park, to the bench by the river. Name and save a route so it is ready the next time you want to walk. Start with My Routes before searching for somewhere new.</p>
+              <dl class="spec-list">
+                <div><dt>Save</dt><dd>Starting point / Destination / Optional waypoint</dd></div>
+                <div><dt>Organize</dt><dd>Mood tag / Edit / Delete</dd></div>
+              </dl>
+            </div>
+          </div>
+
+          <div class="record-band">
+            <div class="record-copy">
+              <span class="showcase-index">C / WALK LOG</span>
+              <h3>The time after a walk<br />becomes part of your record.</h3>
+              <p>See steps, distance, and elapsed time while walking, then add a mood or note. Your walks quietly add up in the calendar and list.</p>
+              <a class="text-link text-link-light" href="#safety">Learn about privacy and location <span aria-hidden="true">→</span></a>
+            </div>
+            <div class="record-devices">
+              <div class="device device-record device-record-back">
+                <div class="device-screen"><img src="../assets/walk-history-screen-en.jpg" alt="KICHIMICHI screen showing past walk records in a list" width="331" height="720" /></div>
+              </div>
+              <div class="device device-record device-record-front">
+                <div class="device-screen"><img src="../assets/active-walk-screen-en.jpg" alt="KICHIMICHI screen showing steps, distance, and elapsed time during a walk" width="331" height="720" /></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section safety" id="safety" aria-labelledby="safety-title">
+        <div class="container safety-grid">
+          <div>
+            <p class="section-label">05 / SAFETY & PRIVACY</p>
+            <h2 id="safety-title">Choose your pace,<br />your distance,<br /><em>your own way.</em></h2>
+          </div>
+          <div class="safety-content">
+            <p class="safety-lead">KICHIMICHI is here to give you a reason to start walking. It does not treat direction or measurements as promises of any kind.</p>
+            <ul class="safety-list">
+              <li><span>01</span><div><strong>Lucky directions are for reference</strong><p>KICHIMICHI shows directions based on Nine Star Ki, but does not guarantee good fortune or health benefits.</p></div></li>
+              <li><span>02</span><div><strong>No always-on GPS</strong><p>KICHIMICHI is not designed to track your location at all times. When your current location is used, follow your iPhone permission settings.</p></div></li>
+              <li><span>03</span><div><strong>Your data stays on your device</strong><p>Saved routes and walk records are handled on your device without requiring a login or cloud sync.</p></div></li>
+              <li><span>04</span><div><strong>Let reality lead when you walk</strong><p>Check traffic, weather, road safety, and your condition. Use KICHIMICHI within what feels safe.</p></div></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section faq" id="faq" aria-labelledby="faq-title">
+        <div class="container faq-grid">
+          <div class="faq-intro">
+            <p class="section-label">06 / FAQ</p>
+            <h2 id="faq-title">Frequently asked questions</h2>
+            <p>About lucky directions, location, and saved routes. Here are the things to know before you start.</p>
+          </div>
+          <div class="faq-list">
+            <details>
+              <summary>What is a lucky direction?<span aria-hidden="true">＋</span></summary>
+              <p>KICHIMICHI shows directions based on Nine Star Ki as reference information when you are thinking about where to walk. It does not guarantee good fortune or health benefits.</p>
+            </details>
+            <details>
+              <summary>Can I walk without using a lucky direction?<span aria-hidden="true">＋</span></summary>
+              <p>Yes. You can ignore the lucky direction and choose any walk from your saved My Routes.</p>
+            </details>
+            <details>
+              <summary>Does KICHIMICHI always access my location?<span aria-hidden="true">＋</span></summary>
+              <p>No. KICHIMICHI is not designed to track your location with GPS at all times. When your current location is used, follow your iPhone permission settings and the in-app explanation.</p>
+            </details>
+            <details>
+              <summary>Does KICHIMICHI automatically create walking routes?<span aria-hidden="true">＋</span></summary>
+              <p>No. KICHIMICHI does not automatically generate road-following loop routes. You choose today's walk from routes you saved in advance.</p>
+            </details>
+            <details>
+              <summary>Does KICHIMICHI work on iPad?<span aria-hidden="true">＋</span></summary>
+              <p>The initial version is designed for iPhone. On iPad, we plan to use the iPhone version as-is.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="download" id="download" aria-labelledby="download-title">
+        <div class="download-wash" aria-hidden="true"></div>
+        <div class="container download-inner">
+          <div class="download-mark" aria-hidden="true"><img src="../assets/kichimichi-app-icon.jpg" alt="" width="64" height="64" /></div>
+          <p class="section-label">07 / START YOUR WALK</p>
+          <h2 id="download-title">Which path will you take today?</h2>
+          <p class="download-note">
+            <strong>Free to use.</strong>
+            <span>Available now on Google Play.</span>
+          </p>
+          <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.hinomarulabs.kichimichi" target="_blank" rel="noopener noreferrer"><img src="../assets/google-play-badge-en.png" alt="Get it on Google Play" width="646" height="250" /></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <a class="brand brand-footer" href="#top"><span class="brand-mark" aria-hidden="true"><img src="../assets/kichimichi-app-icon.jpg" alt="" width="32" height="32" /></span><span class="brand-name">KICHIMICHI</span></a>
+          <p>Choose one walk for today.</p>
+        </div>
+        <div class="footer-links">
+          <a href="https://hinomaru-labs.com/privacy.html" rel="noopener noreferrer">Privacy Policy</a>
+          <a href="https://hinomaru-labs.com/kichimichi/terms.html" rel="noopener noreferrer">Terms of Use</a>
+        </div>
+        <p class="footer-copy">© <span id="current-year">2026</span> KICHIMICHI</p>
+      </div>
+    </footer>
+    <script src="../script.js" defer></script>
+  </body>
+</html>
