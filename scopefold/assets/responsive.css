@@ -1,0 +1,37 @@
+@media (max-width: 850px) {
+  .site-header {
+    height: auto;
+    min-height: 60px;
+    flex-wrap: wrap;
+    gap: 4px 12px;
+    padding: 8px 18px;
+  }
+
+  .site-header .wordmark {
+    order: 1;
+  }
+
+  .site-header .header-cta {
+    order: 2;
+  }
+
+  .site-header .locale-switch {
+    order: 3;
+    flex: 0 0 100%;
+    justify-content: center;
+    padding: 2px 0 4px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 500px) {
+  .site-header {
+    padding-right: 14px;
+    padding-left: 14px;
+  }
+
+  .site-header .locale-switch {
+    gap: 5px;
+    font-size: 11px;
+  }
+}
