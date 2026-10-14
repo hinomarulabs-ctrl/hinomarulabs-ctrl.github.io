@@ -1456,3 +1456,9 @@ html:lang(zh-CN) {
 html:lang(zh-TW) {
   --font:"PingFang TC","Microsoft JhengHei","Noto Sans TC",sans-serif;
 }
+
+html:lang(ko) {
+  --font:"Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",sans-serif;
+  word-break:keep-all;
+  overflow-wrap:break-word;
+}

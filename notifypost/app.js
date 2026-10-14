@@ -5,7 +5,8 @@ const localizedMenuLabels = {
   ja: { open: 'メニューを開く', close: 'メニューを閉じる' },
   en: { open: 'Open menu', close: 'Close menu' },
   'zh-CN': { open: '打开菜单', close: '关闭菜单' },
-  'zh-TW': { open: '開啟選單', close: '關閉選單' }
+  'zh-TW': { open: '開啟選單', close: '關閉選單' },
+  ko: { open: '메뉴 열기', close: '메뉴 닫기' }
 };
 const menuLabels = localizedMenuLabels[document.documentElement.lang] || localizedMenuLabels.ja;
 function closeMenu() {
