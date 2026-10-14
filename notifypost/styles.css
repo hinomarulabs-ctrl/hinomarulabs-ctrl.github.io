@@ -1591,3 +1591,41 @@ html:lang(ko) {
   min-width:0;
   overflow-wrap:anywhere;
 }
+
+/* Official Google Play artwork: keep its ratio, colors and clear space. */
+.play-badge {
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:max-content;
+  max-width:100%;
+  min-height:44px;
+  padding:17px;
+  line-height:0;
+  background:transparent;
+}
+.play-badge img {
+  width:216px;
+  height:auto;
+}
+.play-badge--nav {
+  padding:11px;
+}
+.play-badge--nav img {
+  width:144px;
+}
+@media(max-width:1100px) {
+  #main-nav .play-badge {
+    align-self:center;
+    margin-top:8px;
+  }
+}
+@media(max-width:600px) {
+  .hero-actions .play-badge {
+    justify-self:center;
+  }
+  .closing .play-badge {
+    display:flex;
+    margin-inline:auto;
+  }
+}

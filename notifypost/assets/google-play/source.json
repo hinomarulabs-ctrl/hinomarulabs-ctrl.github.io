@@ -1,0 +1,98 @@
+{
+  "source": {
+    "guidelines": "https://partnermarketinghub.withgoogle.com/brands/google-play/google-play/lockups-icons-badges/",
+    "download": "https://storage.googleapis.com/pe-portal-consumer-prod-wagtail-static/downloads_folder/1HFDnA_FlVX8yaD9YzwKQ9XPYPXV6FNaz.zip",
+    "date": "2026-10-14"
+  },
+  "assets": [
+    {
+      "locale": "ja",
+      "archivePath": "Google Play Badge guidelines/Get it on Google Play Badges/Digital/png/GetItOnGooglePlay_Badge_Web_color_Japanese (4).png",
+      "file": "ja.png",
+      "sha256": "6685eb728a9301b54900d352d3bdea6139bc5a05f1964d1cefc5113d65886f3d",
+      "size": [
+        270,
+        80
+      ],
+      "bbox": [
+        0,
+        0,
+        270,
+        80
+      ]
+    },
+    {
+      "locale": "en",
+      "archivePath": "Google Play Badge guidelines/Get it on Google Play Badges/Digital/png/GetItOnGooglePlay_Badge_Web_color_English.png",
+      "file": "en.png",
+      "sha256": "a7dbeba4623dd255798dd1159e543cdbeeb9e43faa6db7f859b0f9ed3699932c",
+      "size": [
+        478,
+        142
+      ],
+      "bbox": [
+        0,
+        0,
+        478,
+        142
+      ]
+    },
+    {
+      "locale": "zh-cn",
+      "archivePath": "Google Play Badge guidelines/Get it on Google Play Badges/Digital/png/GetItOnGooglePlay_Badge_Web_color_Chinese-China.png",
+      "file": "zh-cn.png",
+      "sha256": "69b45bef394f238c587d0af85f290e3e57267345042eb74915d42f09702cf549",
+      "size": [
+        478,
+        142
+      ],
+      "bbox": [
+        0,
+        0,
+        478,
+        142
+      ]
+    },
+    {
+      "locale": "zh-tw",
+      "archivePath": "Google Play Badge guidelines/Get it on Google Play Badges/Digital/png/GetItOnGooglePlay_Badge_Web_color_Chinese-Taiwan.png",
+      "file": "zh-tw.png",
+      "sha256": "0c56790e2407b8a3c2907fd8ef4c4cdddcd8489556c4a7368354e93d803ebaab",
+      "size": [
+        478,
+        142
+      ],
+      "bbox": [
+        0,
+        0,
+        478,
+        142
+      ]
+    },
+    {
+      "locale": "ko",
+      "archivePath": "Google Play Badge guidelines/Get it on Google Play Badges/Digital/png/GetItOnGooglePlay_Badge_Web_color_Korean.png",
+      "file": "ko.png",
+      "sha256": "89580a4ea725a5dc03c400a465d8a59e0766170c0cadce1526ecbe3dc33d17fd",
+      "size": [
+        478,
+        142
+      ],
+      "bbox": [
+        0,
+        0,
+        478,
+        142
+      ]
+    }
+  ],
+  "usage": {
+    "artwork": "Original PNG bytes from the official Digital/png folder; no edits.",
+    "clearSpace": "At least one quarter of the displayed badge height on every side.",
+    "displayedWidth": {
+      "primary": 216,
+      "navigation": 144
+    },
+    "destination": "https://play.google.com/store/apps/details?id=com.hinomarulabs.notificationinbox"
+  }
+}
