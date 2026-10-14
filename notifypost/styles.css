@@ -1443,3 +1443,7 @@ html:lang(en) {
 html:lang(en) .overview-rail h3 {
   overflow-wrap:normal;
 }
+
+html:lang(zh-CN) {
+  --font:"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif;
+}

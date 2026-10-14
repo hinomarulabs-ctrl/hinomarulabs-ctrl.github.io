@@ -1,9 +1,12 @@
 'use strict';
 const menu = document.querySelector('.menu-toggle');
 const nav = document.querySelector('#main-nav');
-const menuLabels = document.documentElement.lang === 'en'
-  ? { open: 'Open menu', close: 'Close menu' }
-  : { open: 'メニューを開く', close: 'メニューを閉じる' };
+const localizedMenuLabels = {
+  ja: { open: 'メニューを開く', close: 'メニューを閉じる' },
+  en: { open: 'Open menu', close: 'Close menu' },
+  'zh-CN': { open: '打开菜单', close: '关闭菜单' }
+};
+const menuLabels = localizedMenuLabels[document.documentElement.lang] || localizedMenuLabels.ja;
 function closeMenu() {
   menu.setAttribute('aria-expanded', 'false');
   menu.setAttribute('aria-label', menuLabels.open);
