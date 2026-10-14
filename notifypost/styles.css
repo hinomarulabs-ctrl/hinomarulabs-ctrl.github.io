@@ -1436,3 +1436,10 @@ footer small {
   color:var(--muted);
   font-size:var(--body);
 }
+
+html:lang(en) {
+  --font:"Helvetica Neue",Arial,sans-serif;
+}
+html:lang(en) .overview-rail h3 {
+  overflow-wrap:normal;
+}
