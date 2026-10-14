@@ -895,24 +895,9 @@ footer small {
     gap:32px
   }
 }
-@media(max-width:900px) {
-  :root {
-    --title:36px;
-    --section-title:28px
-  }
-  .container {
-    width:calc(100% - 40px)
-  }
-  .section {
-    padding-block:48px
-  }
+@media(max-width:1100px) {
   .header-inner {
     min-height:72px
-  }
-  .brand img {
-    width:36px;
-    height:36px;
-    border-radius:10px
   }
   .menu-toggle {
     width:44px;
@@ -960,6 +945,26 @@ footer small {
   }
   .nav-download {
     margin-top:8px
+  }
+}
+@media(max-width:900px) {
+  :root {
+    --title:36px;
+    --section-title:28px
+  }
+  .container {
+    width:calc(100% - 40px)
+  }
+  .section {
+    padding-block:48px
+  }
+  .header-inner {
+    min-height:72px
+  }
+  .brand img {
+    width:36px;
+    height:36px;
+    border-radius:10px
   }
   .hero {
     padding-top:32px
@@ -1446,4 +1451,8 @@ html:lang(en) .overview-rail h3 {
 
 html:lang(zh-CN) {
   --font:"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif;
+}
+
+html:lang(zh-TW) {
+  --font:"PingFang TC","Microsoft JhengHei","Noto Sans TC",sans-serif;
 }

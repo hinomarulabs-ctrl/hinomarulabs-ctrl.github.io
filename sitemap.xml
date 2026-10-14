@@ -408,6 +408,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://hinomaru-labs.com/notifypost/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://hinomaru-labs.com/notifypost/en/" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hinomaru-labs.com/notifypost/zh-cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hinomaru-labs.com/notifypost/zh-tw/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://hinomaru-labs.com/notifypost/" />
   </url>
   <url>
@@ -418,6 +419,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://hinomaru-labs.com/notifypost/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://hinomaru-labs.com/notifypost/en/" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hinomaru-labs.com/notifypost/zh-cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hinomaru-labs.com/notifypost/zh-tw/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://hinomaru-labs.com/notifypost/" />
   </url>
   <url>
@@ -428,6 +430,18 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://hinomaru-labs.com/notifypost/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://hinomaru-labs.com/notifypost/en/" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hinomaru-labs.com/notifypost/zh-cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hinomaru-labs.com/notifypost/zh-tw/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hinomaru-labs.com/notifypost/" />
+  </url>
+  <url>
+    <loc>https://hinomaru-labs.com/notifypost/zh-tw/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hinomaru-labs.com/notifypost/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://hinomaru-labs.com/notifypost/en/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hinomaru-labs.com/notifypost/zh-cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hinomaru-labs.com/notifypost/zh-tw/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://hinomaru-labs.com/notifypost/" />
   </url>
 </urlset>

@@ -4,7 +4,8 @@ const nav = document.querySelector('#main-nav');
 const localizedMenuLabels = {
   ja: { open: 'メニューを開く', close: 'メニューを閉じる' },
   en: { open: 'Open menu', close: 'Close menu' },
-  'zh-CN': { open: '打开菜单', close: '关闭菜单' }
+  'zh-CN': { open: '打开菜单', close: '关闭菜单' },
+  'zh-TW': { open: '開啟選單', close: '關閉選單' }
 };
 const menuLabels = localizedMenuLabels[document.documentElement.lang] || localizedMenuLabels.ja;
 function closeMenu() {
@@ -28,4 +29,4 @@ document.addEventListener('keydown', event => {
 document.addEventListener('click', event => {
   if (!event.target.closest('.site-header')) closeMenu();
 });
-window.matchMedia('(min-width: 901px)').addEventListener('change', closeMenu);
+window.matchMedia('(min-width: 1101px)').addEventListener('change', closeMenu);
