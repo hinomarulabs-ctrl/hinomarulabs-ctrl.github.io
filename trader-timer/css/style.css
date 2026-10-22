@@ -167,10 +167,11 @@ svg {
 .language-switcher {
   display: inline-flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 2px;
   padding: 3px;
   border: 1px solid rgba(255, 255, 255, .1);
-  border-radius: 999px;
+  border-radius: 18px;
   background: rgba(255, 255, 255, .045);
 }
 
@@ -1000,6 +1001,26 @@ svg {
     font-size: 16px;
     line-height: 1.85;
   }
+}
+
+/* Keep all seven language links reachable on tablet-width headers. */
+@media (min-width: 768px) and (max-width: 1100px) {
+  .header__menu { display: block; }
+  .header__nav {
+    position: fixed;
+    inset: 80px 24px auto;
+    display: grid;
+    gap: var(--space-1);
+    padding: var(--space-3);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-card);
+    background: rgba(17, 19, 21, .98);
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-8px);
+  }
+  .header__nav.is-open { opacity: 1; pointer-events: auto; transform: none; }
+  .header__nav a, .language-switcher { justify-content: center; }
 }
 
 @media (max-width: 767px) {
