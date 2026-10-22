@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://hinomaru-labs.com/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -527,5 +527,17 @@
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hinomaru-labs.com/notifypost/zh-tw/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://hinomaru-labs.com/notifypost/ko/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://hinomaru-labs.com/notifypost/" />
+  </url>
+  <url>
+    <loc>https://hinomaru-labs.com/kokoro-spot/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hinomaru-labs.com/kokoro-spot/credits.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
 </urlset>

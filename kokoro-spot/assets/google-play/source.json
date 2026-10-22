@@ -1,0 +1,17 @@
+{
+  "guidelines": "https://partnermarketinghub.withgoogle.com/brands/google-play/google-play/lockups-icons-badges/",
+  "download": "https://storage.googleapis.com/pe-portal-consumer-prod-wagtail-static/downloads_folder/1HFDnA_FlVX8yaD9YzwKQ9XPYPXV6FNaz.zip",
+  "downloadMethod": "Signed download URL provided by the current official guidelines page",
+  "archivePath": "Google Play Badge guidelines/Get it on Google Play Badges/Digital/png/GetItOnGooglePlay_Badge_Web_color_Japanese (4).png",
+  "sha256": "6685eb728a9301b54900d352d3bdea6139bc5a05f1964d1cefc5113d65886f3d",
+  "size": [
+    270,
+    80
+  ],
+  "processing": "Original official PNG bytes; no editing, cropping, filters, or recompression.",
+  "rules": {
+    "minimumDigitalHeightPx": 28,
+    "clearSpace": "at least one quarter of the displayed badge height on every side"
+  },
+  "destination": "https://play.google.com/store/apps/details?id=com.hinomarulabs.kokorospot"
+}
