@@ -5,6 +5,7 @@ Write down worries, save your notes, and return in your own time. A free Android
 ## Official pages
 - English product page: https://hinomaru-labs.com/nayumo/en/
 - Japanese product page: https://hinomaru-labs.com/nayumo/
+- Simplified Chinese product page: https://hinomaru-labs.com/nayumo/zh-cn/
 - Google Play: https://play.google.com/store/apps/details?id=com.hinomarulabs.nayumo&hl=en
 - Developer: Hinomaru Labs (https://hinomaru-labs.com/)
 - Terms of Use: https://hinomaru-labs.com/nayumo/terms.html

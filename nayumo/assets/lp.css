@@ -137,25 +137,69 @@ p {
   gap: 2px;
   flex-shrink: 0;
 }
-.language-nav {
-  display: flex;
-  align-items: center;
-  gap: 8px;
+.language-menu {
+  position: relative;
+  z-index: 5;
   font: 400 11px/1.5 var(--sans);
   color: var(--muted);
 }
-.language-nav a {
-  padding: 3px 2px;
+.language-menu summary {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 28px;
+  padding: 4px 10px;
+  border-radius: 6px;
+  list-style: none;
+  cursor: pointer;
 }
-.language-nav a[lang="ja"] {
+.language-menu summary::-webkit-details-marker {
+  display: none;
+}
+.language-menu summary::after {
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-right: 1px solid currentColor;
+  border-bottom: 1px solid currentColor;
+  transform: translateY(-2px) rotate(45deg);
+}
+.language-menu[open] summary,
+.language-menu summary:hover {
+  background: var(--sage);
+  color: var(--green);
+}
+.language-options {
+  position: absolute;
+  top: calc(100% + 5px);
+  right: 0;
+  min-width: 150px;
+  padding: 6px;
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  background: var(--paper);
+  box-shadow: 0 8px 24px #283c2b15;
+}
+.language-options a {
+  display: block;
+  padding: 10px 12px;
+  border-radius: 5px;
+  font-size: 13px;
+  white-space: nowrap;
+}
+.language-menu [lang="ja"] {
   font-family: NotoSansJP, sans-serif;
 }
-.language-nav a[aria-current="page"] {
+.language-menu [lang="zh-Hans"] {
+  font-family: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+}
+.language-options a[aria-current="page"] {
   color: var(--green);
   text-decoration: underline;
   text-underline-offset: 3px;
 }
-.language-nav a:hover {
+.language-options a:hover {
+  background: var(--sage);
   color: var(--green);
 }
 .primary-nav a:hover,

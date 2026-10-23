@@ -1,0 +1,89 @@
+@font-face {
+  font-family: NotoSerifSC;
+  src: url("./noto-serif-sc-500.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: NotoSansSC;
+  src: url("./noto-sans-sc-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+:root {
+  --serif: NotoSerifSC, "Songti SC", "SimSun", serif;
+  --sans: NotoSansSC, "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+.home-screen {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 940 / 2042;
+  border-radius: 29px;
+  overflow: hidden;
+}
+/* Show the actual screen within the approved Simplified Chinese store image. */
+.phone .home-screen img {
+  position: absolute;
+  top: 0;
+  left: -16.06383%;
+  width: 132.12766%;
+  max-width: none;
+  border-radius: 0;
+  transform: translateY(-21.875%);
+}
+.step > p {
+  min-height: 110px;
+}
+.step:nth-child(3) .step-phone img {
+  aspect-ratio: 780 / 1696;
+}
+.step:nth-child(3) .step-phone {
+  width: 230px;
+}
+.privacy-grid p {
+  text-wrap: pretty;
+}
+@media (max-width: 1150px) {
+  .step:nth-child(3) .step-phone {
+    width: 220px;
+  }
+}
+@media (max-width: 900px) {
+  .step > p {
+    min-height: 125px;
+  }
+  .step:nth-child(3) .step-phone {
+    width: 100%;
+    max-width: 205px;
+  }
+}
+@media (min-width: 681px) and (max-width: 900px) {
+  .hero-description {
+    max-width: 330px;
+  }
+  .hero-phone-home {
+    width: 55%;
+    left: 0;
+  }
+  .hero-phone-write {
+    width: 45%;
+    left: 47%;
+    top: 110px;
+  }
+  .hero-oval {
+    width: 110%;
+  }
+}
+@media (max-width: 680px) {
+  .home-screen {
+    border-radius: 23px;
+  }
+  .step > p {
+    min-height: 0;
+  }
+  .step:nth-child(3) .step-phone {
+    max-width: none;
+  }
+}
