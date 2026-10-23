@@ -1,0 +1,42 @@
+# Nayumo
+
+Write down worries, save your notes, and return in your own time. A free Android app with prompts, app lock, and messages you can take to ChatGPT or Gemini.
+
+## Official pages
+- English product page: https://hinomaru-labs.com/nayumo/en/
+- Japanese product page: https://hinomaru-labs.com/nayumo/
+- Google Play: https://play.google.com/store/apps/details?id=com.hinomarulabs.nayumo&hl=en
+- Developer: Hinomaru Labs (https://hinomaru-labs.com/)
+- Terms of Use: https://hinomaru-labs.com/nayumo/terms.html
+- Privacy Policy: https://hinomaru-labs.com/privacy.html
+- Support: https://hinomaru-labs.com/support.html
+
+## Product facts
+- Platform: Android
+- Price: Free, with ads. External AI services have their own terms and fees.
+- App languages: Japanese, English, Simplified Chinese, Traditional Chinese.
+- Notes are saved on the device. No app-provided cloud sync. Markdown or ZIP export does not automatically migrate or sync notes.
+- AI conversations happen in external services. The user reviews, edits, copies, pastes, and sends the message. Notes are not automatically sent to AI.
+- Not intended for medical diagnosis or treatment.
+
+## Frequently asked questions
+
+### What is Nayumo?
+Nayumo is a worry journal and notes app: a place to write down worries and feelings and leave them for now. It includes optional prompts, tags, search, and messages you can prepare for external AI services. It is not intended for medical diagnosis or treatment.
+
+### Is Nayumo free to use?
+Yes, it’s free to use.
+
+### Do AI conversations happen inside Nayumo?
+Conversations take place in an external service such as ChatGPT or Gemini. In Nayumo, choose the kind of support you’d like, review and edit your message, then copy it. You paste and send it in the AI service yourself.
+
+### Are my notes automatically sent to AI?
+No. Nayumo does not automatically send your notes to an external AI. You review the message, then copy, paste, and send it yourself. Anything you send is handled under that service’s policies.
+
+### Can I use Nayumo offline?
+Yes. You can write notes and read records saved on your device offline. Ads, external AI services, and support pages need an internet connection.
+
+### Can I sync notes or move them to a new device?
+Nayumo does not provide its own cloud sync. Notes are saved on your device. You can export records as Markdown or ZIP files, but this does not automatically transfer or sync them to another device.
+
+Updated: 2026-10-23

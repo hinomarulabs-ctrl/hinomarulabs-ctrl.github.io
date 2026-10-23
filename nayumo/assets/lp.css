@@ -130,6 +130,34 @@ p {
 .primary-nav a {
   padding: 10px 0;
 }
+.header-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  flex-shrink: 0;
+}
+.language-nav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font: 400 11px/1.5 var(--sans);
+  color: var(--muted);
+}
+.language-nav a {
+  padding: 3px 2px;
+}
+.language-nav a[lang="ja"] {
+  font-family: NotoSansJP, sans-serif;
+}
+.language-nav a[aria-current="page"] {
+  color: var(--green);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.language-nav a:hover {
+  color: var(--green);
+}
 .primary-nav a:hover,
 .site-footer nav a:hover {
   color: var(--green);
