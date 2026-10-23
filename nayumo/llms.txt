@@ -6,6 +6,7 @@ Nayumoは、悩みや気持ちを書いて、いったん置いておく無料�
 - 日本語の製品紹介: https://hinomaru-labs.com/nayumo/
 - 英語の製品紹介: https://hinomaru-labs.com/nayumo/en/
 - 中国語（簡体字）の製品紹介: https://hinomaru-labs.com/nayumo/zh-cn/
+- 中国語（繁体字）の製品紹介: https://hinomaru-labs.com/nayumo/zh-tw/
 - Google Play: https://play.google.com/store/apps/details?id=com.hinomarulabs.nayumo
 - 開発元: Hinomaru Labs (https://hinomaru-labs.com/)
 - 利用規約: https://hinomaru-labs.com/nayumo/terms.html

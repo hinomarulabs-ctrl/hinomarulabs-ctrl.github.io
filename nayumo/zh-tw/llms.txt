@@ -1,0 +1,44 @@
+# Nayumo
+
+Nayumo 是一款免費的 Android 煩惱與心情筆記 App。支援書寫範本、標籤搜尋與 App 鎖，記錄儲存在裝置內。想聊一聊時，也能為 ChatGPT、Gemini 等外部 AI 準備諮詢內容。
+
+## 官方資訊
+- 繁體中文產品介紹: https://hinomaru-labs.com/nayumo/zh-tw/
+- 日文產品介紹: https://hinomaru-labs.com/nayumo/
+- 英文產品介紹: https://hinomaru-labs.com/nayumo/en/
+- 簡體中文產品介紹: https://hinomaru-labs.com/nayumo/zh-cn/
+- Google Play: https://play.google.com/store/apps/details?id=com.hinomarulabs.nayumo&hl=zh_TW
+- 開發者: Hinomaru Labs (https://hinomaru-labs.com/)
+- 使用條款: https://hinomaru-labs.com/nayumo/terms.html
+- 隱私權政策: https://hinomaru-labs.com/privacy.html
+- 支援: https://hinomaru-labs.com/support.html
+
+## 產品事實
+- 支援平台: Android
+- 費用: 免費（含廣告）。外部 AI 服務的使用條款與費用依各服務規定。
+- App 語言: 日文、英文、簡體中文、繁體中文。
+- 記錄儲存在裝置內，不提供 App 自有的雲端同步。Markdown 或 ZIP 匯出不會自動移轉或同步記錄。
+- AI 交流透過外部服務進行。使用者確認、編輯、複製內容後，自行貼上並傳送。記錄不會自動傳送給 AI。
+- 本 App 不用於醫療診斷或治療。
+
+## 常見問題
+
+### Nayumo 是什麼 App？
+Nayumo 是一款把煩惱與心情寫下來、暫時放在這裡的筆記 App。支援書寫範本、標籤搜尋，以及為外部 AI 準備諮詢內容。本 App 不用於醫療診斷或治療。
+
+### Nayumo 可以免費使用嗎？
+可以免費使用。
+
+### AI 交流是在 Nayumo 內進行的嗎？
+交流透過 ChatGPT、Gemini 等外部 AI 服務進行。你可以在 Nayumo 選擇希望得到的回應，確認並編輯內容後複製，再自行貼到外部 AI 並傳送。
+
+### 記錄會自動傳送給 AI 嗎？
+不會。Nayumo 不會自動把記錄傳送給外部 AI。請先確認諮詢內容，再自行複製、貼上並傳送。傳送給外部 AI 的內容，將依該服務的政策處理。
+
+### 沒有網路時也能使用嗎？
+沒有網路時，也可以寫筆記和查看裝置內儲存的記錄。廣告、外部 AI 服務和支援頁面等需要網路連線。
+
+### 可以同步記錄或移轉到新裝置嗎？
+Nayumo 不提供自己的雲端同步功能，記錄儲存在裝置內。你可以將所需記錄匯出為 Markdown 或 ZIP 檔案，但這不代表能自動移轉或同步到另一台裝置。
+
+更新日期: 2026-10-23

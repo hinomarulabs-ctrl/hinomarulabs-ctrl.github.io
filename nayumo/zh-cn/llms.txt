@@ -6,6 +6,7 @@ Nayumo 是一款免费的 Android 烦恼与心情笔记应用。支持写作模�
 - 简体中文产品介绍: https://hinomaru-labs.com/nayumo/zh-cn/
 - 日语产品介绍: https://hinomaru-labs.com/nayumo/
 - 英语产品介绍: https://hinomaru-labs.com/nayumo/en/
+- 繁体中文产品介绍: https://hinomaru-labs.com/nayumo/zh-tw/
 - Google Play: https://play.google.com/store/apps/details?id=com.hinomarulabs.nayumo&hl=zh_CN
 - 开发者: Hinomaru Labs (https://hinomaru-labs.com/)
 - 使用条款: https://hinomaru-labs.com/nayumo/terms.html
