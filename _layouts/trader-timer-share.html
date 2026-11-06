@@ -1,0 +1,11 @@
+{%- assign share_url = page.url | prepend: 'https://hinomaru-labs.com' -%}
+{%- assign landing_url = share_url | remove_first: 'share.html' -%}
+{%- capture landing_canonical -%}<link rel="canonical" href="{{ landing_url }}">{%- endcapture -%}
+{%- capture share_canonical -%}<link rel="canonical" href="{{ share_url }}">{%- endcapture -%}
+{%- capture landing_og_url -%}<meta property="og:url" content="{{ landing_url }}">{%- endcapture -%}
+{%- capture share_og_url -%}<meta property="og:url" content="{{ share_url }}">{%- endcapture -%}
+{{- content
+  | replace_first: landing_canonical, share_canonical
+  | replace_first: landing_og_url, share_og_url
+  | replace_first: '<meta name="robots" content="index,', '<meta name="robots" content="noindex,'
+-}}
