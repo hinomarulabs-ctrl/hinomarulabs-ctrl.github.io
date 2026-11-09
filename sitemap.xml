@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://hinomaru-labs.com/en/</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://hinomaru-labs.com/" />
@@ -623,5 +623,37 @@
   <url>
     <loc>https://hinomaru-labs.com/world-salary-map/</loc>
     <lastmod>2026-11-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hinomaru-labs.com/world-salary-map/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://hinomaru-labs.com/world-salary-map/en/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hinomaru-labs.com/world-salary-map/zh-cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://hinomaru-labs.com/world-salary-map/zh-tw/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hinomaru-labs.com/world-salary-map/en/" />
+  </url>
+  <url>
+    <loc>https://hinomaru-labs.com/world-salary-map/en/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hinomaru-labs.com/world-salary-map/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://hinomaru-labs.com/world-salary-map/en/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hinomaru-labs.com/world-salary-map/zh-cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://hinomaru-labs.com/world-salary-map/zh-tw/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hinomaru-labs.com/world-salary-map/en/" />
+  </url>
+  <url>
+    <loc>https://hinomaru-labs.com/world-salary-map/zh-cn/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hinomaru-labs.com/world-salary-map/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://hinomaru-labs.com/world-salary-map/en/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hinomaru-labs.com/world-salary-map/zh-cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://hinomaru-labs.com/world-salary-map/zh-tw/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hinomaru-labs.com/world-salary-map/en/" />
+  </url>
+  <url>
+    <loc>https://hinomaru-labs.com/world-salary-map/zh-tw/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hinomaru-labs.com/world-salary-map/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://hinomaru-labs.com/world-salary-map/en/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hinomaru-labs.com/world-salary-map/zh-cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://hinomaru-labs.com/world-salary-map/zh-tw/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hinomaru-labs.com/world-salary-map/en/" />
   </url>
 </urlset>
