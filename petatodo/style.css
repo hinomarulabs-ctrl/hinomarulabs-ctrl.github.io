@@ -83,6 +83,8 @@ img { display: block; max-width: 100%; height: auto; }
   text-underline-offset: .22em;
 }
 
+.language-menu { display: none; position: relative; }
+
 .hero {
   display: grid;
   grid-template-columns: minmax(0, 1.04fr) minmax(0, 1fr);
@@ -258,12 +260,71 @@ h2 {
 @media (max-width: 650px) {
   .shell { width: calc(100% - 40px); }
   .header-row {
-    grid-template-columns: minmax(0, 1fr) auto;
-    gap: 8px 13px;
-    padding-block: 11px 12px;
+    min-height: 70px;
+    gap: 13px;
   }
-  .language-nav { grid-column: 1 / -1; }
-  .language-nav a { padding-inline: 3px; }
+  .header-row > .language-nav { display: none; }
+  .language-menu { display: block; }
+  .language-menu summary {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    min-height: 44px;
+    padding-inline: 9px;
+    border: 1px solid var(--rule);
+    border-radius: 8px;
+    background: #fffdf8;
+    cursor: pointer;
+    list-style: none;
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .language-menu summary::-webkit-details-marker { display: none; }
+  .language-menu summary::after {
+    width: 6px;
+    height: 6px;
+    margin: -3px 1px 0 1px;
+    border: solid currentColor;
+    border-width: 0 1.5px 1.5px 0;
+    transform: rotate(45deg);
+    content: "";
+  }
+  .language-menu[open] summary::after { transform: rotate(225deg); margin-top: 3px; }
+  .language-globe {
+    position: relative;
+    display: block;
+    width: 16px;
+    height: 16px;
+    border: 1.5px solid currentColor;
+    border-radius: 50%;
+    color: var(--forest);
+  }
+  .language-globe::before {
+    position: absolute;
+    inset: -1px 3px;
+    border: 1px solid currentColor;
+    border-radius: 50%;
+    content: "";
+  }
+  .language-globe::after {
+    position: absolute;
+    inset: 50% 0 auto;
+    border-top: 1px solid currentColor;
+    content: "";
+  }
+  .language-menu .language-nav {
+    position: absolute;
+    z-index: 2;
+    inset: calc(100% + 6px) 0 auto auto;
+    min-width: 142px;
+    grid-template-columns: 1fr;
+    box-shadow: 0 6px 18px #173d2b1a;
+  }
+  .language-menu .language-nav a {
+    place-items: center start;
+    padding-inline: 11px;
+  }
   .brand { gap: 8px; font-size: 19px; }
   .brand img { width: 36px; height: 36px; }
   .nav-link { font-size: 14px; }
@@ -276,6 +337,14 @@ h2 {
   .board-preview::after { width: 22px; height: 36px; right: 15px; }
   .workflow-grid { gap: 26px; }
   .steps { margin-top: 17px; }
+}
+
+@media (max-width: 370px) {
+  .header-row { gap: 8px; }
+  .brand { gap: 6px; font-size: 17px; }
+  .brand img { width: 30px; height: 30px; }
+  .nav-link, .language-menu summary { font-size: 13px; }
+  .language-menu summary { padding-inline: 6px; gap: 5px; }
 }
 
 @media (max-width: 340px) {
