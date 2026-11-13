@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff9ed">
+  <title>ペタTODO｜緊急度と重要度で優先順位を決めるタスク管理アプリ</title>
+  <meta name="description" content="ペタTODOは、やることを付箋に書き出し、緊急度と重要度の十字ボードで整理するAndroid向けタスク管理アプリ。貼った位置から優先順のTODO一覧が自動ででき、進捗も管理できます。">
+  <meta name="robots" content="max-image-preview:large">
+  <link rel="canonical" href="https://hinomaru-labs.com/petatodo/">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Hinomaru Labs">
+  <meta property="og:title" content="ペタTODO｜付箋で優先順位を決めるタスク管理アプリ">
+  <meta property="og:description" content="やることが多い。何から始める？ 付箋で整理すると、優先順のTODO一覧が自動でできます。">
+  <meta property="og:url" content="https://hinomaru-labs.com/petatodo/">
+  <meta property="og:image" content="https://hinomaru-labs.com/petatodo/assets/share.png">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="500">
+  <meta property="og:image:alt" content="ペタTODOの付箋ボードと優先順のTODO一覧">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/icon.webp" type="image/webp">
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MobileApplication",
+    "@id": "https://hinomaru-labs.com/petatodo/#app",
+    "url": "https://hinomaru-labs.com/petatodo/",
+    "name": "ペタTODO",
+    "alternateName": "PetaTodo",
+    "description": "付箋を緊急度と重要度の十字ボードで整理し、貼った位置から優先順のTODO一覧を自動で作るタスク管理アプリ。",
+    "applicationCategory": "ProductivityApplication",
+    "operatingSystem": "Android",
+    "installUrl": "https://play.google.com/store/apps/details?id=com.hinomarulabs.priorityboard",
+    "image": "https://hinomaru-labs.com/petatodo/assets/share.png",
+    "screenshot": [
+      "https://hinomaru-labs.com/petatodo/assets/board.webp",
+      "https://hinomaru-labs.com/petatodo/assets/todo-closeup.webp"
+    ],
+    "publisher": {
+      "@type": "Organization",
+      "name": "Hinomaru Labs",
+      "url": "https://hinomaru-labs.com/"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": 0,
+      "priceCurrency": "JPY",
+      "url": "https://play.google.com/store/apps/details?id=com.hinomarulabs.priorityboard"
+    }
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell header-row">
+      <a class="brand" href="#top" aria-label="ペタTODO、ページの先頭">
+        <img src="assets/icon.webp" width="42" height="42" alt="">
+        <span>ペタTODO</span>
+      </a>
+      <nav aria-label="サイト内ナビゲーション">
+        <a class="nav-link" href="#how">使い方</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="shell hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <h1 id="hero-title">やることが多い。<br><span>何から始める？</span></h1>
+        <p class="hero-summary">付箋を緊急度と重要度で整理すると、優先順のTODO一覧が自動でできます。</p>
+        <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.hinomarulabs.priorityboard">
+          <img src="assets/google-play-ja.png" width="270" height="80" alt="Google Playで手に入れよう">
+        </a>
+      </div>
+      <figure class="board-preview">
+        <img src="assets/board.webp" width="720" height="1107" alt="緊急度が右へ、重要度が上へ高くなる十字ボードに、色付きの付箋を置いた画面" fetchpriority="high">
+      </figure>
+    </section>
+
+    <section class="workflow" id="how" aria-labelledby="how-title">
+      <div class="shell workflow-grid">
+        <div>
+          <h2 id="how-title">付箋からTODO一覧へ。</h2>
+          <ol class="steps" role="list">
+            <li>
+              <span class="step-number" aria-hidden="true">1</span>
+              <div>
+                <h3>書き出す</h3>
+                <p>「明日の資料を仕上げる」など、やることを一枚ずつ付箋に書きます。</p>
+              </div>
+            </li>
+            <li>
+              <span class="step-number" aria-hidden="true">2</span>
+              <div>
+                <h3>ボードに貼る</h3>
+                <p>急ぐことは右へ。大事なことは上へ。付箋を動かして見比べます。</p>
+              </div>
+            </li>
+            <li>
+              <span class="step-number" aria-hidden="true">3</span>
+              <div>
+                <h3>TODO一覧を見る</h3>
+                <p>貼った位置で順番が決まります。取りかかったら進捗も記録できます。</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+        <figure class="todo-preview">
+          <img src="assets/todo-closeup.webp" width="660" height="577" alt="明日の資料、来月の企画、役所への書類、部屋の片づけが優先順に並ぶTODO一覧" loading="lazy">
+        </figure>
+      </div>
+    </section>
+
+    <section class="faq" aria-labelledby="faq-title">
+      <div class="shell faq-inner">
+        <h2 id="faq-title">よくある質問</h2>
+        <div class="answers">
+          <details>
+            <summary>緊急度と重要度はどう違いますか？</summary>
+            <p>緊急度は「どれだけ早く対応が必要か」、重要度は「結果や目標にどれだけ影響するか」です。明日使う資料は右上に、早めに考えておきたい来月の企画は左上に置けます。</p>
+          </details>
+          <details>
+            <summary>TODOの優先順位はどう決まりますか？</summary>
+            <p>付箋の位置から決まる緊急度と重要度の合計が高い順に並びます。同点なら重要度が高い付箋が先です。順番を変えたいときは、ボードに戻って付箋を動かします。</p>
+          </details>
+          <details>
+            <summary>アカウント登録は必要ですか？</summary>
+            <p>登録不要で使えます。ボード・付箋・添付ファイルは端末内に保存され、ペタTODOから外部サーバーに送信されません。</p>
+          </details>
+          <details>
+            <summary>付箋の整理や書き出しには何ができますか？</summary>
+            <p>色とラベルで分類でき、書式付きメモや複数のファイルを付箋に追加できます。進捗は「未完了」「着手」「完了」の3段階で、完了した付箋はTODO一覧に残ります。TODO一覧はCSV・PDF・PNG、ボードはPDF・PNGで書き出せます。</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-row">
+      <a class="footer-link" href="https://hinomaru-labs.com/privacy.html">プライバシーポリシー</a>
+      <a class="footer-link" href="https://play.google.com/store/apps/details?id=com.hinomarulabs.priorityboard">Android版を無料で入手</a>
+    </div>
+  </footer>
+</body>
+</html>
