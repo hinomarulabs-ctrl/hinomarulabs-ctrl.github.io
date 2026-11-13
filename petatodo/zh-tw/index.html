@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff9ed">
+  <title>PetaTodo｜依緊急度與重要度安排待辦順序</title>
+  <meta name="description" content="PetaTodo 是一款 Android 待辦管理 App。把要做的事寫成便利貼，在十字看板上依緊急度與重要度整理，自動產生按優先順序排列的待辦清單，還能追蹤進度。">
+  <meta name="robots" content="max-image-preview:large">
+  <link rel="canonical" href="https://hinomaru-labs.com/petatodo/zh-tw/">
+  <link rel="alternate" hreflang="ja" href="https://hinomaru-labs.com/petatodo/">
+  <link rel="alternate" hreflang="en" href="https://hinomaru-labs.com/petatodo/en/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://hinomaru-labs.com/petatodo/zh-cn/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://hinomaru-labs.com/petatodo/zh-tw/">
+  <link rel="alternate" hreflang="x-default" href="https://hinomaru-labs.com/petatodo/en/">
+  <meta property="og:locale" content="zh_TW">
+  <meta property="og:locale:alternate" content="ja_JP">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Hinomaru Labs">
+  <meta property="og:title" content="PetaTodo｜用便利貼排好待辦順序">
+  <meta property="og:description" content="事情太多，先做哪一件？用便利貼整理任務，自動產生按優先順序排列的待辦清單。">
+  <meta property="og:url" content="https://hinomaru-labs.com/petatodo/zh-tw/">
+  <meta property="og:image" content="https://hinomaru-labs.com/petatodo/zh-tw/assets/share.png">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="500">
+  <meta property="og:image:alt" content="PetaTodo 的便利貼看板與按優先順序排列的待辦清單">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../assets/icon.webp" type="image/webp">
+  <link rel="stylesheet" href="../style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MobileApplication",
+    "@id": "https://hinomaru-labs.com/petatodo/#app",
+    "url": "https://hinomaru-labs.com/petatodo/zh-tw/",
+    "name": "PetaTodo",
+    "alternateName": "ペタTODO",
+    "description": "用十字看板依緊急度與重要度整理便利貼，依照便利貼的位置自動產生按優先順序排列的待辦清單。",
+    "applicationCategory": "ProductivityApplication",
+    "operatingSystem": "Android",
+    "inLanguage": "zh-Hant",
+    "installUrl": "https://play.google.com/store/apps/details?id=com.hinomarulabs.priorityboard",
+    "image": "https://hinomaru-labs.com/petatodo/zh-tw/assets/share.png",
+    "screenshot": [
+      "https://hinomaru-labs.com/petatodo/zh-tw/assets/board.webp",
+      "https://hinomaru-labs.com/petatodo/zh-tw/assets/todo-closeup.webp"
+    ],
+    "publisher": {
+      "@type": "Organization",
+      "name": "Hinomaru Labs",
+      "url": "https://hinomaru-labs.com/"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": 0,
+      "priceCurrency": "TWD",
+      "url": "https://play.google.com/store/apps/details?id=com.hinomarulabs.priorityboard"
+    }
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell header-row">
+      <a class="brand" href="#top" aria-label="PetaTodo，回到頁首">
+        <img src="../assets/icon.webp" width="42" height="42" alt="">
+        <span>PetaTodo</span>
+      </a>
+      <nav aria-label="網站導覽">
+        <a class="nav-link" href="#how">使用方式</a>
+        <details class="language-picker">
+          <summary aria-label="選擇語言: 繁體中文">繁體中文</summary>
+          <ul class="language-options">
+            <li><a href="../" lang="ja" hreflang="ja">日本語</a></li>
+            <li><a href="../en/" lang="en" hreflang="en">English</a></li>
+            <li><a href="../zh-cn/" lang="zh-Hans" hreflang="zh-Hans">简体中文</a></li>
+            <li><a href="../zh-tw/" lang="zh-Hant" hreflang="zh-Hant" aria-current="page">繁體中文</a></li>
+          </ul>
+        </details>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="shell hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <h1 id="hero-title">事情太多。<br><span>先做哪一件？</span></h1>
+        <p class="hero-summary">把要做的事寫成便利貼，依緊急度與重要度擺放，待辦清單就會自動排好順序。</p>
+        <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.hinomarulabs.priorityboard&amp;hl=zh-TW">
+          <img src="assets/google-play.png" width="478" height="142" alt="在 Google Play 立即下載">
+        </a>
+      </div>
+      <figure class="board-preview">
+        <img src="assets/board.webp" width="720" height="1107" alt="十字看板貼有彩色便利貼，越往右越緊急，越往上越重要" fetchpriority="high">
+      </figure>
+    </section>
+
+    <section class="workflow" id="how" aria-labelledby="how-title">
+      <div class="shell workflow-grid">
+        <div>
+          <h2 id="how-title">從便利貼到待辦清單</h2>
+          <ol class="steps" role="list">
+            <li>
+              <span class="step-number" aria-hidden="true">1</span>
+              <div>
+                <h3>寫下要做的事</h3>
+                <p>例如「準備明天的資料」。一件事寫在一張便利貼上。</p>
+              </div>
+            </li>
+            <li>
+              <span class="step-number" aria-hidden="true">2</span>
+              <div>
+                <h3>把便利貼貼到看板上</h3>
+                <p>緊急的往右放，重要的往上放。拖曳便利貼，就能對照其他任務調整位置。</p>
+              </div>
+            </li>
+            <li>
+              <span class="step-number" aria-hidden="true">3</span>
+              <div>
+                <h3>查看待辦清單</h3>
+                <p>清單會依照便利貼的位置自動排序。開始處理後，還能記錄進度。</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+        <figure class="todo-preview">
+          <img src="assets/todo-closeup.webp" width="660" height="577" alt="待辦清單按優先順序列出準備資料、規劃企劃、繳交文件與整理房間" loading="lazy">
+        </figure>
+      </div>
+    </section>
+
+    <section class="faq" aria-labelledby="faq-title">
+      <div class="shell faq-inner">
+        <h2 id="faq-title">常見問題</h2>
+        <div class="answers">
+          <details>
+            <summary>緊急度和重要度有什麼差別？</summary>
+            <p>緊急度是指一件事需要多快處理；重要度是指它對結果或目標有多大的影響。例如，明天要用的資料可以放在右上角，下個月的重要企劃可以放在左上角。</p>
+          </details>
+          <details>
+            <summary>待辦事項的優先順序是怎麼排的？</summary>
+            <p>PetaTodo 會把便利貼位置對應的緊急度與重要度相加，總分越高越靠前。同分時，重要度較高的事項優先。拖曳看板上的便利貼即可更新排序。</p>
+          </details>
+          <details>
+            <summary>需要註冊帳號嗎？</summary>
+            <p>無需註冊就能使用。看板、便利貼與附件儲存在裝置上，PetaTodo 不會將這些資料傳送到外部伺服器。</p>
+          </details>
+          <details>
+            <summary>可以怎麼整理和匯出待辦？</summary>
+            <p>可以用顏色與標籤分類，在便利貼中加入有格式的備註和多個附件。進度分為「未完成」「進行中」「已完成」，已完成的事項會保留在待辦清單中。待辦清單可匯出為 CSV、PDF 或 PNG，看板可匯出為 PDF 或 PNG。</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-row">
+      <a class="footer-link" href="https://hinomaru-labs.com/privacy.html">隱私權政策</a>
+      <a class="footer-link" href="https://play.google.com/store/apps/details?id=com.hinomarulabs.priorityboard&amp;hl=zh-TW">免費取得 Android 版</a>
+    </div>
+  </footer>
+</body>
+</html>
