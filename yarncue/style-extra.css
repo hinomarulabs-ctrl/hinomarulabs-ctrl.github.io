@@ -20,16 +20,44 @@
 .case-image.first { background-position:left center; }.case-image.second { background-position:center center; }.case-image.third { background-position:right center; }
 .cta { background:#102649 url("images/cta-craft.png") right center/auto 100% no-repeat; }
 .cta-craft { display:none; }
-@media (max-width:760px) { .hero-visual { margin-left:-24px;margin-right:-24px; border-radius:0; }.feature-media::after { background:linear-gradient(90deg,#fbfaf4aa 0%,transparent 80%); }.cta { background-size:auto 46%; background-position:right bottom; } }
+@media (max-width:760px) { .hero-visual { margin-left:-24px;margin-right:-24px; border-radius:0; }.feature-media::after { background:linear-gradient(90deg,#fbfaf4aa 0%,transparent 80%); } }
 
 /* Match the approved LP rhythm: smaller desktop type, tighter bands, and illustrated steps. */
 @media (min-width:761px) { .section { padding-top:86px; padding-bottom:86px; }.section h2,.cta h2 { font-size:43px; }.features>h2 { margin-bottom:52px; }.feature { min-height:276px; gap:58px; }.feature h3 { font-size:29px; }.how { padding-top:76px; padding-bottom:72px; }.how h2 { font-size:42px; }.steps { margin-top:28px; gap:38px; }.use-cases { padding-top:88px; padding-bottom:84px; } }
 .how .steps { max-width:1040px; min-height:540px; padding-top:0; background:url("images/steps-editorial.png") center bottom/100% auto no-repeat; }
 .how .steps article { padding-top:166px; position:relative; }.how .steps article b { position:absolute; top:140px; left:calc(50% - 79px); }.how .step-icon { display:none; }.how .steps h3 { font-size:18px; }.how .steps p { display:none; }.thread { display:none; }
 .feature-copy h3::before { content:""; display:inline-block; width:24px; height:24px; margin-right:13px; vertical-align:-3px; border:1.5px solid var(--coral); border-radius:50%; box-shadow:inset 0 0 0 6px #faf8f2; }
-.app-store-badge { width:136px; height:auto; display:block; margin-top:18px; }
-.app-store-link { display:inline-block; line-height:0; margin-top:18px; transition:transform .2s,opacity .2s; }
-.app-store-link:hover { opacity:.86; transform:translateY(-2px); }
+.store-links {
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:12px;
+}
+
+.store-link {
+  display:block;
+  border-radius:7px;
+}
+
+.store-link img {
+  display:block;
+  width:auto;
+  height:44px;
+}
+
+.store-link:focus-visible {
+  outline:2px solid #fff;
+  outline-offset:3px;
+}
+
+@media (max-width:760px) {
+  .cta {
+    --cta-art-height:clamp(215px, 56.25vw, 320px);
+    background-position:right bottom;
+    background-size:auto var(--cta-art-height);
+    padding-bottom:calc(var(--cta-art-height) + 24px);
+  }
+}
 .brand { display:inline-flex; align-items:center; gap:9px; }
 .brand img { width:28px; height:28px; border-radius:8px; object-fit:cover; box-shadow:0 2px 8px #19284518; }
 footer .brand img { width:24px; height:24px; border-radius:7px; }
