@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>メクリトル｜ページをめくると自動で撮れる本・漫画スキャナー</title>
+  <meta name="description" content="紙の本や漫画を、ページをめくるたびに自動撮影。まとめて加工し、スマホで読んだりPDF・CBZに書き出したりできる、Android向けの無料スキャンアプリです。">
+  <meta name="theme-color" content="#153d31">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:title" content="メクリトル｜紙の本を、めくって残す。">
+  <meta property="og:description" content="本や漫画を自動撮影。紙の本をスマホで読み返すためのAndroidアプリ。">
+  <link rel="canonical" href="https://hinomaru-labs.com/mekuritoru/">
+  <link rel="alternate" hreflang="ja" href="https://hinomaru-labs.com/mekuritoru/">
+  <link rel="alternate" hreflang="en" href="https://hinomaru-labs.com/mekuritoru/en/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://hinomaru-labs.com/mekuritoru/zh-cn/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://hinomaru-labs.com/mekuritoru/zh-tw/">
+  <link rel="alternate" hreflang="x-default" href="https://hinomaru-labs.com/mekuritoru/en/">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="zh_TW">
+  <meta property="og:site_name" content="Hinomaru Labs">
+  <meta property="og:url" content="https://hinomaru-labs.com/mekuritoru/">
+  <meta property="og:image" content="https://hinomaru-labs.com/mekuritoru/assets/share.png">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="500">
+  <meta property="og:image:alt" content="開いた漫画とメクリトルの閲覧画面">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/png" href="./assets/icon.png">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">本文に移動</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/mekuritoru/" aria-label="メクリトル ホーム">
+        <img src="./assets/icon.png" width="38" height="38" alt="">
+        <span>メクリトル</span>
+      </a>
+      <nav aria-label="ページ内ナビゲーション">
+        <a href="#scan">撮影</a>
+        <a href="#edit">加工</a>
+        <a href="#reading">閲覧・書き出し</a>
+        <a href="#faq">よくある質問</a>
+      </nav>
+      <a class="store-badge store-badge-compact" href="https://play.google.com/store/apps/details?id=com.hinomarulabs.mekuritoru">
+        <img src="./assets/google-play-ja.png" width="646" height="250" alt="Google Play で手に入れよう">
+      </a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="hero-label">本・漫画スキャナー</p>
+          <h1 id="hero-title"><span>紙の本を、</span><span>めくって残す。</span></h1>
+          <p class="hero-description">本にカメラを向けて、ページをめくる。<br class="desktop-break"><span class="app-name">メクリトル</span>が次のページを自動で撮影。<br class="desktop-break">取り込んだ本は、スマホでそのまま読めます。</p>
+          <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.hinomarulabs.mekuritoru">
+            <img src="./assets/google-play-ja.png" width="646" height="250" alt="Google Play で手に入れよう">
+          </a>
+          <p class="download-note">Android対応 · 無料</p>
+        </div>
+        <figure class="hero-art" aria-label="紙の本と、メクリトルで取り込んだ本の閲覧画面">
+          <span class="frame frame-top" aria-hidden="true"></span>
+          <span class="frame frame-bottom" aria-hidden="true"></span>
+          <img class="hero-book" src="./assets/open-book.webp" width="1140" height="855" alt="">
+          <img class="hero-reader" src="./assets/reader.webp" width="786" height="1430" alt="">
+        </figure>
+      </div>
+    </section>
+
+    <section class="section container scan-section" id="scan" aria-labelledby="scan-title">
+      <div class="section-heading">
+        <h2 id="scan-title">ページをめくると、<span>自動で撮影。</span></h2>
+      </div>
+      <ol class="scan-flow" aria-label="自動撮影の手順">
+        <li>
+          <div class="scan-visual scan-framing">
+            <img src="./assets/open-book.webp" width="1140" height="855" alt="開いた本の四隅が撮影枠に収まっている。" loading="lazy" decoding="async">
+          </div>
+          <div class="scan-step-copy">
+            <h3>本を画面に収める</h3>
+            <p>本の四隅が入るようにカメラを向けて、自動撮影を開始。</p>
+          </div>
+        </li>
+        <li>
+          <div class="scan-visual">
+            <img src="./assets/page-turn.webp" width="960" height="720" alt="ページが立ち上がる瞬間を斜め横から見た、手元のイメージ。" loading="lazy" decoding="async">
+          </div>
+          <div class="scan-step-copy">
+            <h3>ページをめくる</h3>
+            <p>保存のチェックが出たら、次のページへ。</p>
+          </div>
+        </li>
+        <li>
+          <div class="scan-visual">
+            <img src="./assets/capture.webp" width="960" height="724" alt="メクリトルの撮影画面に、緑色のチェックと保存済みの表示が出ている。" loading="lazy" decoding="async">
+          </div>
+          <div class="scan-step-copy">
+            <h3>自動で撮影・保存</h3>
+            <p>ページが落ち着くと自動で撮影。保存はチェックで確認できます。</p>
+          </div>
+        </li>
+      </ol>
+      <ul class="detail-list scan-options">
+        <li><strong>手動でも撮れる</strong><span>表紙などは、自分のタイミングで1枚ずつ撮影。</span></li>
+        <li><strong>中断しても、続きから</strong><span>保存したところから、あとで撮影を再開。</span></li>
+        <li><strong>撮り忘れは途中に追加</strong><span>撮影済みのページを選び、その後ろに差し込み。</span></li>
+      </ul>
+    </section>
+
+    <section class="section edit-section" id="edit" aria-labelledby="edit-title">
+      <div class="container">
+        <div class="section-heading">
+          <h2 id="edit-title">撮ったあとに、まとめて整える。</h2>
+          <p class="lead">紙面の周囲を切り取り、ページ外の背景を白くしたり、文字や線を濃くしたり。選んだ補正を複数ページにまとめて適用できます。</p>
+        </div>
+        <div class="comparison" aria-label="同じページの加工例">
+          <figure>
+            <img src="./assets/before.webp" width="786" height="586" alt="加工前。紙の本の周りに緑色の机が写っている。" loading="lazy" decoding="async">
+            <figcaption>加工前</figcaption>
+          </figure>
+          <figure>
+            <img src="./assets/after.webp" width="786" height="535" alt="加工後。周囲の机が切り取られ、紙面が画面いっぱいに表示されている。" loading="lazy" decoding="async">
+            <figcaption>加工後</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reading-section container" id="reading" aria-labelledby="reading-title">
+      <div class="reading-art">
+        <img class="library-shot" src="./assets/library.webp" width="930" height="821" alt="撮影が完了した本の一覧。書名検索とフォルダが表示されている。" loading="lazy" decoding="async">
+        <img class="reading-shot" src="./assets/reader.webp" width="786" height="1430" alt="メクリトルのビューアで漫画を拡大表示した画面。" loading="lazy" decoding="async">
+      </div>
+      <div class="section-copy reading-copy">
+        <h2 id="reading-title">撮りためた本を、<br>好きなときに読み返す。</h2>
+        <ul class="detail-list">
+          <li><strong>スマホでそのまま読む</strong><span>左右のスワイプでページ送り。小さな文字はピンチで拡大でき、右開き・左開きも選べます。</span></li>
+          <li><strong>本は書名検索とフォルダで探す</strong><span>撮影途中の本は未完了に。撮影を終えた本はフォルダに整理できます。</span></li>
+          <li>
+            <strong>PDF・CBZで書き出す</strong>
+            <span>1冊をファイルにまとめて、普段使っている対応ビューアでも読めます。</span>
+          </li>
+        </ul>
+        <aside class="copyright-note" aria-labelledby="copyright-note-title">
+          <h3 id="copyright-note-title">著作権について</h3>
+          <p>他人の著作物の撮影・書き出し・共有は、法令で認められる範囲または権利者の許諾を得た範囲で行ってください。その範囲を超えて、取り込んだ画像やファイルをSNSに公開したり、第三者に配布・販売したりしないでください。</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section faq-section" id="faq" aria-labelledby="faq-title">
+      <div class="container faq-inner">
+        <h2 id="faq-title">よくある質問</h2>
+        <div class="questions">
+          <details>
+            <summary>本を裁断する必要はありますか？</summary>
+            <p>本を開いて、スマホのカメラで撮影するだけです。左右のページをまとめて1枚として保存できます。</p>
+          </details>
+          <details>
+            <summary>撮影した画像はどこに保存されますか？</summary>
+            <p>撮影した画像は端末内に保存し、加工も端末内で行います。別の端末で読む場合は、PDFやCBZに書き出して移せます。</p>
+          </details>
+          <details>
+            <summary>どんな本を撮影できますか？</summary>
+            <p>本、漫画、雑誌などの紙面を撮影できます。</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="download-section" aria-labelledby="download-title">
+      <div class="container download-inner">
+        <div class="download-brand">
+          <img src="./assets/icon.png" width="60" height="60" alt="" loading="lazy">
+          <div>
+            <h2 id="download-title">メクリトル</h2>
+            <p>本・漫画スキャナー</p>
+          </div>
+        </div>
+        <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.hinomarulabs.mekuritoru">
+          <img src="./assets/google-play-ja.png" width="646" height="250" alt="Google Play で手に入れよう">
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <small>© 2026 Hinomaru Labs</small>
+      <nav aria-label="運営者情報">
+        <a href="https://hinomaru-labs.com/support.html">サポート</a>
+        <a href="https://hinomaru-labs.com/privacy.html">プライバシーポリシー</a>
+      </nav>
+      <nav class="language-nav" aria-label="表示言語">
+        <a href="/mekuritoru/" lang="ja" hreflang="ja" aria-current="page">日本語</a>
+        <a href="/mekuritoru/en/" lang="en" hreflang="en">English</a>
+        <a href="/mekuritoru/zh-cn/" lang="zh-Hans" hreflang="zh-Hans">简体中文</a>
+        <a href="/mekuritoru/zh-tw/" lang="zh-Hant" hreflang="zh-Hant">繁體中文</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

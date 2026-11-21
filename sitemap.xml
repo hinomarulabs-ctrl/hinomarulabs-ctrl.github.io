@@ -692,4 +692,40 @@
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://hinomaru-labs.com/petatodo/zh-tw/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://hinomaru-labs.com/petatodo/en/" />
   </url>
+  <url>
+    <loc>https://hinomaru-labs.com/mekuritoru/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hinomaru-labs.com/mekuritoru/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://hinomaru-labs.com/mekuritoru/en/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hinomaru-labs.com/mekuritoru/zh-cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://hinomaru-labs.com/mekuritoru/zh-tw/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hinomaru-labs.com/mekuritoru/en/" />
+  </url>
+  <url>
+    <loc>https://hinomaru-labs.com/mekuritoru/en/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hinomaru-labs.com/mekuritoru/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://hinomaru-labs.com/mekuritoru/en/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hinomaru-labs.com/mekuritoru/zh-cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://hinomaru-labs.com/mekuritoru/zh-tw/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hinomaru-labs.com/mekuritoru/en/" />
+  </url>
+  <url>
+    <loc>https://hinomaru-labs.com/mekuritoru/zh-cn/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hinomaru-labs.com/mekuritoru/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://hinomaru-labs.com/mekuritoru/en/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hinomaru-labs.com/mekuritoru/zh-cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://hinomaru-labs.com/mekuritoru/zh-tw/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hinomaru-labs.com/mekuritoru/en/" />
+  </url>
+  <url>
+    <loc>https://hinomaru-labs.com/mekuritoru/zh-tw/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hinomaru-labs.com/mekuritoru/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://hinomaru-labs.com/mekuritoru/en/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hinomaru-labs.com/mekuritoru/zh-cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://hinomaru-labs.com/mekuritoru/zh-tw/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hinomaru-labs.com/mekuritoru/en/" />
+  </url>
 </urlset>
