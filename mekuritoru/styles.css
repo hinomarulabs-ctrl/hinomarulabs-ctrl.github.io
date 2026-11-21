@@ -41,6 +41,8 @@ a { color: inherit; text-underline-offset: .2em; }
   min-height: 2.75rem; padding-inline: .6rem; border: 1px solid var(--border); border-radius: .55rem;
   font-size: .875rem; font-weight: 700; white-space: nowrap; cursor: pointer;
 }
+.header-language-text { display: grid; gap: .08rem; line-height: 1.2; }
+.header-language-label { color: var(--muted); font-size: .75rem; font-weight: 600; }
 .header-languages summary::marker,
 .header-languages summary::-webkit-details-marker { display: none; content: ""; }
 .header-languages summary::after {
