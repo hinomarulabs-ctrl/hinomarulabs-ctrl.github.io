@@ -764,4 +764,18 @@
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://hinomaru-labs.com/strunote/zh-hant/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://hinomaru-labs.com/strunote/" />
   </url>
+  <url>
+    <loc>https://hinomaru-labs.com/receipt-stitch/</loc>
+    <lastmod>2026-11-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hinomaru-labs.com/receipt-stitch/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://hinomaru-labs.com/receipt-stitch/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hinomaru-labs.com/receipt-stitch/" />
+  </url>
+  <url>
+    <loc>https://hinomaru-labs.com/receipt-stitch/en/</loc>
+    <lastmod>2026-11-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hinomaru-labs.com/receipt-stitch/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://hinomaru-labs.com/receipt-stitch/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hinomaru-labs.com/receipt-stitch/" />
+  </url>
 </urlset>

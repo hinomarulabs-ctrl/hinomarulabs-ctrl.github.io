@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102d25">
+  <title>領収書つづり｜レシートを読み取り、月ごとにPDF化</title>
+  <meta name="description" content="紙のレシートを撮影し、日付・金額・店名を自動で読み取り。電子領収書と一緒に月ごとに整理し、経費精算に添付できる索引付きPDFを作れます。Androidで無料、登録不要。">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:url" content="https://hinomaru-labs.com/receipt-stitch/">
+  <meta property="og:image" content="https://hinomaru-labs.com/receipt-stitch/assets/app-icon.png">
+  <meta property="og:title" content="領収書つづり｜月末の領収書、ひとつのPDFに。">
+  <meta property="og:description" content="撮ったレシートも、受け取ったPDFも。経費精算に添付できる月別PDFへ。">
+  <meta name="twitter:card" content="summary">
+  <link rel="canonical" href="https://hinomaru-labs.com/receipt-stitch/">
+  <link rel="alternate" hreflang="ja" href="https://hinomaru-labs.com/receipt-stitch/">
+  <link rel="alternate" hreflang="en" href="https://hinomaru-labs.com/receipt-stitch/en/">
+  <link rel="alternate" hreflang="x-default" href="https://hinomaru-labs.com/receipt-stitch/">
+  <link rel="icon" href="./assets/app-icon.png" type="image/png">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "領収書つづり",
+      "inLanguage": "ja",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Android",
+      "installUrl": "https://play.google.com/store/apps/details?id=jp.hinomarulabs.receipt_submission",
+      "offers": { "@type": "Offer", "price": 0, "priceCurrency": "JPY" }
+    }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">本文へ移動</a>
+  <header class="site-header">
+    <div class="site-header-inner content-width">
+      <a class="brand" href="#" aria-label="領収書つづり トップ">
+        <img src="./assets/app-icon.png" alt="" width="64" height="64">
+        <span>領収書つづり</span>
+      </a>
+      <nav class="site-nav" aria-label="ページ内ナビゲーション">
+        <a href="#how-to">使い方</a>
+        <a href="#features">主な機能</a>
+        <a href="#faq">よくある質問</a>
+      </nav>
+      <a class="language-switch" href="./en/" hreflang="en" lang="en">English</a>
+      <a class="store-badge store-badge-header" href="https://play.google.com/store/apps/details?id=jp.hinomarulabs.receipt_submission">
+        <img src="./assets/google-play-badge-ja.png" alt="Google Play で手に入れよう" width="646" height="250">
+      </a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-grid content-width">
+        <div class="hero-copy">
+          <h1 id="hero-title">
+            <span>月末の領収書、</span>
+            <span class="hero-emphasis">ひとつのPDFに。</span>
+          </h1>
+          <p class="hero-description">撮ったレシートも、受け取ったPDFも。<span class="phrase">日付・金額・店名</span>を読み取り、<span class="phrase">経費精算に添付できる</span><span class="phrase">月別PDFへ。</span></p>
+          <a class="store-badge" href="https://play.google.com/store/apps/details?id=jp.hinomarulabs.receipt_submission">
+            <img src="./assets/google-play-badge-ja.png" alt="Google Play で手に入れよう" width="646" height="250">
+          </a>
+          <p class="hero-note">無料・広告あり<span aria-hidden="true"> ／ </span><span class="screen-reader">、</span>アカウント登録不要</p>
+        </div>
+        <div class="hero-photo">
+          <img src="./assets/receipt-camera.webp" alt="スマートフォンのカメラで紙の領収書を撮影する様子" width="1080" height="1440" fetchpriority="high">
+        </div>
+      </div>
+    </section>
+
+    <section class="workflow content-width" id="how-to" aria-labelledby="workflow-title">
+      <h2 id="workflow-title">撮影から提出用PDFまで</h2>
+      <div class="workflow-grid">
+        <article class="workflow-step">
+          <div class="screen-frame">
+            <img src="./assets/month.webp" alt="Android版の月別一覧。撮影、写真、ファイルの取り込みボタンと登録済み領収書が並ぶ" width="720" height="1280" loading="lazy" decoding="async">
+          </div>
+          <h3>領収書を取り込む</h3>
+          <p>紙はカメラで撮影。保存した写真や受け取ったPDFも、同じ月の一覧に追加できます。</p>
+        </article>
+        <article class="workflow-step">
+          <div class="screen-frame">
+            <img src="./assets/details.webp" alt="Android版の領収書の詳細。森のカフェ、2026年11月18日、860円が入力されている" width="720" height="1280" loading="lazy" decoding="async">
+          </div>
+          <h3>読み取り結果を確認</h3>
+          <p>読み取った日付・金額・店名の候補を自動入力。原本を見ながら、その場で修正できます。</p>
+        </article>
+        <article class="workflow-step">
+          <div class="screen-frame">
+            <img src="./assets/pdf.webp" alt="Android版のPDFプレビュー。先頭ページに領収書一覧と各領収書の掲載ページが載っている" width="720" height="1280" loading="lazy" decoding="async">
+          </div>
+          <h3>まとめてPDFを作る</h3>
+          <p>提出する領収書と並び順を選んで、索引付きのPDFに。端末の共有メニューから保存・送付できます。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="features" id="features" aria-labelledby="features-title">
+      <div class="features-grid content-width">
+        <div class="features-copy">
+          <h2 id="features-title">いつものExcel精算書と照合。</h2>
+          <p>記入済みの.xlsxを開くと、日付・金額・通貨が一致する明細と領収書を対応づけ、精算書の明細順でPDFを作れます。</p>
+          <h3>領収書の処理は端末内で</h3>
+          <p>領収書とExcelの内容は端末内で処理します。書類を共有する操作は、自分で選べます。</p>
+        </div>
+        <div class="match-frame">
+          <img src="./assets/excel.webp" alt="Android版のExcel照合画面。精算書の4件の明細に領収書が対応づけられている" width="720" height="1280" loading="lazy" decoding="async">
+        </div>
+      </div>
+    </section>
+
+    <section class="faq content-width" id="faq" aria-labelledby="faq-title">
+      <h2 id="faq-title">よくある質問</h2>
+      <div class="faq-list">
+        <details name="receipt-faq">
+          <summary>料金はかかりますか？</summary>
+          <p>全機能を無料で利用できます。アプリ内に広告が表示されます。アカウント登録は不要です。</p>
+        </details>
+        <details name="receipt-faq">
+          <summary>電子領収書も取り込めますか？</summary>
+          <p>はい。PDFや画像として保存した電子領収書を取り込めます。元のPDFページも、紙の領収書の写真と同じ提出用PDFにまとめられます。</p>
+        </details>
+        <details name="receipt-faq">
+          <summary>Excelがなくても使えますか？</summary>
+          <p>はい。「領収書だけで作る」から、選んだ領収書を指定した順番でPDFにできます。</p>
+        </details>
+        <details name="receipt-faq">
+          <summary>読み取り結果は修正できますか？</summary>
+          <p>日付・金額・店名などを編集できます。読み取り結果は文字の状態やレイアウトによって変わるため、提出前に原本と見比べてください。</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <section class="closing content-width" aria-labelledby="closing-title">
+      <h2 id="closing-title">月末の領収書を、ひとつに。</h2>
+      <a class="store-badge" href="https://play.google.com/store/apps/details?id=jp.hinomarulabs.receipt_submission">
+        <img src="./assets/google-play-badge-ja.png" alt="Google Play で手に入れよう" width="646" height="250">
+      </a>
+    </section>
+    <div class="footer-links content-width">
+      <a class="footer-brand" href="#">領収書つづり</a>
+      <nav aria-label="サポート情報と言語">
+        <a href="https://hinomaru-labs.com/privacy.html">プライバシーポリシー</a>
+        <a href="https://hinomaru-labs.com/support.html">サポート</a>
+        <a href="./en/" hreflang="en" lang="en">English</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
