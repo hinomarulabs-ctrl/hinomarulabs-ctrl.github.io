@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta
+      name="description"
+      content="Strunote is an Android notes app with nested folders. Keep your notes and files together by project or topic."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="ja_JP" />
+    <meta property="og:locale:alternate" content="zh_CN" />
+    <meta property="og:locale:alternate" content="zh_TW" />
+    <meta property="og:site_name" content="Strunote" />
+    <meta property="og:url" content="https://hinomaru-labs.com/strunote/en/" />
+    <meta property="og:title" content="Strunote | Your notes. In folders." />
+    <meta
+      property="og:description"
+      content="Organize your notes and files in folders and subfolders."
+    />
+    <meta property="og:image" content="https://hinomaru-labs.com/strunote/assets/en/og-image.png" />
+    <meta property="og:image:width" content="1024" />
+    <meta property="og:image:height" content="500" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <title>Strunote | Your notes. In folders.</title>
+    <link rel="canonical" href="https://hinomaru-labs.com/strunote/en/" />
+    <link rel="alternate" hreflang="ja" href="https://hinomaru-labs.com/strunote/" />
+    <link rel="alternate" hreflang="en" href="https://hinomaru-labs.com/strunote/en/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://hinomaru-labs.com/strunote/zh-hans/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://hinomaru-labs.com/strunote/zh-hant/" />
+    <link rel="alternate" hreflang="x-default" href="https://hinomaru-labs.com/strunote/" />
+    <link rel="icon" type="image/png" href="../assets/app-icon-256.png" />
+    <link rel="preload" as="image" href="../assets/en/01-folders.webp" />
+    <link rel="stylesheet" href="../styles.css" />
+    <script src="../script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="header-inner page-width">
+        <a class="brand" href="#top" aria-label="Strunote home">
+          <img src="../assets/app-icon-256.png" width="36" height="36" alt="" />
+          <span>Strunote</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open menu"
+          data-label-open="Open menu"
+          data-label-close="Close menu"
+          aria-controls="primary-nav"
+          aria-expanded="false"
+        >
+          <span></span><span></span>
+        </button>
+
+        <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+          <a href="#folders">Folders</a>
+          <a href="#notes">Notes</a>
+          <a href="#find">Search &amp; export</a>
+          <a class="nav-action" href="#faq">FAQ</a>
+        </nav>
+        <details class="language-menu">
+          <summary aria-label="Choose language · English">English</summary>
+          <ul class="language-options">
+            <li><a href="../index.html" lang="ja" hreflang="ja">日本語</a></li>
+            <li><a href="../en/index.html" lang="en" hreflang="en" aria-current="page">English</a></li>
+            <li><a href="../zh-hans/index.html" lang="zh-Hans" hreflang="zh-Hans">简体中文</a></li>
+            <li><a href="../zh-hant/index.html" lang="zh-Hant" hreflang="zh-Hant">繁體中文</a></li>
+          </ul>
+        </details>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-wash" aria-hidden="true"></div>
+        <div class="hero-inner page-width">
+          <div class="hero-copy">
+            <h1 id="hero-title">Your notes.<br /><span>In folders.</span></h1>
+            <p class="hero-lead">
+              Folders inside folders.<br />
+              Find notes and files where you left them.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="https://play.google.com/store/apps/details?id=com.hinomarulabs.strunote&amp;hl=en-US">
+                View on Google Play
+                <svg aria-hidden="true" viewBox="0 0 20 20"><path d="M4 10h11M10 4l6 6-6 6" /></svg>
+              </a>
+              <a class="hero-example" href="#folders">See an example</a>
+            </div>
+          </div>
+
+          <div class="hero-product">
+            <div class="hero-glow" aria-hidden="true"></div>
+            <figure class="screen screen-back">
+              <img
+                src="../assets/en/02-project.webp"
+                width="1080"
+                height="2400"
+                alt="Site redesign folder showing the Meetings and Research subfolders alongside project notes"
+              />
+            </figure>
+            <figure class="screen screen-front">
+              <img
+                src="../assets/en/01-folders.webp"
+                width="1080"
+                height="2400"
+                alt="Folder list showing Work, Site redesign, and Meetings nested in that order"
+              />
+            </figure>
+            <div class="hero-path" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M3 6.5h7l2 2h9v10H3z" /></svg>
+              <span>Work</span><i></i><span>Site redesign</span><i></i><span>Meetings</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-folders" id="folders" aria-labelledby="folders-title">
+        <div class="page-width">
+          <div class="section-intro">
+            <h2 id="folders-title">A place for every project.</h2>
+            <p>
+              Put Site redesign inside Work, then add a Meetings folder inside Site redesign.<br class="desktop-only" />
+              Meeting notes and research can each have their own place within the same project.
+            </p>
+          </div>
+
+          <div class="folder-showcase">
+            <ul class="folder-tree tree-list" role="list" aria-label="Example folder structure">
+              <li>
+                <div class="tree-row">
+                  <svg class="icon-folder" aria-hidden="true" viewBox="0 0 24 24"><path d="M3 6h7l2 2h9v11H3z" /></svg>
+                  Work
+                </div>
+                <ul class="tree-list tree-branch" role="list">
+                  <li>
+                    <div class="tree-row">
+                      <svg class="icon-folder" aria-hidden="true" viewBox="0 0 24 24"><path d="M3 6h7l2 2h9v11H3z" /></svg>
+                      Site redesign
+                    </div>
+                    <ul class="tree-list tree-branch" role="list">
+                      <li>
+                        <div class="tree-row tree-selected">
+                          <svg class="icon-folder" aria-hidden="true" viewBox="0 0 24 24"><path d="M3 6h7l2 2h9v11H3z" /></svg>
+                          Meetings
+                        </div>
+                        <ul class="tree-list tree-branch" role="list">
+                          <li class="tree-row tree-note">
+                            <svg class="icon-note" aria-hidden="true" viewBox="0 0 24 24"><path d="M6.75 3.75h7.5l4 4v12.5H6.75z" /><path d="M14 4v4h4M9.5 12h5.75M9.5 15.5h5.75" /></svg>
+                            Oct 19 meeting
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="tree-row">
+                        <svg class="icon-folder" aria-hidden="true" viewBox="0 0 24 24"><path d="M3 6h7l2 2h9v11H3z" /></svg>
+                        Research
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <div class="folder-copy">
+              <h3>Write right where<br />it belongs.</h3>
+              <p>
+                Open Meetings and write a note. Strunote saves it in that folder. You can move notes and folders later.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-notes" id="notes" aria-labelledby="notes-title">
+        <div class="page-width notes-layout">
+          <div class="notes-copy">
+            <h2 id="notes-title">Meeting notes<br />with files attached.</h2>
+            <p>
+              Record decisions in a table, track next steps with a checklist, and attach images or files so you can review everything together.
+            </p>
+          </div>
+          <figure class="product-shot rich-note-shot">
+            <img
+              src="../assets/en/04-rich-note.webp"
+              width="1080"
+              height="2400"
+              loading="lazy"
+              alt="A meeting note with a table of decisions and a checklist of next steps"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section class="section section-reorganize" id="reorganize" aria-labelledby="reorganize-title">
+        <div class="page-width reorganize-layout">
+          <div class="reorganize-copy">
+            <h2 id="reorganize-title">Reorganize<br />as you go.</h2>
+            <p>
+              Move and reorder folders as projects grow. If a note gets long, split part of it into a new note. The original keeps a link so you can find it again.
+            </p>
+          </div>
+
+          <div class="reorganize-visual" role="img" aria-label="Example showing a meeting note that retains a link to the research note split from it">
+            <div class="note-document original-document">
+              <div class="document-title"><span class="document-dot"></span>Meeting notes</div>
+              <div class="document-section">
+                <h3>Decisions</h3>
+                <p>Outline the launch page</p>
+              </div>
+              <div class="document-link">
+                <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M8 12h8M13 7l5 5-5 5" /><path d="M5 5.75A1.75 1.75 0 0 1 6.75 4h4.5l2 2h4A1.75 1.75 0 0 1 19 7.75v9.5A1.75 1.75 0 0 1 17.25 19h-10.5A1.75 1.75 0 0 1 5 17.25z" /></svg>
+                Link to research notes
+              </div>
+            </div>
+            <div class="reorganize-arrow" aria-hidden="true">
+              <svg viewBox="0 0 28 28"><path d="M4 14h18M15 7l7 7-7 7" /></svg>
+            </div>
+            <div class="note-document new-document">
+              <div class="document-title"><span class="document-dot"></span>Research notes</div>
+              <div class="document-section">
+                <p>Compare reference sites</p>
+                <p>Review at the next meeting</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-find" id="find" aria-labelledby="find-title">
+        <div class="page-width">
+          <div class="section-intro section-intro-centered">
+            <h2 id="find-title">Find your notes.<br />Take them with you.</h2>
+          </div>
+
+          <div class="find-row">
+            <div class="find-copy">
+              <h3>Find a note by<br />what it says.</h3>
+              <p>
+                Search note titles and bodies for a word you remember. Open a result to jump straight to the match.
+              </p>
+            </div>
+            <figure class="product-shot find-shot">
+              <img
+                src="../assets/en/06-search.webp"
+                width="1080"
+                height="2400"
+                loading="lazy"
+                alt="Search results for website, with title and body matches and their folder paths"
+              />
+            </figure>
+          </div>
+
+          <div class="export-row">
+            <div class="export-copy">
+              <h3>Export the whole<br />folder structure.</h3>
+              <p>
+                Export notes and attachments in a ZIP that preserves your folder structure. You can read the exported notes as Markdown files on your computer.
+              </p>
+            </div>
+            <figure class="product-shot export-shot">
+              <img
+                src="../assets/en/07-export.webp"
+                width="1080"
+                height="2400"
+                loading="lazy"
+                alt="Export dialog for saving notes and attachments in a ZIP"
+              />
+            </figure>
+          </div>
+
+          <div class="local-note">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3.5 19 6v5.5c0 4.5-3 7.4-7 9-4-1.6-7-4.5-7-9V6z" /><path d="m9 12 2 2 4-4" /></svg>
+            <p><strong>Notes stay on your device.</strong><br />Read and write offline without creating an account.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-faq" id="faq" aria-labelledby="faq-title">
+        <div class="faq-inner">
+          <h2 id="faq-title">FAQ</h2>
+          <div class="faq-list">
+            <details class="faq-item">
+              <summary>Which devices are supported?<span aria-hidden="true"></span></summary>
+              <p>Strunote is an Android app. Check compatibility with your device on <a href="https://play.google.com/store/apps/details?id=com.hinomarulabs.strunote&amp;hl=en-US">Google Play</a>.</p>
+            </details>
+            <details class="faq-item">
+              <summary>Is it free?<span aria-hidden="true"></span></summary>
+              <p>Strunote is free to use. Ads appear in note and folder lists.</p>
+            </details>
+            <details class="faq-item">
+              <summary>Can I move my notes to a new phone?<span aria-hidden="true"></span></summary>
+              <p>On compatible Android devices, copy data from your old device when setting up the new one to transfer notes, folders, and attachments. Strunote does not automatically sync across devices.</p>
+            </details>
+            <details class="faq-item">
+              <summary>Can I import an exported ZIP?<span aria-hidden="true"></span></summary>
+              <p>The ZIP lets you read notes and open attachments outside the app. Strunote does not import ZIP files.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="closing" aria-labelledby="closing-title">
+        <div class="closing-shape" aria-hidden="true"></div>
+        <div class="closing-inner page-width">
+          <h2 id="closing-title">Give your notes a place of their own.</h2>
+          <a class="button button-light" href="https://play.google.com/store/apps/details?id=com.hinomarulabs.strunote&amp;hl=en-US">
+            View on Google Play
+            <svg aria-hidden="true" viewBox="0 0 20 20"><path d="M4 10h11M10 4l6 6-6 6" /></svg>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner page-width">
+        <a class="brand footer-brand" href="#top">
+          <img src="../assets/app-icon-256.png" width="32" height="32" alt="" />
+          <span>Strunote</span>
+        </a>
+        <nav class="footer-links" aria-label="Support and legal links">
+          <a href="https://hinomaru-labs.com/strunote/terms.html" target="_blank" rel="noreferrer">Terms of use</a>
+          <a href="https://hinomaru-labs.com/privacy.html" target="_blank" rel="noreferrer">Privacy policy</a>
+          <a href="mailto:support.hinomarulabs@gmail.com">Contact support</a>
+        </nav>
+        <small>© 2026 Hinomaru Labs</small>
+      </div>
+    </footer>
+  </body>
+</html>
