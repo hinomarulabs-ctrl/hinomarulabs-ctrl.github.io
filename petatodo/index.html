@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#fff9ed">
   <title>ペタTODO｜緊急度と重要度で優先順位を決めるタスク管理アプリ</title>
-  <meta name="description" content="ペタTODOは、やることを付箋に書き出し、緊急度と重要度の十字ボードで整理するAndroid向けタスク管理アプリ。貼った位置から優先順のTODO一覧が自動ででき、進捗も管理できます。">
+  <meta name="description" content="ペタTODOは、やることを付箋に書き出し、緊急度と重要度の十字ボードで整理するiPhone・iPad・Android対応のタスク管理アプリ。貼った位置から優先順のTODO一覧が自動ででき、進捗も管理できます。">
   <meta name="robots" content="max-image-preview:large">
   <link rel="canonical" href="https://hinomaru-labs.com/petatodo/">
   <link rel="alternate" hreflang="ja" href="https://hinomaru-labs.com/petatodo/">
@@ -39,9 +39,16 @@
     "alternateName": "PetaTodo",
     "description": "付箋を緊急度と重要度の十字ボードで整理し、貼った位置から優先順のTODO一覧を自動で作るタスク管理アプリ。",
     "applicationCategory": "ProductivityApplication",
-    "operatingSystem": "Android",
+    "operatingSystem": [
+      "iOS",
+      "iPadOS",
+      "Android"
+    ],
     "inLanguage": "ja",
-    "installUrl": "https://play.google.com/store/apps/details?id=com.hinomarulabs.priorityboard",
+    "installUrl": [
+      "https://apps.apple.com/jp/app/id6833959425",
+      "https://play.google.com/store/apps/details?id=com.hinomarulabs.priorityboard"
+    ],
     "image": "https://hinomaru-labs.com/petatodo/assets/share.png",
     "screenshot": [
       "https://hinomaru-labs.com/petatodo/assets/board.webp",
@@ -52,12 +59,20 @@
       "name": "Hinomaru Labs",
       "url": "https://hinomaru-labs.com/"
     },
-    "offers": {
-      "@type": "Offer",
-      "price": 0,
-      "priceCurrency": "JPY",
-      "url": "https://play.google.com/store/apps/details?id=com.hinomarulabs.priorityboard"
-    }
+    "offers": [
+      {
+        "@type": "Offer",
+        "price": 0,
+        "priceCurrency": "JPY",
+        "url": "https://apps.apple.com/jp/app/id6833959425"
+      },
+      {
+        "@type": "Offer",
+        "price": 0,
+        "priceCurrency": "JPY",
+        "url": "https://play.google.com/store/apps/details?id=com.hinomarulabs.priorityboard"
+      }
+    ]
   }
   </script>
 </head>
@@ -97,9 +112,14 @@
       <div class="hero-copy">
         <h1 id="hero-title">やることが多い。<br><span>何から始める？</span></h1>
         <p class="hero-summary">付箋を緊急度と重要度で整理すると、優先順のTODO一覧が自動でできます。</p>
-        <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.hinomarulabs.priorityboard">
-          <img src="assets/google-play-ja.png" width="270" height="80" alt="Google Playで手に入れよう">
-        </a>
+        <div class="store-badges">
+          <a class="store-badge" href="https://apps.apple.com/jp/app/id6833959425">
+            <img src="assets/app-store.svg" width="109" height="40" alt="App Storeでダウンロード">
+          </a>
+          <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.hinomarulabs.priorityboard">
+            <img src="assets/google-play-ja.png" width="270" height="80" alt="Google Playで手に入れよう">
+          </a>
+        </div>
       </div>
       <figure class="board-preview">
         <img src="assets/board.webp" width="720" height="1107" alt="緊急度が右へ、重要度が上へ高くなる十字ボードに、色付きの付箋を置いた画面" fetchpriority="high">
@@ -168,8 +188,12 @@
   <footer class="site-footer">
     <div class="shell footer-row">
       <a class="footer-link" href="https://hinomaru-labs.com/privacy.html">プライバシーポリシー</a>
-      <a class="footer-link" href="https://play.google.com/store/apps/details?id=com.hinomarulabs.priorityboard">Android版を無料で入手</a>
+      <div class="footer-downloads">
+        <a class="footer-link" href="https://apps.apple.com/jp/app/id6833959425">iPhone・iPad版を無料で入手</a>
+        <a class="footer-link" href="https://play.google.com/store/apps/details?id=com.hinomarulabs.priorityboard">Android版を無料で入手</a>
+      </div>
     </div>
+    <p class="shell trademark-credit">Apple、Appleロゴ、iPhone、iPadは米国およびその他の国で登録されたApple Inc.の商標です。App StoreはApple Inc.のサービスマークです。</p>
   </footer>
 </body>
 </html>

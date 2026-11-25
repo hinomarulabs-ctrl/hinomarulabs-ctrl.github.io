@@ -126,13 +126,14 @@ html:lang(en) .hero h1 { font-size: clamp(32px, 4.8vw, 58px); }
   line-height: 1.9;
 }
 
-.store-badge {
-  display: inline-block;
-  max-width: 100%;
-  vertical-align: top;
+.store-badges {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
 }
 
-.store-badge img { width: 189px; height: auto; }
+.store-badge img { width: auto; height: 48px; }
 
 .board-preview {
   position: relative;
@@ -251,10 +252,13 @@ h2 {
 
 .footer-row { min-height: 77px; border-top: 1px solid var(--rule); }
 .footer-link { font-size: 13px; }
+.footer-downloads { display: flex; flex-wrap: wrap; gap: 8px 18px; }
+.trademark-credit { padding-bottom: 18px; color: var(--muted); font-size: 12px; }
 
 @media (max-width: 770px) {
   .shell { width: calc(100% - 48px); }
   .hero { gap: 30px; }
+  .store-badge img { height: 42px; }
 }
 
 @media (max-width: 650px) {
@@ -337,6 +341,7 @@ h2 {
   .board-preview::after { width: 22px; height: 36px; right: 15px; }
   .workflow-grid { gap: 26px; }
   .steps { margin-top: 17px; }
+  .footer-row { flex-wrap: wrap; gap: 8px 16px; padding-block: 16px; }
 }
 
 @media (max-width: 370px) {

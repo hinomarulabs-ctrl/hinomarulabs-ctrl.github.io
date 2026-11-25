@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#fff9ed">
   <title>PetaTodo | Prioritize Tasks by Urgency and Importance</title>
-  <meta name="description" content="PetaTodo is an Android task planner. Arrange sticky notes by urgency and importance to build a ranked to-do list automatically and track your progress.">
+  <meta name="description" content="PetaTodo is a task planner for iPhone, iPad, and Android. Arrange sticky notes by urgency and importance to build a ranked to-do list automatically and track your progress.">
   <meta name="robots" content="max-image-preview:large">
   <link rel="canonical" href="https://hinomaru-labs.com/petatodo/en/">
   <link rel="alternate" hreflang="ja" href="https://hinomaru-labs.com/petatodo/">
@@ -39,9 +39,16 @@
     "alternateName": "ペタTODO",
     "description": "A task planner that automatically ranks your to-dos based on where you place sticky notes on an urgency and importance board.",
     "applicationCategory": "ProductivityApplication",
-    "operatingSystem": "Android",
+    "operatingSystem": [
+      "iOS",
+      "iPadOS",
+      "Android"
+    ],
     "inLanguage": "en",
-    "installUrl": "https://play.google.com/store/apps/details?id=com.hinomarulabs.priorityboard",
+    "installUrl": [
+      "https://apps.apple.com/us/app/petatodo-sticky-note-planner/id6833959425",
+      "https://play.google.com/store/apps/details?id=com.hinomarulabs.priorityboard"
+    ],
     "image": "https://hinomaru-labs.com/petatodo/en/assets/share.png",
     "screenshot": [
       "https://hinomaru-labs.com/petatodo/en/assets/board.webp",
@@ -52,12 +59,20 @@
       "name": "Hinomaru Labs",
       "url": "https://hinomaru-labs.com/"
     },
-    "offers": {
-      "@type": "Offer",
-      "price": 0,
-      "priceCurrency": "USD",
-      "url": "https://play.google.com/store/apps/details?id=com.hinomarulabs.priorityboard"
-    }
+    "offers": [
+      {
+        "@type": "Offer",
+        "price": 0,
+        "priceCurrency": "USD",
+        "url": "https://apps.apple.com/us/app/petatodo-sticky-note-planner/id6833959425"
+      },
+      {
+        "@type": "Offer",
+        "price": 0,
+        "priceCurrency": "USD",
+        "url": "https://play.google.com/store/apps/details?id=com.hinomarulabs.priorityboard"
+      }
+    ]
   }
   </script>
 </head>
@@ -97,9 +112,14 @@
       <div class="hero-copy">
         <h1 id="hero-title">So much to do.<br><span>Where to start?</span></h1>
         <p class="hero-summary">Arrange sticky notes by urgency and importance. PetaTodo turns their positions into a ranked to-do list.</p>
-        <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.hinomarulabs.priorityboard&amp;hl=en">
-          <img src="assets/google-play.png" width="478" height="142" alt="Get it on Google Play">
-        </a>
+        <div class="store-badges">
+          <a class="store-badge" href="https://apps.apple.com/us/app/petatodo-sticky-note-planner/id6833959425">
+            <img src="assets/app-store.svg" width="120" height="40" alt="Download on the App Store">
+          </a>
+          <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.hinomarulabs.priorityboard&amp;hl=en">
+            <img src="assets/google-play.png" width="478" height="142" alt="Get it on Google Play">
+          </a>
+        </div>
       </div>
       <figure class="board-preview">
         <img src="assets/board.webp" width="720" height="1107" alt="Sticky notes on a board where urgency increases to the right and importance increases toward the top" fetchpriority="high">
@@ -168,8 +188,12 @@
   <footer class="site-footer">
     <div class="shell footer-row">
       <a class="footer-link" href="https://hinomaru-labs.com/privacy.html">Privacy Policy</a>
-      <a class="footer-link" href="https://play.google.com/store/apps/details?id=com.hinomarulabs.priorityboard&amp;hl=en">Get the free Android app</a>
+      <div class="footer-downloads">
+        <a class="footer-link" href="https://apps.apple.com/us/app/petatodo-sticky-note-planner/id6833959425">Get the free iPhone and iPad app</a>
+        <a class="footer-link" href="https://play.google.com/store/apps/details?id=com.hinomarulabs.priorityboard&amp;hl=en">Get the free Android app</a>
+      </div>
     </div>
+    <p class="shell trademark-credit">Apple, the Apple logo, iPhone, and iPad are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc.</p>
   </footer>
 </body>
 </html>
