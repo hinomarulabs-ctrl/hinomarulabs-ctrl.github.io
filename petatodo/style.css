@@ -134,6 +134,7 @@ html:lang(en) .hero h1 { font-size: clamp(32px, 4.8vw, 58px); }
 }
 
 .store-badge img { width: auto; height: 48px; }
+.store-note { margin-top: 10px; color: var(--muted); font-size: 13px; }
 
 .board-preview {
   position: relative;
@@ -216,6 +217,36 @@ h2 {
 }
 
 .todo-preview img { box-shadow: 0 12px 28px #2d40611c; }
+
+.reprioritize {
+  display: grid;
+  grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr);
+  align-items: center;
+  gap: clamp(24px, 5vw, 64px);
+  padding-block: clamp(44px, 7vw, 84px);
+}
+
+.reprioritize p { margin-top: 12px; color: var(--muted); }
+.rank-example { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.rank-example > div { padding: 14px; border: 1px solid var(--rule); border-radius: 10px; background: #fffdf8; }
+.rank-example h3 { font-size: 15px; line-height: 1.45; }
+.rank-example ol { padding-left: 1.4em; margin: 9px 0 0; font-size: 14px; }
+.rank-example li { padding: 4px 5px; border-radius: 4px; }
+.rank-example li + li { margin-top: 4px; }
+.rank-example .moved-task { background: var(--mint); font-weight: 700; }
+
+.use-cases { background: #edf5e8; }
+.use-cases-inner { padding-block: clamp(33px, 5vw, 60px); }
+.use-cases ul {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  padding: 0;
+  margin: 18px 0 0;
+  list-style: none;
+}
+.use-cases h3 { font-size: 17px; }
+.use-cases p { color: var(--muted); }
 
 .faq-inner {
   max-width: 810px;
@@ -341,6 +372,9 @@ h2 {
   .board-preview::after { width: 22px; height: 36px; right: 15px; }
   .workflow-grid { gap: 26px; }
   .steps { margin-top: 17px; }
+  .reprioritize { grid-template-columns: minmax(0, 1fr); }
+  .use-cases ul { grid-template-columns: minmax(0, 1fr); gap: 10px; }
+  .use-cases li { display: grid; grid-template-columns: 3.5em minmax(0, 1fr); gap: 8px; }
   .footer-row { flex-wrap: wrap; gap: 8px 16px; padding-block: 16px; }
 }
 
@@ -350,6 +384,7 @@ h2 {
   .brand img { width: 30px; height: 30px; }
   .nav-link, .language-menu summary { font-size: 13px; }
   .language-menu summary { padding-inline: 6px; gap: 5px; }
+  .rank-example { grid-template-columns: minmax(0, 1fr); }
 }
 
 @media (max-width: 340px) {

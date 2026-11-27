@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#fff9ed">
   <title>PetaTodo｜依緊急度與重要度安排待辦順序</title>
-  <meta name="description" content="PetaTodo 是一款適用於 iPhone、iPad 和 Android 的待辦管理 App。把要做的事寫成便利貼，在十字看板上依緊急度與重要度整理，自動產生按優先順序排列的待辦清單，還能追蹤進度。">
+  <meta name="description" content="PetaTodo 是一款適用於 iPhone、iPad 和 Android 的待辦管理 App。把事情寫成便利貼，依緊急度與重要度擺放，就能自動排出待辦順序。移動便利貼，清單也會跟著更新。">
   <meta name="robots" content="max-image-preview:large">
   <link rel="canonical" href="https://hinomaru-labs.com/petatodo/zh-tw/">
   <link rel="alternate" hreflang="ja" href="https://hinomaru-labs.com/petatodo/">
@@ -20,7 +20,7 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Hinomaru Labs">
   <meta property="og:title" content="PetaTodo｜用便利貼排好待辦順序">
-  <meta property="og:description" content="事情太多，先做哪一件？用便利貼整理任務，自動產生按優先順序排列的待辦清單。">
+  <meta property="og:description" content="PetaTodo 是一款適用於 iPhone、iPad 和 Android 的待辦管理 App。把事情寫成便利貼，依緊急度與重要度擺放，就能自動排出待辦順序。移動便利貼，清單也會跟著更新。">
   <meta property="og:url" content="https://hinomaru-labs.com/petatodo/zh-tw/">
   <meta property="og:image" content="https://hinomaru-labs.com/petatodo/zh-tw/assets/share.png">
   <meta property="og:image:width" content="1024">
@@ -37,7 +37,7 @@
     "url": "https://hinomaru-labs.com/petatodo/zh-tw/",
     "name": "PetaTodo",
     "alternateName": "ペタTODO",
-    "description": "用十字看板依緊急度與重要度整理便利貼，依照便利貼的位置自動產生按優先順序排列的待辦清單。",
+    "description": "PetaTodo 是一款適用於 iPhone、iPad 和 Android 的待辦管理 App。把事情寫成便利貼，依緊急度與重要度擺放，就能自動排出待辦順序。移動便利貼，清單也會跟著更新。",
     "applicationCategory": "ProductivityApplication",
     "operatingSystem": [
       "iOS",
@@ -111,7 +111,7 @@
     <section class="shell hero" aria-labelledby="hero-title">
       <div class="hero-copy">
         <h1 id="hero-title">事情太多。<br><span>先做哪一件？</span></h1>
-        <p class="hero-summary">把要做的事寫成便利貼，依緊急度與重要度擺放，待辦清單就會自動排好順序。</p>
+        <p class="hero-summary">急著辦的事、容易擱著的重要工作，都可以一件一件寫成便利貼。依緊急度和重要度貼到看板上，待辦清單就會自動排好順序。</p>
         <div class="store-badges">
           <a class="store-badge" href="https://apps.apple.com/tw/app/id6833959425">
             <img src="assets/app-store.svg" width="109" height="40" alt="在 App Store 下載">
@@ -120,6 +120,7 @@
             <img src="assets/google-play.png" width="478" height="142" alt="在 Google Play 立即下載">
           </a>
         </div>
+        <p class="store-note">免費使用，不需註冊帳號</p>
       </div>
       <figure class="board-preview">
         <img src="assets/board.webp" width="720" height="1107" alt="十字看板貼有彩色便利貼，越往右越緊急，越往上越重要" fetchpriority="high">
@@ -129,27 +130,27 @@
     <section class="workflow" id="how" aria-labelledby="how-title">
       <div class="shell workflow-grid">
         <div>
-          <h2 id="how-title">從便利貼到待辦清單</h2>
+          <h2 id="how-title">貼上便利貼，決定下一步做什麼</h2>
           <ol class="steps" role="list">
             <li>
               <span class="step-number" aria-hidden="true">1</span>
               <div>
                 <h3>寫下要做的事</h3>
-                <p>例如「準備明天的資料」。一件事寫在一張便利貼上。</p>
+                <p>例如「準備明天的資料」。腦中想到的事，一件寫在一張便利貼上。</p>
               </div>
             </li>
             <li>
               <span class="step-number" aria-hidden="true">2</span>
               <div>
-                <h3>把便利貼貼到看板上</h3>
-                <p>緊急的往右放，重要的往上放。拖曳便利貼，就能對照其他任務調整位置。</p>
+                <h3>緊急的往右放，重要的往上放</h3>
+                <p>明天要用的資料可以放在右上方，下個月的重要企劃還有時間，可以放在左上方。把便利貼放在一起比較，再調整位置。</p>
               </div>
             </li>
             <li>
               <span class="step-number" aria-hidden="true">3</span>
               <div>
-                <h3>查看待辦清單</h3>
-                <p>清單會依照便利貼的位置自動排序。開始處理後，還能記錄進度。</p>
+                <h3>從清單最上面開始做</h3>
+                <p>打開待辦清單，就能看到依便利貼位置排好的順序。開始處理或做完時，可以直接更新進度。</p>
               </div>
             </li>
           </ol>
@@ -160,25 +161,76 @@
       </div>
     </section>
 
+    <section class="shell reprioritize" aria-labelledby="change-title">
+      <div>
+        <h2 id="change-title">計畫有變，移一下便利貼</h2>
+        <p>例如，簡報提前到明天。把「完成簡報資料」的便利貼往右拖曳，待辦清單就會把它排到「送出報價」前面。便利貼只要寫一次，清單順序會自動更新。</p>
+      </div>
+      <div class="rank-example">
+        <div>
+          <h3>原本的待辦順序</h3>
+          <ol>
+            <li>送出報價</li>
+            <li class="moved-task">完成簡報資料</li>
+          </ol>
+        </div>
+        <div>
+          <h3>移動便利貼後</h3>
+          <ol>
+            <li class="moved-task">完成簡報資料</li>
+            <li>送出報價</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="use-cases" aria-labelledby="uses-title">
+      <div class="shell use-cases-inner">
+        <h2 id="uses-title">工作、生活和學習都用得到</h2>
+        <ul role="list">
+          <li>
+            <h3>工作</h3>
+            <p>把快到期的簡報和想提早準備的企劃放在一起比較。</p>
+          </li>
+          <li>
+            <h3>生活</h3>
+            <p>排一排今天要辦的手續和週末的採買。</p>
+          </li>
+          <li>
+            <h3>學習</h3>
+            <p>把明天要交的作業和想留時間做的考試準備放在一起。</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
     <section class="faq" aria-labelledby="faq-title">
       <div class="shell faq-inner">
         <h2 id="faq-title">常見問題</h2>
         <div class="answers">
           <details>
-            <summary>緊急度和重要度有什麼差別？</summary>
-            <p>緊急度是指一件事需要多快處理；重要度是指它對結果或目標有多大的影響。例如，明天要用的資料可以放在右上角，下個月的重要企劃可以放在左上角。</p>
+            <summary>PetaTodo 可以免費使用嗎？</summary>
+            <p>iPhone、iPad 和 Android 版都可免費使用，不需註冊帳號。App 內可能會顯示廣告。</p>
           </details>
           <details>
             <summary>待辦事項的優先順序是怎麼排的？</summary>
-            <p>PetaTodo 會把便利貼位置對應的緊急度與重要度相加，總分越高越靠前。同分時，重要度較高的事項優先。拖曳看板上的便利貼即可更新排序。</p>
+            <p>App 依便利貼的位置，把緊急度與重要度各換算成 1 到 5 分，再依總分從高到低排列。總分相同時先看重要度，重要度也相同就按建立時間排序。</p>
           </details>
           <details>
-            <summary>需要註冊帳號嗎？</summary>
-            <p>無需註冊就能使用。看板、便利貼與附件儲存在裝置上，PetaTodo 不會將這些資料傳送到外部伺服器。</p>
+            <summary>做完的便利貼會去哪裡？</summary>
+            <p>標記為已完成後，便利貼會從看板移到待辦清單的已完成區。把狀態改回未完成或進行中，便利貼會回到原本的位置。</p>
           </details>
           <details>
-            <summary>可以怎麼整理和匯出待辦？</summary>
-            <p>可以用顏色與標籤分類，在便利貼中加入有格式的備註和多個附件。進度分為「未完成」「進行中」「已完成」，已完成的事項會保留在待辦清單中。待辦清單可匯出為 CSV、PDF 或 PNG，看板可匯出為 PDF 或 PNG。</p>
+            <summary>便利貼越來越多，怎麼整理？</summary>
+            <p>可以擴大看板，便利貼會維持原本的大小。也能用顏色和標籤分類、依標籤篩選。每張便利貼都支援有格式的備註與多個附件。</p>
+          </details>
+          <details>
+            <summary>可以分享看板和待辦清單嗎？</summary>
+            <p>看板可以儲存或分享為 PDF、PNG，待辦清單可以儲存或分享為 CSV、PDF、PNG。也可以將待辦清單複製成文字、CSV 或圖片。</p>
+          </details>
+          <details>
+            <summary>便利貼和附件儲存在哪裡？</summary>
+            <p>看板、便利貼和附件儲存在裝置內，PetaTodo 不會將這些內容上傳至外部伺服器。</p>
           </details>
         </div>
       </div>

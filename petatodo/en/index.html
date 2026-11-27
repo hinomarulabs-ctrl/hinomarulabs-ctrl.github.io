@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#fff9ed">
   <title>PetaTodo | Prioritize Tasks by Urgency and Importance</title>
-  <meta name="description" content="PetaTodo is a task planner for iPhone, iPad, and Android. Arrange sticky notes by urgency and importance to build a ranked to-do list automatically and track your progress.">
+  <meta name="description" content="PetaTodo is a task planner for iPhone, iPad, and Android. Place sticky notes by urgency and importance to get a ranked to-do list. Move a note to update the order.">
   <meta name="robots" content="max-image-preview:large">
   <link rel="canonical" href="https://hinomaru-labs.com/petatodo/en/">
   <link rel="alternate" hreflang="ja" href="https://hinomaru-labs.com/petatodo/">
@@ -20,7 +20,7 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Hinomaru Labs">
   <meta property="og:title" content="PetaTodo | Sticky Note Task Planner">
-  <meta property="og:description" content="So much to do. Where to start? Organize your tasks with sticky notes and get a ranked to-do list automatically.">
+  <meta property="og:description" content="PetaTodo is a task planner for iPhone, iPad, and Android. Place sticky notes by urgency and importance to get a ranked to-do list. Move a note to update the order.">
   <meta property="og:url" content="https://hinomaru-labs.com/petatodo/en/">
   <meta property="og:image" content="https://hinomaru-labs.com/petatodo/en/assets/share.png">
   <meta property="og:image:width" content="1024">
@@ -37,7 +37,7 @@
     "url": "https://hinomaru-labs.com/petatodo/en/",
     "name": "PetaTodo",
     "alternateName": "ペタTODO",
-    "description": "A task planner that automatically ranks your to-dos based on where you place sticky notes on an urgency and importance board.",
+    "description": "PetaTodo is a task planner for iPhone, iPad, and Android. Place sticky notes by urgency and importance to get a ranked to-do list. Move a note to update the order.",
     "applicationCategory": "ProductivityApplication",
     "operatingSystem": [
       "iOS",
@@ -111,7 +111,7 @@
     <section class="shell hero" aria-labelledby="hero-title">
       <div class="hero-copy">
         <h1 id="hero-title">So much to do.<br><span>Where to start?</span></h1>
-        <p class="hero-summary">Arrange sticky notes by urgency and importance. PetaTodo turns their positions into a ranked to-do list.</p>
+        <p class="hero-summary">Give urgent errands and important work their own sticky notes. Place them on the board by urgency and importance, and PetaTodo puts them in order automatically.</p>
         <div class="store-badges">
           <a class="store-badge" href="https://apps.apple.com/us/app/petatodo-sticky-note-planner/id6833959425">
             <img src="assets/app-store.svg" width="120" height="40" alt="Download on the App Store">
@@ -120,6 +120,7 @@
             <img src="assets/google-play.png" width="478" height="142" alt="Get it on Google Play">
           </a>
         </div>
+        <p class="store-note">Free to use. No account required.</p>
       </div>
       <figure class="board-preview">
         <img src="assets/board.webp" width="720" height="1107" alt="Sticky notes on a board where urgency increases to the right and importance increases toward the top" fetchpriority="high">
@@ -129,27 +130,27 @@
     <section class="workflow" id="how" aria-labelledby="how-title">
       <div class="shell workflow-grid">
         <div>
-          <h2 id="how-title">From sticky notes to a ranked list</h2>
+          <h2 id="how-title">Use sticky notes to decide what to do next</h2>
           <ol class="steps" role="list">
             <li>
               <span class="step-number" aria-hidden="true">1</span>
               <div>
-                <h3>Write it down</h3>
+                <h3>Write down what needs doing</h3>
                 <p>Give each task its own sticky note, like “Finish slides for tomorrow.”</p>
               </div>
             </li>
             <li>
               <span class="step-number" aria-hidden="true">2</span>
               <div>
-                <h3>Place it on the board</h3>
-                <p>Move urgent tasks right and important tasks up. Drag your notes to compare them at a glance.</p>
+                <h3>Move urgent tasks right and important tasks up</h3>
+                <p>Tomorrow’s slides might go in the upper right. An important project for next month can go in the upper left. Compare your notes as you place them.</p>
               </div>
             </li>
             <li>
               <span class="step-number" aria-hidden="true">3</span>
               <div>
-                <h3>Check your to-do list</h3>
-                <p>The board sets the order automatically. Track each task as you get to work.</p>
+                <h3>Start at the top of your list</h3>
+                <p>Open To-do to see tasks ranked by their position on the board. Mark them In progress or Done as you work through the list.</p>
               </div>
             </li>
           </ol>
@@ -160,25 +161,76 @@
       </div>
     </section>
 
+    <section class="shell reprioritize" aria-labelledby="change-title">
+      <div>
+        <h2 id="change-title">When plans change, move a note</h2>
+        <p>Say a presentation gets moved up to tomorrow. Drag “Finish slides” to the right on the board, and it moves ahead of the quote in your to-do list. The list updates automatically using the same notes.</p>
+      </div>
+      <div class="rank-example">
+        <div>
+          <h3>Before</h3>
+          <ol>
+            <li>Send quote</li>
+            <li class="moved-task">Finish slides</li>
+          </ol>
+        </div>
+        <div>
+          <h3>After the move</h3>
+          <ol>
+            <li class="moved-task">Finish slides</li>
+            <li>Send quote</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="use-cases" aria-labelledby="uses-title">
+      <div class="shell use-cases-inner">
+        <h2 id="uses-title">For work, home, and study</h2>
+        <ul role="list">
+          <li>
+            <h3>Work</h3>
+            <p>Compare a presentation deadline with a project you want to get ahead on.</p>
+          </li>
+          <li>
+            <h3>Home</h3>
+            <p>See a form due today alongside the weekend grocery run.</p>
+          </li>
+          <li>
+            <h3>Study</h3>
+            <p>Plan tomorrow’s assignment and the exam prep you want to make time for.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
     <section class="faq" aria-labelledby="faq-title">
       <div class="shell faq-inner">
         <h2 id="faq-title">Frequently asked questions</h2>
         <div class="answers">
           <details>
-            <summary>What is the difference between urgency and importance?</summary>
-            <p>Urgency is how soon a task needs attention. Importance is how much it affects your goals. Put slides due tomorrow toward the top right, and an important project for next month toward the top left.</p>
+            <summary>Is PetaTodo free?</summary>
+            <p>PetaTodo is free on iPhone, iPad, and Android. You can start without an account. The app may display ads.</p>
           </details>
           <details>
             <summary>How does PetaTodo rank tasks?</summary>
-            <p>PetaTodo adds the urgency and importance scores from each note’s position. Higher totals come first. If totals are tied, the more important task comes first. Drag a note on the board to update its rank.</p>
+            <p>A note’s position gives it an urgency score and an importance score, each from 1 to 5. Higher totals come first. If there’s a tie, the more important task comes first, followed by the one created earlier if both importance scores match.</p>
           </details>
           <details>
-            <summary>Do I need an account?</summary>
-            <p>You can use PetaTodo without an account. Your board, notes, and attachments are stored on your device. PetaTodo does not send them to external servers.</p>
+            <summary>What happens when I complete a task?</summary>
+            <p>Marking it Done clears it from the board and keeps it in the Done section of your to-do list. Switching it back to To do or In progress returns it to its previous spot.</p>
           </details>
           <details>
-            <summary>How can I organize and export my tasks?</summary>
-            <p>Use colors and labels to organize notes, and add formatted text or multiple files. Set a task to To do, In progress, or Done. Completed tasks stay in the to-do list. Export the list as CSV, PDF, or PNG, and the board as PDF or PNG.</p>
+            <summary>How do I organize a crowded board?</summary>
+            <p>Make the board bigger and keep the notes the same size. Use colors to tell them apart and labels to filter them. A note can also hold formatted text and multiple attachments.</p>
+          </details>
+          <details>
+            <summary>Can I share my board or to-do list?</summary>
+            <p>Save or share the board as PDF or PNG, or the to-do list as CSV, PDF, or PNG. You can also copy the to-do list as text, CSV, or an image.</p>
+          </details>
+          <details>
+            <summary>Where are my notes and attachments stored?</summary>
+            <p>PetaTodo stores your board, notes, and attachments on your device and never uploads this content to its servers.</p>
           </details>
         </div>
       </div>

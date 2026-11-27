@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#fff9ed">
   <title>PetaTodo｜按紧急度和重要度安排任务优先级</title>
-  <meta name="description" content="PetaTodo 是一款适用于 iPhone、iPad 和 Android 的任务管理应用。把要做的事写成便签，在十字看板上按紧急度和重要度整理，自动生成按优先级排列的待办清单并跟踪进度。">
+  <meta name="description" content="PetaTodo 是一款适用于 iPhone、iPad 和 Android 的任务管理应用。把任务写成便签，按紧急度和重要度摆放，即可生成按优先级排列的待办清单。移动便签，清单顺序也会更新。">
   <meta name="robots" content="max-image-preview:large">
   <link rel="canonical" href="https://hinomaru-labs.com/petatodo/zh-cn/">
   <link rel="alternate" hreflang="ja" href="https://hinomaru-labs.com/petatodo/">
@@ -20,7 +20,7 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Hinomaru Labs">
   <meta property="og:title" content="PetaTodo｜用便签整理任务优先级">
-  <meta property="og:description" content="事情太多，先做哪件？用便签整理任务，自动生成按优先级排列的待办清单。">
+  <meta property="og:description" content="PetaTodo 是一款适用于 iPhone、iPad 和 Android 的任务管理应用。把任务写成便签，按紧急度和重要度摆放，即可生成按优先级排列的待办清单。移动便签，清单顺序也会更新。">
   <meta property="og:url" content="https://hinomaru-labs.com/petatodo/zh-cn/">
   <meta property="og:image" content="https://hinomaru-labs.com/petatodo/zh-cn/assets/share.png">
   <meta property="og:image:width" content="1024">
@@ -37,7 +37,7 @@
     "url": "https://hinomaru-labs.com/petatodo/zh-cn/",
     "name": "PetaTodo",
     "alternateName": "ペタTODO",
-    "description": "用十字看板按紧急度和重要度整理便签，根据便签的位置自动生成按优先级排列的待办清单。",
+    "description": "PetaTodo 是一款适用于 iPhone、iPad 和 Android 的任务管理应用。把任务写成便签，按紧急度和重要度摆放，即可生成按优先级排列的待办清单。移动便签，清单顺序也会更新。",
     "applicationCategory": "ProductivityApplication",
     "operatingSystem": [
       "iOS",
@@ -111,7 +111,7 @@
     <section class="shell hero" aria-labelledby="hero-title">
       <div class="hero-copy">
         <h1 id="hero-title">事情太多。<br><span>先做哪件？</span></h1>
-        <p class="hero-summary">把要做的事写成便签，按紧急度和重要度摆放，待办清单就会自动排好顺序。</p>
+        <p class="hero-summary">手头着急的事、容易搁置的重要工作，都可以一件一件写成便签。按紧急度和重要度贴到看板上，待办清单就会自动排好顺序。</p>
         <div class="store-badges">
           <a class="store-badge" href="https://apps.apple.com/cn/app/id6833959425">
             <img src="assets/app-store.svg" width="109" height="40" alt="在 App Store 下载">
@@ -120,6 +120,7 @@
             <img src="assets/google-play.png" width="478" height="142" alt="去 Google Play 商店下载">
           </a>
         </div>
+        <p class="store-note">免费使用，无需注册账号</p>
       </div>
       <figure class="board-preview">
         <img src="assets/board.webp" width="720" height="1107" alt="十字看板上贴有彩色便签，越往右越紧急，越往上越重要" fetchpriority="high">
@@ -129,27 +130,27 @@
     <section class="workflow" id="how" aria-labelledby="how-title">
       <div class="shell workflow-grid">
         <div>
-          <h2 id="how-title">从便签到待办清单</h2>
+          <h2 id="how-title">贴上便签，决定下一步做什么</h2>
           <ol class="steps" role="list">
             <li>
               <span class="step-number" aria-hidden="true">1</span>
               <div>
                 <h3>写下要做的事</h3>
-                <p>比如「准备明天的资料」。一件事写在一张便签上。</p>
+                <p>比如「准备明天的资料」。脑子里的事，一件写在一张便签上。</p>
               </div>
             </li>
             <li>
               <span class="step-number" aria-hidden="true">2</span>
               <div>
-                <h3>把便签贴到看板上</h3>
-                <p>紧急的往右放，重要的往上放。拖动便签，就能对照其他任务调整位置。</p>
+                <h3>紧急的往右放，重要的往上放</h3>
+                <p>明天要用的资料可以放在右上方，下个月的重要方案还有时间，可以放在左上方。把便签放在一起比较，再调整位置。</p>
               </div>
             </li>
             <li>
               <span class="step-number" aria-hidden="true">3</span>
               <div>
-                <h3>查看待办清单</h3>
-                <p>清单会根据便签的位置自动排序。开始处理后，还可以记录进度。</p>
+                <h3>从清单最上面开始做</h3>
+                <p>打开待办清单，任务已经按便签的位置排好顺序。开始处理或做完时，可以直接更新进度。</p>
               </div>
             </li>
           </ol>
@@ -160,25 +161,76 @@
       </div>
     </section>
 
+    <section class="shell reprioritize" aria-labelledby="change-title">
+      <div>
+        <h2 id="change-title">计划变了，挪一下便签</h2>
+        <p>比如，汇报提前到明天。把「完成汇报资料」的便签往右拖，待办清单里它就会排到「提交报价」前面。便签只写一次，清单顺序会自动更新。</p>
+      </div>
+      <div class="rank-example">
+        <div>
+          <h3>原来的待办顺序</h3>
+          <ol>
+            <li>提交报价</li>
+            <li class="moved-task">完成汇报资料</li>
+          </ol>
+        </div>
+        <div>
+          <h3>移动便签之后</h3>
+          <ol>
+            <li class="moved-task">完成汇报资料</li>
+            <li>提交报价</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="use-cases" aria-labelledby="uses-title">
+      <div class="shell use-cases-inner">
+        <h2 id="uses-title">工作、生活和学习都用得上</h2>
+        <ul role="list">
+          <li>
+            <h3>工作</h3>
+            <p>把快到期的汇报资料和需要提前准备的项目一起比较。</p>
+          </li>
+          <li>
+            <h3>生活</h3>
+            <p>理清今天要办的手续和周末要买的东西。</p>
+          </li>
+          <li>
+            <h3>学习</h3>
+            <p>把明天要交的作业和想留出时间做的备考计划放在一起。</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
     <section class="faq" aria-labelledby="faq-title">
       <div class="shell faq-inner">
         <h2 id="faq-title">常见问题</h2>
         <div class="answers">
           <details>
-            <summary>紧急度和重要度有什么区别？</summary>
-            <p>紧急度表示一件事需要多快处理；重要度表示它对结果或目标的影响有多大。例如，明天要用的资料可以放在右上角，下个月的重要方案可以放在左上角。</p>
+            <summary>PetaTodo 可以免费使用吗？</summary>
+            <p>iPhone、iPad 和 Android 版均可免费使用，无需注册账号。应用内可能会显示广告。</p>
           </details>
           <details>
             <summary>待办任务的优先级是怎么排的？</summary>
-            <p>PetaTodo 会把便签位置对应的紧急度和重要度相加，分数越高越靠前。分数相同时，重要度高的任务优先。拖动看板上的便签即可更新排序。</p>
+            <p>应用根据便签位置，把紧急度和重要度分别换算为 1 至 5 分，按总分从高到低排列。同分时先看重要度，重要度也相同就按创建时间排序。</p>
           </details>
           <details>
-            <summary>需要注册账号吗？</summary>
-            <p>无需注册即可使用。看板、便签和附件保存在设备上，PetaTodo 不会将这些数据发送到外部服务器。</p>
+            <summary>完成的便签会去哪里？</summary>
+            <p>标记为已完成后，便签会从看板移到待办清单的已完成部分。把状态改回未完成或进行中，便签会回到原来的位置。</p>
           </details>
           <details>
-            <summary>可以怎样整理和导出待办？</summary>
-            <p>可以用颜色和标签分类，在便签里添加带格式的备注和多个附件。进度分为「未完成」「进行中」「已完成」，已完成的任务会保留在待办清单中。待办清单可导出为 CSV、PDF 或 PNG，看板可导出为 PDF 或 PNG。</p>
+            <summary>便签越来越多，怎么整理？</summary>
+            <p>可以扩大看板，便签大小保持一致。也可以用颜色和标签分类，按标签筛选。每张便签支持带格式的备注和多个附件。</p>
+          </details>
+          <details>
+            <summary>可以分享看板和待办清单吗？</summary>
+            <p>看板可以保存或分享为 PDF、PNG，待办清单可以保存或分享为 CSV、PDF、PNG。也可以将待办清单复制为文本、CSV 或图片。</p>
+          </details>
+          <details>
+            <summary>便签和附件存在哪里？</summary>
+            <p>看板、便签和附件保存在本机，PetaTodo 不会把这些内容上传到外部服务器。</p>
           </details>
         </div>
       </div>
