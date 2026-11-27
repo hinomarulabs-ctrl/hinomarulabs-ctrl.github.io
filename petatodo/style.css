@@ -212,21 +212,23 @@ h2 {
 .step-preview { box-shadow: 0 6px 18px #2d406116; }
 
 .reprioritize {
-  display: grid;
-  grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr);
-  align-items: center;
-  gap: clamp(24px, 5vw, 64px);
   padding-block: clamp(44px, 7vw, 84px);
 }
 
-.reprioritize p { margin-top: 12px; color: var(--muted); }
-.rank-example { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
-.rank-example > div { padding: 14px; border: 1px solid var(--rule); border-radius: 10px; background: #fffdf8; }
-.rank-example h3 { font-size: 15px; line-height: 1.45; }
-.rank-example ol { padding-left: 1.4em; margin: 9px 0 0; font-size: 14px; }
-.rank-example li { padding: 4px 5px; border-radius: 4px; }
-.rank-example li + li { margin-top: 4px; }
-.rank-example .moved-task { background: var(--mint); font-weight: 700; }
+.reprioritize p { max-width: 68ch; margin-top: 12px; color: var(--muted); }
+.rank-example { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; margin-top: 22px; }
+.rank-example > div {
+  display: grid;
+  gap: 12px;
+  padding: clamp(10px, 2vw, 20px);
+  border: 1px solid var(--rule);
+  border-radius: 12px;
+  background: #fffdf8;
+}
+.rank-example h3 { font-size: 18px; line-height: 1.45; }
+.rank-example figure { display: grid; gap: 5px; }
+.rank-example figcaption { color: var(--muted); font-size: 14px; font-weight: 600; }
+.rank-example img { width: 100%; border: 1px solid #d8e4dc; border-radius: 8px; }
 
 .use-cases { background: #edf5e8; }
 .use-cases-inner { padding-block: clamp(33px, 5vw, 60px); }
@@ -377,7 +379,7 @@ h2 {
   .steps { margin-top: 17px; }
   .steps > li { grid-template-columns: minmax(0, 1fr); gap: 12px; }
   .step-preview { width: min(100%, 360px); }
-  .reprioritize { grid-template-columns: minmax(0, 1fr); }
+  .rank-example { grid-template-columns: minmax(0, 1fr); }
   .use-cases ul { grid-template-columns: minmax(0, 1fr); gap: 10px; }
   .use-cases li { display: grid; grid-template-columns: 3.5em minmax(0, 1fr); gap: 8px; }
   .footer-row { flex-wrap: wrap; gap: 8px 16px; padding-block: 16px; }
@@ -389,7 +391,6 @@ h2 {
   .brand img { width: 30px; height: 30px; }
   .nav-link, .language-menu summary { font-size: 13px; }
   .language-menu summary { padding-inline: 6px; gap: 5px; }
-  .rank-example { grid-template-columns: minmax(0, 1fr); }
 }
 
 @media (max-width: 340px) {
