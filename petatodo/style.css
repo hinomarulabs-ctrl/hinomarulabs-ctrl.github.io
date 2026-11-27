@@ -160,7 +160,7 @@ html:lang(en) .hero h1 { font-size: clamp(32px, 4.8vw, 58px); }
   content: "";
 }
 
-.board-preview img, .todo-preview img {
+.board-preview img, .step-preview {
   width: 100%;
   border: 1px solid #d8e4dc;
   border-radius: 15px;
@@ -170,11 +170,7 @@ html:lang(en) .hero h1 { font-size: clamp(32px, 4.8vw, 58px); }
 
 .workflow { background: var(--periwinkle); }
 
-.workflow-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, .95fr);
-  gap: clamp(36px, 7vw, 98px);
-  align-items: center;
+.workflow-inner {
   padding-block: clamp(49px, 8vw, 96px);
 }
 
@@ -187,13 +183,15 @@ h2 {
 
 .steps {
   display: grid;
-  gap: 20px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px clamp(16px, 2.4vw, 32px);
   padding: 0;
   margin: 24px 0 0;
   list-style: none;
 }
 
-.steps li { display: grid; grid-template-columns: 42px minmax(0, 1fr); align-items: start; gap: 13px; }
+.steps > li { display: grid; grid-row: span 2; grid-template-rows: subgrid; align-items: start; }
+.step-copy { display: grid; grid-template-columns: 42px minmax(0, 1fr); align-items: start; gap: 13px; }
 .step-number {
   display: grid;
   place-items: center;
@@ -207,16 +205,11 @@ h2 {
 }
 .steps li:nth-child(2) .step-number { background: var(--coral); }
 .steps li:nth-child(3) .step-number { background: var(--sky); }
-.steps h3 { font-size: 18px; line-height: 1.55; }
+.steps h3 { font-size: 18px; line-height: 1.55; text-wrap: balance; }
 .steps p, .answers p { color: var(--muted); font-size: 16px; }
 .steps p { margin-top: 2px; }
 
-.todo-preview {
-  width: min(100%, 398px);
-  justify-self: center;
-}
-
-.todo-preview img { box-shadow: 0 12px 28px #2d40611c; }
+.step-preview { box-shadow: 0 6px 18px #2d406116; }
 
 .reprioritize {
   display: grid;
@@ -285,6 +278,17 @@ h2 {
 .footer-link { font-size: 13px; }
 .footer-downloads { display: flex; flex-wrap: wrap; gap: 8px 18px; }
 .trademark-credit { padding-bottom: 18px; color: var(--muted); font-size: 12px; }
+
+@media (max-width: 870px) {
+  .steps { grid-template-columns: minmax(0, 1fr); gap: 30px; }
+  .steps > li {
+    grid-row: auto;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: center;
+    gap: 16px;
+  }
+}
 
 @media (max-width: 770px) {
   .shell { width: calc(100% - 48px); }
@@ -363,15 +367,16 @@ h2 {
   .brand { gap: 8px; font-size: 19px; }
   .brand img { width: 36px; height: 36px; }
   .nav-link { font-size: 14px; }
-  .hero, .workflow-grid { grid-template-columns: minmax(0, 1fr); }
+  .hero { grid-template-columns: minmax(0, 1fr); }
   .hero { gap: 30px; padding-block: 29px 49px; }
   .hero h1 { font-size: clamp(33px, 9vw, 48px); }
   html:lang(en) .hero h1 { font-size: clamp(32px, 8.7vw, 47px); }
   .hero-summary { margin-block: 16px 21px; }
   .board-preview { width: min(100% - 12px, 310px); padding: 15px 19px; }
   .board-preview::after { width: 22px; height: 36px; right: 15px; }
-  .workflow-grid { gap: 26px; }
   .steps { margin-top: 17px; }
+  .steps > li { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+  .step-preview { width: min(100%, 360px); }
   .reprioritize { grid-template-columns: minmax(0, 1fr); }
   .use-cases ul { grid-template-columns: minmax(0, 1fr); gap: 10px; }
   .use-cases li { display: grid; grid-template-columns: 3.5em minmax(0, 1fr); gap: 8px; }
